@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude Status — Uptime History</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --green: #3fb950;
+      --yellow: #d29922;
+      --orange: #db6d28;
+      --red: #f85149;
+      --link: #58a6ff;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    header a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    header a:hover { text-decoration: underline; }
+
+    .updated {
+      margin-top: 0.5rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* ---- uptime table ---- */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2.5rem;
+    }
+
+    thead th {
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+
+    thead th:not(:first-child) { text-align: right; }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+    }
+
+    tbody tr:last-child { border-bottom: none; }
+
+    tbody td {
+      padding: 0.65rem 0.75rem;
+      vertical-align: middle;
+    }
+
+    .comp-name {
+      font-weight: 500;
+    }
+
+    .uptime-cell {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      font-size: 0.9rem;
+    }
+
+    .uptime-pct {
+      font-weight: 600;
+    }
+
+    .pill {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.1rem 0.45rem;
+      border-radius: 2rem;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+
+    .green  { color: var(--green);  }
+    .yellow { color: var(--yellow); }
+    .orange { color: var(--orange); }
+    .red    { color: var(--red);    }
+
+    .pill-green  { background: rgba(63,185,80,.15);  color: var(--green);  }
+    .pill-yellow { background: rgba(210,153,34,.15); color: var(--yellow); }
+    .pill-orange { background: rgba(219,109,40,.15); color: var(--orange); }
+    .pill-red    { background: rgba(248,81,73,.15);  color: var(--red);    }
+
+    /* ---- incidents section ---- */
+    .section-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .comp-section {
+      margin-bottom: 2rem;
+    }
+
+    .comp-section h3 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .incident-list {
+      list-style: none;
+    }
+
+    .incident-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+
+    .incident-item:last-child { border-bottom: none; }
+
+    .incident-dot {
+      flex-shrink: 0;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-top: 0.4rem;
+    }
+
+    .incident-meta {
+      flex: 1;
+    }
+
+    .incident-name {
+      font-weight: 500;
+    }
+
+    .incident-time {
+      color: var(--muted);
+      font-size: 0.78rem;
+      margin-top: 0.1rem;
+    }
+
+    .incident-duration {
+      color: var(--muted);
+      font-size: 0.78rem;
+    }
+
+    .no-incidents {
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding: 0.5rem 0;
+    }
+
+    /* loading / error */
+    #loading, #error {
+      padding: 2rem;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    #error { color: var(--red); }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+    }
+
+    footer a { color: var(--link); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Claude Status — Uptime History</h1>
+    <p>
+      Aggregate uptime stats derived from the public
+      <a href="https://status.claude.com" target="_blank" rel="noopener">status.claude.com</a>
+      Statuspage API. Inspired by
+      <a href="https://mrshu.github.io/github-statuses/" target="_blank" rel="noopener">mrshu's GitHub status page</a>.
+    </p>
+    <p class="updated" id="updated-at"></p>
+  </header>
+
+  <div id="loading">Loading uptime data…</div>
+  <div id="error" style="display:none"></div>
+  <div id="content" style="display:none">
+    <table id="uptime-table">
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Last 30 days</th>
+          <th>Last 90 days</th>
+          <th>All time</th>
+        </tr>
+      </thead>
+      <tbody id="uptime-body"></tbody>
+    </table>
+
+    <div class="section-title">Recent incidents (last 90 days)</div>
+    <div id="incidents-list"></div>
+  </div>
+</div>
+
+<footer>
+  Data sourced from <a href="https://status.claude.com/api/v2/incidents.json" target="_blank" rel="noopener">status.claude.com/api/v2/incidents.json</a>.
+  Archived hourly via GitHub Actions.
+  View source on <a href="https://github.com/YOUR_USERNAME/claude-status-uptime" target="_blank" rel="noopener">GitHub</a>.
+</footer>
+
+<script>
+  function colorClass(pct) {
+    if (pct >= 99.9) return 'green';
+    if (pct >= 99.0) return 'yellow';
+    if (pct >= 95.0) return 'orange';
+    return 'red';
+  }
+
+  function impactColor(impact) {
+    const map = { critical: 'red', major: 'orange', minor: 'yellow', none: 'green' };
+    return map[impact] || 'muted';
+  }
+
+  function fmtPct(pct) {
+    return pct.toFixed(pct >= 99.9 ? 3 : 2) + '%';
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return '—';
+    return new Date(iso).toLocaleString('en-US', {
+      month: 'short', day: 'numeric', year: 'numeric',
+      hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
+    });
+  }
+
+  function durationStr(startIso, endIso) {
+    if (!startIso || !endIso) return null;
+    const diffMs = new Date(endIso) - new Date(startIso);
+    const mins = Math.round(diffMs / 60000);
+    if (mins < 60) return `${mins}m`;
+    const hrs = (mins / 60).toFixed(1);
+    return `${hrs}h`;
+  }
+
+  async function load() {
+    try {
+      const resp = await fetch('data/uptime.json');
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const data = await resp.json();
+      render(data);
+    } catch (e) {
+      document.getElementById('loading').style.display = 'none';
+      const err = document.getElementById('error');
+      err.style.display = 'block';
+      err.textContent = `Failed to load uptime data: ${e.message}`;
+    }
+  }
+
+  function render(data) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('content').style.display = 'block';
+
+    const genAt = new Date(data.generated_at);
+    document.getElementById('updated-at').textContent =
+      `Last updated: ${fmtDate(data.generated_at)}`;
+
+    // Uptime table
+    const tbody = document.getElementById('uptime-body');
+    for (const comp of data.components) {
+      const u = comp.uptime;
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="comp-name">${comp.name}</td>
+        <td class="uptime-cell">
+          <span class="uptime-pct ${colorClass(u['30d'])}">${fmtPct(u['30d'])}</span>
+        </td>
+        <td class="uptime-cell">
+          <span class="uptime-pct ${colorClass(u['90d'])}">${fmtPct(u['90d'])}</span>
+        </td>
+        <td class="uptime-cell">
+          <span class="uptime-pct ${colorClass(u['all'])}">${fmtPct(u['all'])}</span>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    }
+
+    // Incidents by component
+    const incidentsList = document.getElementById('incidents-list');
+    for (const comp of data.components) {
+      const section = document.createElement('div');
+      section.className = 'comp-section';
+
+      const h3 = document.createElement('h3');
+      h3.textContent = comp.name;
+      section.appendChild(h3);
+
+      if (!comp.incidents || comp.incidents.length === 0) {
+        const p = document.createElement('p');
+        p.className = 'no-incidents';
+        p.textContent = 'No incidents in the last 90 days.';
+        section.appendChild(p);
+      } else {
+        const ul = document.createElement('ul');
+        ul.className = 'incident-list';
+        for (const inc of comp.incidents) {
+          const col = impactColor(inc.impact);
+          const dur = durationStr(inc.started_at, inc.resolved_at);
+          const li = document.createElement('li');
+          li.className = 'incident-item';
+          li.innerHTML = `
+            <div class="incident-dot" style="background: var(--${col})"></div>
+            <div class="incident-meta">
+              <div class="incident-name">${inc.name}</div>
+              <div class="incident-time">
+                ${fmtDate(inc.started_at)}
+                ${dur ? `<span class="incident-duration"> · ${dur}</span>` : ''}
+                <span class="pill pill-${col}">${inc.impact}</span>
+                ${inc.status !== 'resolved' ? `<span class="pill pill-yellow">${inc.status}</span>` : ''}
+              </div>
+            </div>
+          `;
+          ul.appendChild(li);
+        }
+        section.appendChild(ul);
+      }
+
+      incidentsList.appendChild(section);
+    }
+  }
+
+  load();
+</script>
+</body>
+</html>

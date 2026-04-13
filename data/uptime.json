@@ -1,0 +1,421 @@
+{
+  "generated_at": "2026-04-13T23:09:07.366413+00:00",
+  "components": [
+    {
+      "id": "rwppv331jlwc",
+      "name": "claude.ai",
+      "uptime": {
+        "30d": 90.734,
+        "90d": 96.78,
+        "all": 90.708
+      },
+      "incidents": [
+        {
+          "id": "6jd2m42f8mld",
+          "name": "Claude.ai down",
+          "impact": "critical",
+          "started_at": "2026-04-13T15:40:43.562Z",
+          "resolved_at": "2026-04-13T16:35:58.062Z",
+          "status": "resolved"
+        },
+        {
+          "id": "411xbc51v608",
+          "name": "Elevated errors on requests to Claude models",
+          "impact": "minor",
+          "started_at": "2026-04-10T16:30:38.832Z",
+          "resolved_at": "2026-04-10T16:51:44.183Z",
+          "status": "resolved"
+        },
+        {
+          "id": "cb0h2zyzl0kd",
+          "name": "Elevated Connector Error Rates",
+          "impact": "minor",
+          "started_at": "2026-04-09T16:54:18.794Z",
+          "resolved_at": "2026-04-09T17:34:00.052Z",
+          "status": "resolved"
+        },
+        {
+          "id": "v0t3z924dbhg",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "minor",
+          "started_at": "2026-04-09T08:07:21.151Z",
+          "resolved_at": "2026-04-09T08:53:20.029Z",
+          "status": "resolved"
+        },
+        {
+          "id": "5f418rpyb84x",
+          "name": "Elevated errors on Claude.ai, API, Claude Code",
+          "impact": "minor",
+          "started_at": "2026-04-08T17:46:29.194Z",
+          "resolved_at": "2026-04-08T17:50:17.838Z",
+          "status": "resolved"
+        },
+        {
+          "id": "lhws0phdvzz3",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "major",
+          "started_at": "2026-04-08T06:23:25.058Z",
+          "resolved_at": "2026-04-08T09:33:39.659Z",
+          "status": "resolved"
+        },
+        {
+          "id": "124yr07585k9",
+          "name": "Elevated errors on Claude.ai",
+          "impact": "critical",
+          "started_at": "2026-04-07T14:32:10.000Z",
+          "resolved_at": "2026-04-07T15:59:16.060Z",
+          "status": "resolved"
+        },
+        {
+          "id": "xmqkb966qt1h",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "minor",
+          "started_at": "2026-04-06T21:26:57.106Z",
+          "resolved_at": "2026-04-06T21:45:48.108Z",
+          "status": "resolved"
+        },
+        {
+          "id": "vfjv5x6qkd4j",
+          "name": "Elevated errors on Claude.ai",
+          "impact": "major",
+          "started_at": "2026-04-06T15:45:36.497Z",
+          "resolved_at": "2026-04-06T17:16:41.222Z",
+          "status": "resolved"
+        },
+        {
+          "id": "fznql3y9tpn7",
+          "name": "Elevated errors on requests to Claude Sonnet 4.6",
+          "impact": "major",
+          "started_at": "2026-04-03T18:12:45.703Z",
+          "resolved_at": "2026-04-03T19:21:08.318Z",
+          "status": "resolved"
+        }
+      ]
+    },
+    {
+      "id": "0qbwn08sd68x",
+      "name": "platform.claude.com",
+      "uptime": {
+        "30d": 93.794,
+        "90d": 97.931,
+        "all": 94.031
+      },
+      "incidents": [
+        {
+          "id": "6jd2m42f8mld",
+          "name": "Claude.ai down",
+          "impact": "critical",
+          "started_at": "2026-04-13T15:40:43.562Z",
+          "resolved_at": "2026-04-13T16:35:58.062Z",
+          "status": "resolved"
+        },
+        {
+          "id": "411xbc51v608",
+          "name": "Elevated errors on requests to Claude models",
+          "impact": "minor",
+          "started_at": "2026-04-10T16:30:38.832Z",
+          "resolved_at": "2026-04-10T16:51:44.183Z",
+          "status": "resolved"
+        },
+        {
+          "id": "2z4mf00ffcwd",
+          "name": "Degraded Performance on Vaults",
+          "impact": "minor",
+          "started_at": "2026-04-10T04:28:06.375Z",
+          "resolved_at": "2026-04-10T04:38:02.124Z",
+          "status": "resolved"
+        },
+        {
+          "id": "v0t3z924dbhg",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "minor",
+          "started_at": "2026-04-09T08:07:21.151Z",
+          "resolved_at": "2026-04-09T08:53:20.029Z",
+          "status": "resolved"
+        },
+        {
+          "id": "5f418rpyb84x",
+          "name": "Elevated errors on Claude.ai, API, Claude Code",
+          "impact": "minor",
+          "started_at": "2026-04-08T17:46:29.194Z",
+          "resolved_at": "2026-04-08T17:50:17.838Z",
+          "status": "resolved"
+        },
+        {
+          "id": "lhws0phdvzz3",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "major",
+          "started_at": "2026-04-08T06:23:25.058Z",
+          "resolved_at": "2026-04-08T09:33:39.659Z",
+          "status": "resolved"
+        },
+        {
+          "id": "124yr07585k9",
+          "name": "Elevated errors on Claude.ai",
+          "impact": "critical",
+          "started_at": "2026-04-07T14:32:10.000Z",
+          "resolved_at": "2026-04-07T15:59:16.060Z",
+          "status": "resolved"
+        },
+        {
+          "id": "xmqkb966qt1h",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "minor",
+          "started_at": "2026-04-06T21:26:57.106Z",
+          "resolved_at": "2026-04-06T21:45:48.108Z",
+          "status": "resolved"
+        },
+        {
+          "id": "vfjv5x6qkd4j",
+          "name": "Elevated errors on Claude.ai",
+          "impact": "major",
+          "started_at": "2026-04-06T15:45:36.497Z",
+          "resolved_at": "2026-04-06T17:16:41.222Z",
+          "status": "resolved"
+        },
+        {
+          "id": "fznql3y9tpn7",
+          "name": "Elevated errors on requests to Claude Sonnet 4.6",
+          "impact": "major",
+          "started_at": "2026-04-03T18:12:45.703Z",
+          "resolved_at": "2026-04-03T19:21:08.318Z",
+          "status": "resolved"
+        }
+      ]
+    },
+    {
+      "id": "k8w3r06qmzrp",
+      "name": "Claude API (api.anthropic.com)",
+      "uptime": {
+        "30d": 93.12,
+        "90d": 97.575,
+        "all": 93.003
+      },
+      "incidents": [
+        {
+          "id": "6jd2m42f8mld",
+          "name": "Claude.ai down",
+          "impact": "critical",
+          "started_at": "2026-04-13T15:40:43.562Z",
+          "resolved_at": "2026-04-13T16:35:58.062Z",
+          "status": "resolved"
+        },
+        {
+          "id": "411xbc51v608",
+          "name": "Elevated errors on requests to Claude models",
+          "impact": "minor",
+          "started_at": "2026-04-10T16:30:38.832Z",
+          "resolved_at": "2026-04-10T16:51:44.183Z",
+          "status": "resolved"
+        },
+        {
+          "id": "cb0h2zyzl0kd",
+          "name": "Elevated Connector Error Rates",
+          "impact": "minor",
+          "started_at": "2026-04-09T16:54:18.794Z",
+          "resolved_at": "2026-04-09T17:34:00.052Z",
+          "status": "resolved"
+        },
+        {
+          "id": "v0t3z924dbhg",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "minor",
+          "started_at": "2026-04-09T08:07:21.151Z",
+          "resolved_at": "2026-04-09T08:53:20.029Z",
+          "status": "resolved"
+        },
+        {
+          "id": "5f418rpyb84x",
+          "name": "Elevated errors on Claude.ai, API, Claude Code",
+          "impact": "minor",
+          "started_at": "2026-04-08T17:46:29.194Z",
+          "resolved_at": "2026-04-08T17:50:17.838Z",
+          "status": "resolved"
+        },
+        {
+          "id": "lhws0phdvzz3",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "major",
+          "started_at": "2026-04-08T06:23:25.058Z",
+          "resolved_at": "2026-04-08T09:33:39.659Z",
+          "status": "resolved"
+        },
+        {
+          "id": "124yr07585k9",
+          "name": "Elevated errors on Claude.ai",
+          "impact": "critical",
+          "started_at": "2026-04-07T14:32:10.000Z",
+          "resolved_at": "2026-04-07T15:59:16.060Z",
+          "status": "resolved"
+        },
+        {
+          "id": "xmqkb966qt1h",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "minor",
+          "started_at": "2026-04-06T21:26:57.106Z",
+          "resolved_at": "2026-04-06T21:45:48.108Z",
+          "status": "resolved"
+        },
+        {
+          "id": "fznql3y9tpn7",
+          "name": "Elevated errors on requests to Claude Sonnet 4.6",
+          "impact": "major",
+          "started_at": "2026-04-03T18:12:45.703Z",
+          "resolved_at": "2026-04-03T19:21:08.318Z",
+          "status": "resolved"
+        },
+        {
+          "id": "3bg93cy9bk1v",
+          "name": "Elevated errors on requests to Claude Opus 4.6",
+          "impact": "major",
+          "started_at": "2026-04-01T09:06:18.968Z",
+          "resolved_at": "2026-04-01T10:40:39.975Z",
+          "status": "resolved"
+        }
+      ]
+    },
+    {
+      "id": "yyzkbfz2thpt",
+      "name": "Claude Code",
+      "uptime": {
+        "30d": 92.63,
+        "90d": 97.412,
+        "all": 92.532
+      },
+      "incidents": [
+        {
+          "id": "6jd2m42f8mld",
+          "name": "Claude.ai down",
+          "impact": "critical",
+          "started_at": "2026-04-13T15:40:43.562Z",
+          "resolved_at": "2026-04-13T16:35:58.062Z",
+          "status": "resolved"
+        },
+        {
+          "id": "411xbc51v608",
+          "name": "Elevated errors on requests to Claude models",
+          "impact": "minor",
+          "started_at": "2026-04-10T16:30:38.832Z",
+          "resolved_at": "2026-04-10T16:51:44.183Z",
+          "status": "resolved"
+        },
+        {
+          "id": "cb0h2zyzl0kd",
+          "name": "Elevated Connector Error Rates",
+          "impact": "minor",
+          "started_at": "2026-04-09T16:54:18.794Z",
+          "resolved_at": "2026-04-09T17:34:00.052Z",
+          "status": "resolved"
+        },
+        {
+          "id": "v0t3z924dbhg",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "minor",
+          "started_at": "2026-04-09T08:07:21.151Z",
+          "resolved_at": "2026-04-09T08:53:20.029Z",
+          "status": "resolved"
+        },
+        {
+          "id": "5f418rpyb84x",
+          "name": "Elevated errors on Claude.ai, API, Claude Code",
+          "impact": "minor",
+          "started_at": "2026-04-08T17:46:29.194Z",
+          "resolved_at": "2026-04-08T17:50:17.838Z",
+          "status": "resolved"
+        },
+        {
+          "id": "lhws0phdvzz3",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "major",
+          "started_at": "2026-04-08T06:23:25.058Z",
+          "resolved_at": "2026-04-08T09:33:39.659Z",
+          "status": "resolved"
+        },
+        {
+          "id": "124yr07585k9",
+          "name": "Elevated errors on Claude.ai",
+          "impact": "critical",
+          "started_at": "2026-04-07T14:32:10.000Z",
+          "resolved_at": "2026-04-07T15:59:16.060Z",
+          "status": "resolved"
+        },
+        {
+          "id": "xmqkb966qt1h",
+          "name": "Sonnet 4.6 elevated rate of errors",
+          "impact": "minor",
+          "started_at": "2026-04-06T21:26:57.106Z",
+          "resolved_at": "2026-04-06T21:45:48.108Z",
+          "status": "resolved"
+        },
+        {
+          "id": "vfjv5x6qkd4j",
+          "name": "Elevated errors on Claude.ai",
+          "impact": "major",
+          "started_at": "2026-04-06T15:45:36.497Z",
+          "resolved_at": "2026-04-06T17:16:41.222Z",
+          "status": "resolved"
+        },
+        {
+          "id": "fznql3y9tpn7",
+          "name": "Elevated errors on requests to Claude Sonnet 4.6",
+          "impact": "major",
+          "started_at": "2026-04-03T18:12:45.703Z",
+          "resolved_at": "2026-04-03T19:21:08.318Z",
+          "status": "resolved"
+        }
+      ]
+    },
+    {
+      "id": "0scnb50nvy53",
+      "name": "Claude for Government",
+      "uptime": {
+        "30d": 99.314,
+        "90d": 99.771,
+        "all": 99.34
+      },
+      "incidents": [
+        {
+          "id": "6jd2m42f8mld",
+          "name": "Claude.ai down",
+          "impact": "critical",
+          "started_at": "2026-04-13T15:40:43.562Z",
+          "resolved_at": "2026-04-13T16:35:58.062Z",
+          "status": "resolved"
+        },
+        {
+          "id": "411xbc51v608",
+          "name": "Elevated errors on requests to Claude models",
+          "impact": "minor",
+          "started_at": "2026-04-10T16:30:38.832Z",
+          "resolved_at": "2026-04-10T16:51:44.183Z",
+          "status": "resolved"
+        },
+        {
+          "id": "b9802k1zb5l2",
+          "name": "Elevated error rates on Opus 4.6",
+          "impact": "major",
+          "started_at": "2026-03-27T06:59:38.335Z",
+          "resolved_at": "2026-03-27T16:46:24.919Z",
+          "status": "postmortem"
+        },
+        {
+          "id": "0dvq4gvy5f5f",
+          "name": "Increased errors on Opus 4.6",
+          "impact": "major",
+          "started_at": "2026-03-18T12:30:57.433Z",
+          "resolved_at": "2026-03-18T13:58:17.014Z",
+          "status": "resolved"
+        },
+        {
+          "id": "0266tzhrb7rn",
+          "name": "Elevated errors on Claude Sonnet 4.6",
+          "impact": "minor",
+          "started_at": "2026-03-16T14:02:12.441Z",
+          "resolved_at": "2026-03-16T16:35:27.589Z",
+          "status": "resolved"
+        }
+      ]
+    }
+  ],
+  "earliest_data": "2026-03-13T18:37:32+00:00"
+}
