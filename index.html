@@ -4,180 +4,268 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Claude Status — Uptime History</title>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Display:wght@400;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0d1117;
-      --surface: #161b22;
-      --border: #30363d;
-      --text: #e6edf3;
-      --muted: #8b949e;
-      --green: #3fb950;
-      --yellow: #d29922;
-      --orange: #db6d28;
-      --red: #f85149;
-      --link: #58a6ff;
+      /* MD3 dark scheme — seeded from a blue-purple primary */
+      --md-bg:           #0f0f13;
+      --md-surface:      #1a1a21;
+      --md-surface2:     #222230;
+      --md-surface3:     #2a2a3a;
+      --md-outline:      #44445a;
+      --md-outline-var:  #2e2e42;
+      --md-on-surface:   #e4e1f0;
+      --md-on-surface2:  #c6c3d8;
+      --md-on-surface3:  #8f8da8;
+
+      /* tonal status colors — muted, not saturated */
+      --md-green:        #6dd58c;
+      --md-green-bg:     rgba(109,213,140,.12);
+      --md-yellow:       #f5c518;
+      --md-yellow-bg:    rgba(245,197,24,.1);
+      --md-orange:       #ffb074;
+      --md-orange-bg:    rgba(255,176,116,.1);
+      --md-red:          #ff8a84;
+      --md-red-bg:       rgba(255,138,132,.1);
+
+      --md-primary:      #b0b3f4;
+      --md-primary-bg:   rgba(176,179,244,.1);
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--md-bg);
+      color: var(--md-on-surface);
+      font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       font-size: 14px;
       line-height: 1.6;
-      padding: 2rem 1rem;
+      min-height: 100vh;
     }
 
     .container {
-      max-width: 860px;
+      max-width: 900px;
       margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
     }
 
     /* ---- header ---- */
-    header {
-      margin-bottom: 3rem;
-    }
-
-    header h1 {
-      font-size: 1.4rem;
-      font-weight: 600;
-      margin-bottom: 0.25rem;
-    }
-
-    header p {
-      color: var(--muted);
-      font-size: 0.85rem;
-    }
-
-    header a { color: var(--link); text-decoration: none; }
-    header a:hover { text-decoration: underline; }
-
-    .updated {
-      margin-top: 0.4rem;
-      font-size: 0.8rem;
-      color: var(--muted);
-    }
-
-    /* ---- hero ---- */
-    .hero {
+    .site-header {
       display: flex;
-      align-items: baseline;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 3rem;
       gap: 1.5rem;
-      padding: 2rem 0;
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 3rem;
     }
 
-    .hero-label {
-      font-size: 0.75rem;
-      font-weight: 600;
+    .site-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--md-on-surface);
+      letter-spacing: -0.02em;
+      font-family: 'Google Sans Display', 'Google Sans', sans-serif;
+    }
+
+    .site-meta {
+      font-size: 0.8rem;
+      color: var(--md-on-surface3);
+      margin-top: 0.2rem;
+    }
+
+    .site-meta a {
+      color: var(--md-primary);
+      text-decoration: none;
+    }
+    .site-meta a:hover { text-decoration: underline; }
+
+    .updated-badge {
+      flex-shrink: 0;
+      font-size: 0.72rem;
+      color: var(--md-on-surface3);
+      background: var(--md-surface2);
+      border: 1px solid var(--md-outline-var);
+      border-radius: 999px;
+      padding: 0.3rem 1rem;
+      white-space: nowrap;
+      letter-spacing: 0.01em;
+    }
+
+    /* ---- hero card ---- */
+    .hero {
+      background: var(--md-surface);
+      border-radius: 28px;
+      padding: 2rem 2.5rem 2rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid var(--md-outline-var);
+    }
+
+    .hero-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      gap: 1rem;
+    }
+
+    .hero-eyebrow {
+      font-size: 1rem;
+      font-weight: 500;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      min-width: 80px;
-    }
-
-    .hero-numbers {
-      display: flex;
-      gap: 3rem;
-      flex-wrap: wrap;
-    }
-
-    .hero-stat {
-      display: flex;
-      flex-direction: column;
-      gap: 0.15rem;
+      letter-spacing: 0.12em;
+      color: var(--md-on-surface3);
+      margin-bottom: 0.5rem;
     }
 
     .hero-pct {
-      font-size: 2.4rem;
+      font-size: 4rem;
       font-weight: 700;
       font-variant-numeric: tabular-nums;
       line-height: 1;
+      letter-spacing: -0.04em;
+      font-family: 'Google Sans Display', 'Google Sans', sans-serif;
     }
 
-    .hero-window {
+    .hero-sublabel {
       font-size: 0.72rem;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      color: var(--md-on-surface3);
+      margin-top: 0.5rem;
+      letter-spacing: 0.04em;
     }
 
-    /* ---- uptime table ---- */
-    table {
+    .hero-stat-chip {
+      text-align: center;
+    }
+
+    .hero-stat-chip .num {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--md-on-surface);
+      display: block;
+      line-height: 1.1;
+    }
+
+    .hero-stat-chip .lbl {
+      font-size: 0.7rem;
+      color: var(--md-on-surface3);
+      letter-spacing: 0.02em;
+    }
+
+    /* ---- day bar ---- */
+    .day-bar {
+      display: flex;
+      gap: 3px;
+    }
+
+    .day-sq {
+      flex: 1;
+      height: 36px;
+      border-radius: 6px;
+    }
+
+    .day-sq.good     { background: var(--md-green);  opacity: 0.65; }
+    .day-sq.none     { background: var(--md-outline); opacity: 0.3;  }
+    .day-sq.minor    { background: var(--md-yellow);  opacity: 0.8;  }
+    .day-sq.major    { background: var(--md-orange);  opacity: 0.85; }
+    .day-sq.critical { background: var(--md-red);     opacity: 1;    }
+
+    .day-bar-labels {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 6px;
+    }
+
+    .day-bar-labels span {
+      font-size: 0.68rem;
+      color: var(--md-on-surface3);
+      letter-spacing: 0.02em;
+    }
+
+    /* ---- component table ---- */
+    .comp-card {
+      background: var(--md-surface);
+      border: 1px solid var(--md-outline-var);
+      border-radius: 20px;
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+    }
+
+    .comp-table {
       width: 100%;
       border-collapse: collapse;
-      margin-bottom: 3rem;
     }
 
-    thead th {
-      text-align: left;
-      padding: 0.5rem 0.75rem;
-      font-size: 0.75rem;
+    .comp-table thead th {
+      padding: 0.9rem 1.5rem;
+      font-size: 0.68rem;
+      font-weight: 500;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-      border-bottom: 1px solid var(--border);
+      letter-spacing: 0.1em;
+      color: var(--md-on-surface3);
+      border-bottom: 1px solid var(--md-outline-var);
+      text-align: left;
     }
 
-    thead th:not(:first-child) { text-align: right; }
+    .comp-table thead th:last-child { text-align: right; }
 
-    tbody tr { border-bottom: 1px solid var(--border); }
-    tbody tr:last-child { border-bottom: none; }
+    .comp-table tbody tr {
+      border-bottom: 1px solid var(--md-outline-var);
+      transition: background 0.15s;
+    }
 
-    tbody td {
-      padding: 0.65rem 0.75rem;
+    .comp-table tbody tr:last-child { border-bottom: none; }
+    .comp-table tbody tr:hover { background: var(--md-surface2); }
+
+    .comp-table tbody td {
+      padding: 1rem 1.5rem;
       vertical-align: middle;
     }
 
-    .comp-name { font-weight: 500; }
-
-    .uptime-cell {
-      text-align: right;
-      font-variant-numeric: tabular-nums;
+    .comp-name {
       font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--md-on-surface);
     }
 
-    .uptime-pct { font-weight: 600; }
-
-    .green  { color: var(--green);  }
-    .yellow { color: var(--yellow); }
-    .orange { color: var(--orange); }
-    .red    { color: var(--red);    }
-
-    .pill {
-      display: inline-block;
-      font-size: 0.7rem;
+    .comp-pct {
+      text-align: right;
+      font-size: 0.9rem;
       font-weight: 600;
-      padding: 0.1rem 0.45rem;
-      border-radius: 2rem;
-      margin-left: 0.4rem;
-      vertical-align: middle;
+      font-variant-numeric: tabular-nums;
     }
 
-    .pill-green  { background: rgba(63,185,80,.15);  color: var(--green);  }
-    .pill-yellow { background: rgba(210,153,34,.15); color: var(--yellow); }
-    .pill-orange { background: rgba(219,109,40,.15); color: var(--orange); }
-    .pill-red    { background: rgba(248,81,73,.15);  color: var(--red);    }
+    .green  { color: var(--md-green);  }
+    .yellow { color: var(--md-yellow); }
+    .orange { color: var(--md-orange); }
+    .red    { color: var(--md-red);    }
 
     /* ---- incidents ---- */
-    .section-title {
-      font-size: 0.95rem;
-      font-weight: 600;
+    .incidents-label {
+      font-size: 0.68rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--md-on-surface3);
       margin-bottom: 1rem;
-      padding-bottom: 0.4rem;
-      border-bottom: 1px solid var(--border);
     }
 
-    .comp-section { margin-bottom: 2rem; }
+    .comp-section { margin-bottom: 1.5rem; }
 
-    .comp-section h3 {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--muted);
-      margin-bottom: 0.5rem;
+    .comp-section-card {
+      background: var(--md-surface);
+      border: 1px solid var(--md-outline-var);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .comp-section-name {
+      font-size: 0.72rem;
+      font-weight: 500;
+      color: var(--md-on-surface3);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 0.85rem 1.5rem;
+      border-bottom: 1px solid var(--md-outline-var);
+      background: var(--md-surface2);
     }
 
     .incident-list { list-style: none; }
@@ -185,13 +273,15 @@
     .incident-item {
       display: flex;
       align-items: flex-start;
-      gap: 0.75rem;
-      padding: 0.5rem 0;
-      border-bottom: 1px solid var(--border);
+      gap: 1rem;
+      padding: 0.9rem 1.5rem;
+      border-bottom: 1px solid var(--md-outline-var);
       font-size: 0.85rem;
+      transition: background 0.15s;
     }
 
     .incident-item:last-child { border-bottom: none; }
+    .incident-item:hover { background: var(--md-surface2); }
 
     .incident-dot {
       flex-shrink: 0;
@@ -201,88 +291,124 @@
       margin-top: 0.4rem;
     }
 
-    .incident-meta { flex: 1; }
-    .incident-name { font-weight: 500; }
+    .incident-meta { flex: 1; min-width: 0; }
 
-    .incident-time {
-      color: var(--muted);
-      font-size: 0.78rem;
-      margin-top: 0.1rem;
+    .incident-name {
+      font-weight: 500;
+      color: var(--md-on-surface);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
-    .incident-duration { color: var(--muted); font-size: 0.78rem; }
+    .incident-time {
+      color: var(--md-on-surface3);
+      font-size: 0.75rem;
+      margin-top: 0.15rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .pill {
+      display: inline-block;
+      font-size: 0.62rem;
+      font-weight: 600;
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .pill-green  { background: var(--md-green-bg);  color: var(--md-green);  }
+    .pill-yellow { background: var(--md-yellow-bg); color: var(--md-yellow); }
+    .pill-orange { background: var(--md-orange-bg); color: var(--md-orange); }
+    .pill-red    { background: var(--md-red-bg);    color: var(--md-red);    }
 
     .no-incidents {
-      color: var(--muted);
-      font-size: 0.85rem;
-      padding: 0.5rem 0;
+      font-size: 0.82rem;
+      color: var(--md-on-surface3);
+      padding: 1rem 1.5rem;
     }
 
     #loading, #error {
-      padding: 2rem;
+      padding: 5rem 2rem;
       text-align: center;
-      color: var(--muted);
+      color: var(--md-on-surface3);
     }
 
-    #error { color: var(--red); }
+    #error { color: var(--md-red); }
 
-    footer {
-      margin-top: 3rem;
-      font-size: 0.78rem;
-      color: var(--muted);
-      border-top: 1px solid var(--border);
-      padding-top: 1rem;
+    /* ---- footer ---- */
+    .site-footer {
+      margin-top: 4rem;
+      font-size: 0.72rem;
+      color: var(--md-on-surface3);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
     }
 
-    footer a { color: var(--link); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
+    .site-footer a { color: var(--md-on-surface3); text-decoration: underline; text-underline-offset: 3px; }
+    .site-footer a:hover { color: var(--md-on-surface); }
   </style>
 </head>
 <body>
 <div class="container">
-  <header>
-    <h1>Claude Status — Uptime History</h1>
-    <p>
-      Aggregate uptime stats derived from the public
-      <a href="https://status.claude.com" target="_blank" rel="noopener">status.claude.com</a>
-      Statuspage API. Inspired by
-      <a href="https://mrshu.github.io/github-statuses/" target="_blank" rel="noopener">mrshu's GitHub status page</a>.
-    </p>
-    <p class="updated" id="updated-at"></p>
+
+  <header class="site-header">
+    <div>
+      <div class="site-title">Claude Status</div>
+      <div class="site-meta">
+        Uptime history from <a href="https://status.claude.com" target="_blank" rel="noopener">status.claude.com</a>.
+        Inspired by <a href="https://mrshu.github.io/github-statuses/" target="_blank" rel="noopener">mrshu</a>.
+      </div>
+    </div>
+    <div class="updated-badge" id="updated-at">Loading…</div>
   </header>
 
-  <div id="loading">Loading uptime data…</div>
+  <div id="loading">Loading…</div>
   <div id="error" style="display:none"></div>
+
   <div id="content" style="display:none">
 
     <div class="hero" id="hero">
-      <div class="hero-label">Overall</div>
-      <div class="hero-numbers" id="hero-numbers"></div>
+      <div class="hero-top">
+        <div class="hero-left">
+          <div class="hero-eyebrow">Overall uptime</div>
+          <div class="hero-pct" id="hero-pct">—</div>
+          <div class="hero-sublabel">Last 90 days</div>
+        </div>
+        <div class="hero-stat-chip" id="hero-inc-count"></div>
+      </div>
+      <div class="day-bar" id="day-bar"></div>
+      <div class="day-bar-labels">
+        <span>90 days ago</span>
+        <span>Today</span>
+      </div>
     </div>
 
-    <table id="uptime-table">
-      <thead>
-        <tr>
-          <th>Component</th>
-          <th>Last 30 days</th>
-          <th>Last 90 days</th>
-          <th>All time</th>
-        </tr>
-      </thead>
-      <tbody id="uptime-body"></tbody>
-    </table>
+    <div class="comp-card">
+      <table class="comp-table">
+        <thead><tr><th>Component</th><th>Last 90 days</th></tr></thead>
+        <tbody id="comp-list"></tbody>
+      </table>
+    </div>
 
-    <div class="section-title">Recent incidents (last 90 days)</div>
+    <div class="incidents-label">Recent incidents</div>
     <div id="incidents-list"></div>
+
   </div>
+
+  <footer class="site-footer">
+    <span>Data from <a href="https://status.claude.com/api/v2/incidents.json" target="_blank" rel="noopener">status.claude.com API</a> · archived hourly</span>
+    <a href="https://github.com/charles-chen/claude-statuses" target="_blank" rel="noopener">View source</a>
+  </footer>
+
 </div>
-
-<footer>
-  Data sourced from <a href="https://status.claude.com/api/v2/incidents.json" target="_blank" rel="noopener">status.claude.com/api/v2/incidents.json</a>.
-  Archived hourly via GitHub Actions.
-  View source on <a href="https://github.com/YOUR_USERNAME/claude-statuses" target="_blank" rel="noopener">GitHub</a>.
-</footer>
-
 <script>
   function colorClass(pct) {
     if (pct >= 99.9) return 'green';
@@ -297,14 +423,13 @@
   }
 
   function fmtPct(pct) {
-    return pct.toFixed(pct >= 99.9 ? 3 : 2) + '%';
+    return pct.toFixed(2) + '%';
   }
 
-  function fmtDate(iso) {
+  function fmtDateShort(iso) {
     if (!iso) return '—';
     return new Date(iso).toLocaleString('en-US', {
-      month: 'short', day: 'numeric', year: 'numeric',
-      hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
+      month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
     });
   }
 
@@ -331,76 +456,82 @@
   function render(data) {
     document.getElementById('loading').style.display = 'none';
     document.getElementById('content').style.display = 'block';
-    document.getElementById('updated-at').textContent = `Last updated: ${fmtDate(data.generated_at)}`;
 
-    // Hero
+    const d = new Date(data.generated_at);
+    document.getElementById('updated-at').textContent =
+      'Updated ' + d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short' });
+
     if (data.aggregate) {
-      const a = data.aggregate;
-      const heroNumbers = document.getElementById('hero-numbers');
-      [['30d', 'Last 30 days'], ['90d', 'Last 90 days'], ['all', 'All time']].forEach(([key, label]) => {
-        const div = document.createElement('div');
-        div.className = 'hero-stat';
-        div.innerHTML = `
-          <span class="hero-pct ${colorClass(a[key])}">${fmtPct(a[key])}</span>
-          <span class="hero-window">${label}</span>
-        `;
-        heroNumbers.appendChild(div);
+      const pct = data.aggregate['90d'];
+      const el = document.getElementById('hero-pct');
+      el.textContent = fmtPct(pct);
+      el.className = 'hero-pct ' + colorClass(pct);
+    }
+
+    const totalInc = data.components.reduce((sum, c) => sum + (c.incidents ? c.incidents.length : 0), 0);
+    document.getElementById('hero-inc-count').innerHTML =
+      `<span class="num">${totalInc}</span><span class="lbl">incidents<br>last 90d</span>`;
+
+    if (data.daily_overall) {
+      const bar = document.getElementById('day-bar');
+      data.daily_overall.forEach(status => {
+        const sq = document.createElement('div');
+        sq.className = 'day-sq ' + status;
+        bar.appendChild(sq);
       });
     }
 
-    // Component table
-    const tbody = document.getElementById('uptime-body');
+    const compList = document.getElementById('comp-list');
     for (const comp of data.components) {
-      const u = comp.uptime;
+      const pct = comp.uptime['90d'];
       const tr = document.createElement('tr');
       tr.innerHTML = `
         <td class="comp-name">${comp.name}</td>
-        <td class="uptime-cell"><span class="uptime-pct ${colorClass(u['30d'])}">${fmtPct(u['30d'])}</span></td>
-        <td class="uptime-cell"><span class="uptime-pct ${colorClass(u['90d'])}">${fmtPct(u['90d'])}</span></td>
-        <td class="uptime-cell"><span class="uptime-pct ${colorClass(u['all'])}">${fmtPct(u['all'])}</span></td>
+        <td class="comp-pct ${colorClass(pct)}">${fmtPct(pct)}</td>
       `;
-      tbody.appendChild(tr);
+      compList.appendChild(tr);
     }
 
-    // Incidents
     const incidentsList = document.getElementById('incidents-list');
     for (const comp of data.components) {
+      if (!comp.incidents || comp.incidents.length === 0) continue;
+
       const section = document.createElement('div');
       section.className = 'comp-section';
 
-      const h3 = document.createElement('h3');
-      h3.textContent = comp.name;
-      section.appendChild(h3);
+      const card = document.createElement('div');
+      card.className = 'comp-section-card';
 
-      if (!comp.incidents || comp.incidents.length === 0) {
-        const p = document.createElement('p');
-        p.className = 'no-incidents';
-        p.textContent = 'No incidents in the last 90 days.';
-        section.appendChild(p);
-      } else {
-        const ul = document.createElement('ul');
-        ul.className = 'incident-list';
-        for (const inc of comp.incidents) {
-          const col = impactColor(inc.impact);
-          const dur = durationStr(inc.started_at, inc.resolved_at);
-          const li = document.createElement('li');
-          li.className = 'incident-item';
-          li.innerHTML = `
-            <div class="incident-dot" style="background: var(--${col})"></div>
-            <div class="incident-meta">
-              <div class="incident-name">${inc.name}</div>
-              <div class="incident-time">
-                ${fmtDate(inc.started_at)}
-                ${dur ? `<span class="incident-duration"> · ${dur}</span>` : ''}
-                <span class="pill pill-${col}">${inc.impact}</span>
-                ${inc.status !== 'resolved' ? `<span class="pill pill-yellow">${inc.status}</span>` : ''}
-              </div>
+      const nameEl = document.createElement('div');
+      nameEl.className = 'comp-section-name';
+      nameEl.textContent = comp.name;
+      card.appendChild(nameEl);
+
+      const ul = document.createElement('ul');
+      ul.className = 'incident-list';
+
+      for (const inc of comp.incidents) {
+        const col = impactColor(inc.impact);
+        const dur = durationStr(inc.started_at, inc.resolved_at);
+        const li = document.createElement('li');
+        li.className = 'incident-item';
+        li.innerHTML = `
+          <div class="incident-dot" style="background: var(--md-${col})"></div>
+          <div class="incident-meta">
+            <div class="incident-name">${inc.name}</div>
+            <div class="incident-time">
+              <span>${fmtDateShort(inc.started_at)}</span>
+              ${dur ? `<span>· ${dur}</span>` : ''}
+              <span class="pill pill-${col}">${inc.impact}</span>
+              ${inc.status !== 'resolved' ? `<span class="pill pill-yellow">${inc.status}</span>` : ''}
             </div>
-          `;
-          ul.appendChild(li);
-        }
-        section.appendChild(ul);
+          </div>
+        `;
+        ul.appendChild(li);
       }
+
+      card.appendChild(ul);
+      section.appendChild(card);
       incidentsList.appendChild(section);
     }
   }

@@ -2,7 +2,7 @@
 
 Uptime history for [status.claude.com](https://status.claude.com), inspired by [mrshu's GitHub status page](https://mrshu.github.io/github-statuses/).
 
-**Live site:** https://YOUR_USERNAME.github.io/claude-statuses/
+**Live site:** https://charles-chen.github.io/claude-statuses/
 
 ---
 

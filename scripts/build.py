@@ -129,9 +129,7 @@ def main():
 
     now = datetime.now(timezone.utc)
     windows_def = {
-        "30d": (now - timedelta(days=30), now),
         "90d": (now - timedelta(days=90), now),
-        "all": (None, now),  # None = use earliest incident
     }
 
     # Find earliest incident for all-time window
@@ -187,24 +185,70 @@ def main():
                 break
 
         comp_result["incidents"] = recent
+
+        # Daily status for last 90 days (for the day bar visualization)
+        IMPACT_RANK = {"none": 0, "minor": 1, "major": 2, "critical": 3}
+        daily = []
+        for d in range(89, -1, -1):  # oldest to newest
+            day_start = (now - timedelta(days=d)).replace(
+                hour=0, minute=0, second=0, microsecond=0
+            )
+            day_end = day_start + timedelta(days=1)
+            worst = "good"
+            for inc in incidents:
+                started = parse_dt(inc.get("started_at"))
+                resolved = parse_dt(inc.get("resolved_at")) or now
+                if not started:
+                    continue
+                if started >= day_end or resolved <= day_start:
+                    continue
+                affected_ids = set()
+                for update in inc.get("incident_updates", []):
+                    for comp_ref in update.get("affected_components") or []:
+                        affected_ids.add(comp_ref.get("code"))
+                if cid not in affected_ids:
+                    continue
+                impact = inc.get("impact", "none")
+                if IMPACT_RANK.get(impact, 0) > IMPACT_RANK.get(
+                    worst if worst != "good" else "none", 0
+                ):
+                    worst = impact
+            daily.append(worst)
+
+        comp_result["daily"] = daily
         results.append(comp_result)
-        print(
-            f"{comp['name']}: 30d={comp_result['uptime']['30d']}%  90d={comp_result['uptime']['90d']}%  all={comp_result['uptime']['all']}%"
-        )
+        print(f"{comp['name']}: 90d={comp_result['uptime']['90d']}%")
 
     # Aggregate: minimum uptime across all components per window
-    aggregate = {
-        label: min(r["uptime"][label] for r in results)
-        for label in ("30d", "90d", "all")
-    }
-    print(
-        f"Aggregate (min): 30d={aggregate['30d']}%  90d={aggregate['90d']}%  all={aggregate['all']}%"
-    )
+    aggregate = {label: min(r["uptime"][label] for r in results) for label in ("90d",)}
+    print(f"Aggregate (min): 90d={aggregate['90d']}%")
+
+    # Overall daily bar: worst status across all components per day
+    IMPACT_RANK = {"none": 0, "minor": 1, "major": 2, "critical": 3}
+    daily_overall = []
+    for d in range(89, -1, -1):
+        day_start = (now - timedelta(days=d)).replace(
+            hour=0, minute=0, second=0, microsecond=0
+        )
+        day_end = day_start + timedelta(days=1)
+        worst = "good"
+        for inc in incidents:
+            started = parse_dt(inc.get("started_at"))
+            resolved = parse_dt(inc.get("resolved_at")) or now
+            if not started or started >= day_end or resolved <= day_start:
+                continue
+            impact = inc.get("impact", "none")
+            if IMPACT_RANK.get(impact, 0) > IMPACT_RANK.get(
+                worst if worst != "good" else "none", 0
+            ):
+                worst = impact
+        daily_overall.append(worst)
 
     output = {
         "generated_at": now.isoformat(),
         "components": results,
         "aggregate": aggregate,
+        "daily_overall": daily_overall,
         "earliest_data": earliest.isoformat(),
     }
 
