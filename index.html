@@ -34,8 +34,9 @@
       margin: 0 auto;
     }
 
+    /* ---- header ---- */
     header {
-      margin-bottom: 2.5rem;
+      margin-bottom: 3rem;
     }
 
     header h1 {
@@ -49,24 +50,66 @@
       font-size: 0.85rem;
     }
 
-    header a {
-      color: var(--link);
-      text-decoration: none;
-    }
-
+    header a { color: var(--link); text-decoration: none; }
     header a:hover { text-decoration: underline; }
 
     .updated {
-      margin-top: 0.5rem;
+      margin-top: 0.4rem;
       font-size: 0.8rem;
       color: var(--muted);
+    }
+
+    /* ---- hero ---- */
+    .hero {
+      display: flex;
+      align-items: baseline;
+      gap: 1.5rem;
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+
+    .hero-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      min-width: 80px;
+    }
+
+    .hero-numbers {
+      display: flex;
+      gap: 3rem;
+      flex-wrap: wrap;
+    }
+
+    .hero-stat {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+
+    .hero-pct {
+      font-size: 2.4rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      line-height: 1;
+    }
+
+    .hero-window {
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
     /* ---- uptime table ---- */
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-bottom: 2.5rem;
+      margin-bottom: 3rem;
     }
 
     thead th {
@@ -81,10 +124,7 @@
 
     thead th:not(:first-child) { text-align: right; }
 
-    tbody tr {
-      border-bottom: 1px solid var(--border);
-    }
-
+    tbody tr { border-bottom: 1px solid var(--border); }
     tbody tr:last-child { border-bottom: none; }
 
     tbody td {
@@ -92,9 +132,7 @@
       vertical-align: middle;
     }
 
-    .comp-name {
-      font-weight: 500;
-    }
+    .comp-name { font-weight: 500; }
 
     .uptime-cell {
       text-align: right;
@@ -102,9 +140,12 @@
       font-size: 0.9rem;
     }
 
-    .uptime-pct {
-      font-weight: 600;
-    }
+    .uptime-pct { font-weight: 600; }
+
+    .green  { color: var(--green);  }
+    .yellow { color: var(--yellow); }
+    .orange { color: var(--orange); }
+    .red    { color: var(--red);    }
 
     .pill {
       display: inline-block;
@@ -116,17 +157,12 @@
       vertical-align: middle;
     }
 
-    .green  { color: var(--green);  }
-    .yellow { color: var(--yellow); }
-    .orange { color: var(--orange); }
-    .red    { color: var(--red);    }
-
     .pill-green  { background: rgba(63,185,80,.15);  color: var(--green);  }
     .pill-yellow { background: rgba(210,153,34,.15); color: var(--yellow); }
     .pill-orange { background: rgba(219,109,40,.15); color: var(--orange); }
     .pill-red    { background: rgba(248,81,73,.15);  color: var(--red);    }
 
-    /* ---- incidents section ---- */
+    /* ---- incidents ---- */
     .section-title {
       font-size: 0.95rem;
       font-weight: 600;
@@ -135,9 +171,7 @@
       border-bottom: 1px solid var(--border);
     }
 
-    .comp-section {
-      margin-bottom: 2rem;
-    }
+    .comp-section { margin-bottom: 2rem; }
 
     .comp-section h3 {
       font-size: 0.85rem;
@@ -146,9 +180,7 @@
       margin-bottom: 0.5rem;
     }
 
-    .incident-list {
-      list-style: none;
-    }
+    .incident-list { list-style: none; }
 
     .incident-item {
       display: flex;
@@ -169,13 +201,8 @@
       margin-top: 0.4rem;
     }
 
-    .incident-meta {
-      flex: 1;
-    }
-
-    .incident-name {
-      font-weight: 500;
-    }
+    .incident-meta { flex: 1; }
+    .incident-name { font-weight: 500; }
 
     .incident-time {
       color: var(--muted);
@@ -183,10 +210,7 @@
       margin-top: 0.1rem;
     }
 
-    .incident-duration {
-      color: var(--muted);
-      font-size: 0.78rem;
-    }
+    .incident-duration { color: var(--muted); font-size: 0.78rem; }
 
     .no-incidents {
       color: var(--muted);
@@ -194,7 +218,6 @@
       padding: 0.5rem 0;
     }
 
-    /* loading / error */
     #loading, #error {
       padding: 2rem;
       text-align: center;
@@ -231,6 +254,12 @@
   <div id="loading">Loading uptime data…</div>
   <div id="error" style="display:none"></div>
   <div id="content" style="display:none">
+
+    <div class="hero" id="hero">
+      <div class="hero-label">Overall</div>
+      <div class="hero-numbers" id="hero-numbers"></div>
+    </div>
+
     <table id="uptime-table">
       <thead>
         <tr>
@@ -251,7 +280,7 @@
 <footer>
   Data sourced from <a href="https://status.claude.com/api/v2/incidents.json" target="_blank" rel="noopener">status.claude.com/api/v2/incidents.json</a>.
   Archived hourly via GitHub Actions.
-  View source on <a href="https://github.com/YOUR_USERNAME/claude-status-uptime" target="_blank" rel="noopener">GitHub</a>.
+  View source on <a href="https://github.com/YOUR_USERNAME/claude-statuses" target="_blank" rel="noopener">GitHub</a>.
 </footer>
 
 <script>
@@ -281,19 +310,16 @@
 
   function durationStr(startIso, endIso) {
     if (!startIso || !endIso) return null;
-    const diffMs = new Date(endIso) - new Date(startIso);
-    const mins = Math.round(diffMs / 60000);
+    const mins = Math.round((new Date(endIso) - new Date(startIso)) / 60000);
     if (mins < 60) return `${mins}m`;
-    const hrs = (mins / 60).toFixed(1);
-    return `${hrs}h`;
+    return `${(mins / 60).toFixed(1)}h`;
   }
 
   async function load() {
     try {
       const resp = await fetch('data/uptime.json');
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-      const data = await resp.json();
-      render(data);
+      render(await resp.json());
     } catch (e) {
       document.getElementById('loading').style.display = 'none';
       const err = document.getElementById('error');
@@ -305,45 +331,38 @@
   function render(data) {
     document.getElementById('loading').style.display = 'none';
     document.getElementById('content').style.display = 'block';
+    document.getElementById('updated-at').textContent = `Last updated: ${fmtDate(data.generated_at)}`;
 
-    const genAt = new Date(data.generated_at);
-    document.getElementById('updated-at').textContent =
-      `Last updated: ${fmtDate(data.generated_at)}`;
-
-    // Uptime table — aggregate row first
-    const tbody = document.getElementById('uptime-body');
+    // Hero
     if (data.aggregate) {
       const a = data.aggregate;
-      const overallColor = colorClass(Math.min(a['30d'], a['90d'], a['all']));
-      const tr = document.createElement('tr');
-      tr.style.borderBottom = '2px solid var(--border)';
-      tr.innerHTML = `
-        <td class="comp-name" style="font-weight:700">Overall</td>
-        <td class="uptime-cell"><span class="uptime-pct ${colorClass(a['30d'])}">${fmtPct(a['30d'])}</span></td>
-        <td class="uptime-cell"><span class="uptime-pct ${colorClass(a['90d'])}">${fmtPct(a['90d'])}</span></td>
-        <td class="uptime-cell"><span class="uptime-pct ${colorClass(a['all'])}">${fmtPct(a['all'])}</span></td>
-      `;
-      tbody.appendChild(tr);
+      const heroNumbers = document.getElementById('hero-numbers');
+      [['30d', 'Last 30 days'], ['90d', 'Last 90 days'], ['all', 'All time']].forEach(([key, label]) => {
+        const div = document.createElement('div');
+        div.className = 'hero-stat';
+        div.innerHTML = `
+          <span class="hero-pct ${colorClass(a[key])}">${fmtPct(a[key])}</span>
+          <span class="hero-window">${label}</span>
+        `;
+        heroNumbers.appendChild(div);
+      });
     }
+
+    // Component table
+    const tbody = document.getElementById('uptime-body');
     for (const comp of data.components) {
       const u = comp.uptime;
       const tr = document.createElement('tr');
       tr.innerHTML = `
         <td class="comp-name">${comp.name}</td>
-        <td class="uptime-cell">
-          <span class="uptime-pct ${colorClass(u['30d'])}">${fmtPct(u['30d'])}</span>
-        </td>
-        <td class="uptime-cell">
-          <span class="uptime-pct ${colorClass(u['90d'])}">${fmtPct(u['90d'])}</span>
-        </td>
-        <td class="uptime-cell">
-          <span class="uptime-pct ${colorClass(u['all'])}">${fmtPct(u['all'])}</span>
-        </td>
+        <td class="uptime-cell"><span class="uptime-pct ${colorClass(u['30d'])}">${fmtPct(u['30d'])}</span></td>
+        <td class="uptime-cell"><span class="uptime-pct ${colorClass(u['90d'])}">${fmtPct(u['90d'])}</span></td>
+        <td class="uptime-cell"><span class="uptime-pct ${colorClass(u['all'])}">${fmtPct(u['all'])}</span></td>
       `;
       tbody.appendChild(tr);
     }
 
-    // Incidents by component
+    // Incidents
     const incidentsList = document.getElementById('incidents-list');
     for (const comp of data.components) {
       const section = document.createElement('div');
@@ -382,7 +401,6 @@
         }
         section.appendChild(ul);
       }
-
       incidentsList.appendChild(section);
     }
   }
