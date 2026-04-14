@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-14T04:08:45.249406+00:00",
+  "generated_at": "2026-04-14T04:28:12.643709+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "30d": 90.734,
-        "90d": 96.78,
-        "all": 90.769
+        "90d": 96.601,
+        "all": 99.471
       },
       "incidents": [
         {
@@ -97,8 +97,8 @@
       "name": "platform.claude.com",
       "uptime": {
         "30d": 93.794,
-        "90d": 97.931,
-        "all": 94.07
+        "90d": 97.837,
+        "all": 99.629
       },
       "incidents": [
         {
@@ -188,8 +188,8 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "30d": 93.12,
-        "90d": 97.575,
-        "all": 93.049
+        "90d": 97.53,
+        "all": 99.512
       },
       "incidents": [
         {
@@ -279,8 +279,8 @@
       "name": "Claude Code",
       "uptime": {
         "30d": 92.63,
-        "90d": 97.412,
-        "all": 92.582
+        "90d": 97.33,
+        "all": 99.739
       },
       "incidents": [
         {
@@ -370,8 +370,8 @@
       "name": "Claude for Government",
       "uptime": {
         "30d": 99.314,
-        "90d": 99.771,
-        "all": 99.344
+        "90d": 99.762,
+        "all": 99.981
       },
       "incidents": [
         {
@@ -413,14 +413,22 @@
           "started_at": "2026-03-16T14:02:12.441Z",
           "resolved_at": "2026-03-16T16:35:27.589Z",
           "status": "resolved"
+        },
+        {
+          "id": "0xc7ybw5wd3x",
+          "name": "Sonnet 4.6 elevated error rate",
+          "impact": "minor",
+          "started_at": "2026-02-27T19:31:59.984Z",
+          "resolved_at": "2026-02-27T19:43:42.320Z",
+          "status": "resolved"
         }
       ]
     }
   ],
   "aggregate": {
     "30d": 90.734,
-    "90d": 96.78,
-    "all": 90.769
+    "90d": 96.601,
+    "all": 99.471
   },
-  "earliest_data": "2026-03-13T18:37:32+00:00"
+  "earliest_data": "2023-03-16T03:00:00+00:00"
 }
