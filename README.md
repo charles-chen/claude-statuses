@@ -8,7 +8,7 @@ Uptime history for [status.claude.com](https://status.claude.com), inspired by [
 
 ## How it works
 
-Anthropic's status page shows current incidents but doesn't expose aggregate uptime numbers. This project reconstructs them by archiving incident data and computing per-component uptime over rolling windows (30d, 90d, all-time).
+Anthropic's status page shows current incidents but doesn't expose aggregate uptime numbers. This project reconstructs them by archiving incident data and computing per-component uptime over a 90d rolling window.
 
 A GitHub Action polls the Statuspage API every hour and commits snapshots to `data/all_incidents.json`. `scripts/build.py` replays all incident updates per component, reconstructs downtime windows, merges overlaps, and writes `data/uptime.json`. The frontend is a single `index.html` that reads that file — no build step, no framework.
 
