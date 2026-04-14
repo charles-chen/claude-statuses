@@ -515,18 +515,47 @@
         const dur = durationStr(inc.started_at, inc.resolved_at);
         const li = document.createElement('li');
         li.className = 'incident-item';
-        li.innerHTML = `
-          <div class="incident-dot" style="background: var(--md-${col})"></div>
-          <div class="incident-meta">
-            <div class="incident-name">${inc.name}</div>
-            <div class="incident-time">
-              <span>${fmtDateShort(inc.started_at)}</span>
-              ${dur ? `<span>· ${dur}</span>` : ''}
-              <span class="pill pill-${col}">${inc.impact}</span>
-              ${inc.status !== 'resolved' ? `<span class="pill pill-yellow">${inc.status}</span>` : ''}
-            </div>
-          </div>
-        `;
+
+        const dot = document.createElement('div');
+        dot.className = 'incident-dot';
+        dot.style.background = `var(--md-${col})`;
+
+        const meta = document.createElement('div');
+        meta.className = 'incident-meta';
+
+        const nameEl = document.createElement('div');
+        nameEl.className = 'incident-name';
+        nameEl.textContent = inc.name;
+
+        const timeEl = document.createElement('div');
+        timeEl.className = 'incident-time';
+
+        const dateSpan = document.createElement('span');
+        dateSpan.textContent = fmtDateShort(inc.started_at);
+        timeEl.appendChild(dateSpan);
+
+        if (dur) {
+          const durSpan = document.createElement('span');
+          durSpan.textContent = '· ' + dur;
+          timeEl.appendChild(durSpan);
+        }
+
+        const impactPill = document.createElement('span');
+        impactPill.className = `pill pill-${col}`;
+        impactPill.textContent = inc.impact;
+        timeEl.appendChild(impactPill);
+
+        if (inc.status !== 'resolved') {
+          const statusPill = document.createElement('span');
+          statusPill.className = 'pill pill-yellow';
+          statusPill.textContent = inc.status;
+          timeEl.appendChild(statusPill);
+        }
+
+        meta.appendChild(nameEl);
+        meta.appendChild(timeEl);
+        li.appendChild(dot);
+        li.appendChild(meta);
         ul.appendChild(li);
       }
 
