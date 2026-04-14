@@ -55,7 +55,9 @@ def merge_windows(windows: list[tuple]) -> list[tuple]:
     return merged
 
 
-def downtime_seconds_in_window(windows: list[tuple], window_start: datetime, window_end: datetime) -> float:
+def downtime_seconds_in_window(
+    windows: list[tuple], window_start: datetime, window_end: datetime
+) -> float:
     total = 0.0
     for start, end in windows:
         # Clip to window
@@ -117,7 +119,9 @@ def uptime_pct(downtime_s: float, window_s: float) -> float:
 
 def main():
     if not os.path.exists(INCIDENTS_FILE):
-        print(f"No incidents file found at {INCIDENTS_FILE}. Run fetch_all_pages.py first.")
+        print(
+            f"No incidents file found at {INCIDENTS_FILE}. Run fetch_all_pages.py first."
+        )
         return
 
     with open(INCIDENTS_FILE) as f:
@@ -131,7 +135,9 @@ def main():
     }
 
     # Find earliest incident for all-time window
-    all_starts = [parse_dt(inc["started_at"]) for inc in incidents if inc.get("started_at")]
+    all_starts = [
+        parse_dt(inc["started_at"]) for inc in incidents if inc.get("started_at")
+    ]
     earliest = min(all_starts) if all_starts else now - timedelta(days=365)
     windows_def["all"] = (earliest, now)
 
@@ -163,28 +169,42 @@ def main():
             # Check if this component was affected
             affected_ids = set()
             for update in inc.get("incident_updates", []):
-                for comp_ref in (update.get("affected_components") or []):
+                for comp_ref in update.get("affected_components") or []:
                     affected_ids.add(comp_ref.get("code"))
             if cid not in affected_ids:
                 continue
-            recent.append({
-                "id": inc["id"],
-                "name": inc["name"],
-                "impact": inc.get("impact", "none"),
-                "started_at": inc.get("started_at"),
-                "resolved_at": inc.get("resolved_at"),
-                "status": inc.get("status"),
-            })
+            recent.append(
+                {
+                    "id": inc["id"],
+                    "name": inc["name"],
+                    "impact": inc.get("impact", "none"),
+                    "started_at": inc.get("started_at"),
+                    "resolved_at": inc.get("resolved_at"),
+                    "status": inc.get("status"),
+                }
+            )
             if len(recent) >= 10:
                 break
 
         comp_result["incidents"] = recent
         results.append(comp_result)
-        print(f"{comp['name']}: 30d={comp_result['uptime']['30d']}%  90d={comp_result['uptime']['90d']}%  all={comp_result['uptime']['all']}%")
+        print(
+            f"{comp['name']}: 30d={comp_result['uptime']['30d']}%  90d={comp_result['uptime']['90d']}%  all={comp_result['uptime']['all']}%"
+        )
+
+    # Aggregate: minimum uptime across all components per window
+    aggregate = {
+        label: min(r["uptime"][label] for r in results)
+        for label in ("30d", "90d", "all")
+    }
+    print(
+        f"Aggregate (min): 30d={aggregate['30d']}%  90d={aggregate['90d']}%  all={aggregate['all']}%"
+    )
 
     output = {
         "generated_at": now.isoformat(),
         "components": results,
+        "aggregate": aggregate,
         "earliest_data": earliest.isoformat(),
     }
 
