@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T09:12:18.030270+00:00",
+  "generated_at": "2026-04-14T10:58:19.690594+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -9,6 +9,14 @@
         "all": 99.471
       },
       "incidents": [
+        {
+          "id": "w3389p5qg7kp",
+          "name": "Degraded service on usage and analytics admin API endpoints",
+          "impact": "minor",
+          "started_at": "2026-04-14T09:24:51.906Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "6jd2m42f8mld",
           "name": "Claude.ai down",
@@ -79,14 +87,6 @@
           "impact": "major",
           "started_at": "2026-04-06T15:45:36.497Z",
           "resolved_at": "2026-04-06T17:16:41.222Z",
-          "status": "resolved"
-        },
-        {
-          "id": "fznql3y9tpn7",
-          "name": "Elevated errors on requests to Claude Sonnet 4.6",
-          "impact": "major",
-          "started_at": "2026-04-03T18:12:45.703Z",
-          "resolved_at": "2026-04-03T19:21:08.318Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "good",
         "good",
         "critical",
-        "good"
+        "minor"
       ]
     },
     {
@@ -191,6 +191,14 @@
         "all": 99.629
       },
       "incidents": [
+        {
+          "id": "w3389p5qg7kp",
+          "name": "Degraded service on usage and analytics admin API endpoints",
+          "impact": "minor",
+          "started_at": "2026-04-14T09:24:51.906Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "6jd2m42f8mld",
           "name": "Claude.ai down",
@@ -262,14 +270,6 @@
           "started_at": "2026-04-06T15:45:36.497Z",
           "resolved_at": "2026-04-06T17:16:41.222Z",
           "status": "resolved"
-        },
-        {
-          "id": "fznql3y9tpn7",
-          "name": "Elevated errors on requests to Claude Sonnet 4.6",
-          "impact": "major",
-          "started_at": "2026-04-03T18:12:45.703Z",
-          "resolved_at": "2026-04-03T19:21:08.318Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,17 +362,25 @@
         "good",
         "good",
         "critical",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 97.53,
-        "all": 99.512
+        "90d": 97.458,
+        "all": 99.506
       },
       "incidents": [
+        {
+          "id": "w3389p5qg7kp",
+          "name": "Degraded service on usage and analytics admin API endpoints",
+          "impact": "minor",
+          "started_at": "2026-04-14T09:24:51.906Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "6jd2m42f8mld",
           "name": "Claude.ai down",
@@ -444,14 +452,6 @@
           "started_at": "2026-04-03T18:12:45.703Z",
           "resolved_at": "2026-04-03T19:21:08.318Z",
           "status": "resolved"
-        },
-        {
-          "id": "3bg93cy9bk1v",
-          "name": "Elevated errors on requests to Claude Opus 4.6",
-          "impact": "major",
-          "started_at": "2026-04-01T09:06:18.968Z",
-          "resolved_at": "2026-04-01T10:40:39.975Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -544,7 +544,7 @@
         "good",
         "good",
         "critical",
-        "good"
+        "minor"
       ]
     },
     {
@@ -555,6 +555,14 @@
         "all": 99.739
       },
       "incidents": [
+        {
+          "id": "w3389p5qg7kp",
+          "name": "Degraded service on usage and analytics admin API endpoints",
+          "impact": "minor",
+          "started_at": "2026-04-14T09:24:51.906Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "6jd2m42f8mld",
           "name": "Claude.ai down",
@@ -626,14 +634,6 @@
           "started_at": "2026-04-06T15:45:36.497Z",
           "resolved_at": "2026-04-06T17:16:41.222Z",
           "status": "resolved"
-        },
-        {
-          "id": "fznql3y9tpn7",
-          "name": "Elevated errors on requests to Claude Sonnet 4.6",
-          "impact": "major",
-          "started_at": "2026-04-03T18:12:45.703Z",
-          "resolved_at": "2026-04-03T19:21:08.318Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -726,7 +726,7 @@
         "good",
         "good",
         "critical",
-        "good"
+        "minor"
       ]
     },
     {
@@ -737,6 +737,14 @@
         "all": 99.981
       },
       "incidents": [
+        {
+          "id": "w3389p5qg7kp",
+          "name": "Degraded service on usage and analytics admin API endpoints",
+          "impact": "minor",
+          "started_at": "2026-04-14T09:24:51.906Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "6jd2m42f8mld",
           "name": "Claude.ai down",
@@ -876,7 +884,7 @@
         "good",
         "good",
         "critical",
-        "good"
+        "minor"
       ]
     }
   ],
@@ -973,7 +981,7 @@
     "major",
     "good",
     "critical",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
