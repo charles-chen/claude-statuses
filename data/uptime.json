@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T10:58:19.690594+00:00",
+  "generated_at": "2026-04-14T22:40:13.645068+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -14,8 +14,8 @@
           "name": "Degraded service on usage and analytics admin API endpoints",
           "impact": "minor",
           "started_at": "2026-04-14T09:24:51.906Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-14T15:21:03.965Z",
+          "status": "resolved"
         },
         {
           "id": "6jd2m42f8mld",
@@ -196,8 +196,8 @@
           "name": "Degraded service on usage and analytics admin API endpoints",
           "impact": "minor",
           "started_at": "2026-04-14T09:24:51.906Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-14T15:21:03.965Z",
+          "status": "resolved"
         },
         {
           "id": "6jd2m42f8mld",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 97.458,
-        "all": 99.506
+        "90d": 97.255,
+        "all": 99.49
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Degraded service on usage and analytics admin API endpoints",
           "impact": "minor",
           "started_at": "2026-04-14T09:24:51.906Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-14T15:21:03.965Z",
+          "status": "resolved"
         },
         {
           "id": "6jd2m42f8mld",
@@ -560,8 +560,8 @@
           "name": "Degraded service on usage and analytics admin API endpoints",
           "impact": "minor",
           "started_at": "2026-04-14T09:24:51.906Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-14T15:21:03.965Z",
+          "status": "resolved"
         },
         {
           "id": "6jd2m42f8mld",
@@ -742,8 +742,8 @@
           "name": "Degraded service on usage and analytics admin API endpoints",
           "impact": "minor",
           "started_at": "2026-04-14T09:24:51.906Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-14T15:21:03.965Z",
+          "status": "resolved"
         },
         {
           "id": "6jd2m42f8mld",
