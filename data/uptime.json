@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-15T16:57:23.695487+00:00",
+  "generated_at": "2026-04-15T18:05:44.083902+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.507,
-        "all": 99.464
+        "90d": 96.472,
+        "all": 99.461
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors on Claude.ai, API, Claude Code",
           "impact": "critical",
           "started_at": "2026-04-15T14:53:02.031Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-15T17:42:57.229Z",
+          "status": "resolved"
         },
         {
           "id": "w3389p5qg7kp",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.743,
-        "all": 99.622
+        "90d": 97.707,
+        "all": 99.619
       },
       "incidents": [
         {
@@ -196,8 +196,8 @@
           "name": "Elevated errors on Claude.ai, API, Claude Code",
           "impact": "critical",
           "started_at": "2026-04-15T14:53:02.031Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-15T17:42:57.229Z",
+          "status": "resolved"
         },
         {
           "id": "w3389p5qg7kp",
@@ -378,8 +378,8 @@
           "name": "Elevated errors on Claude.ai, API, Claude Code",
           "impact": "critical",
           "started_at": "2026-04-15T14:53:02.031Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-15T17:42:57.229Z",
+          "status": "resolved"
         },
         {
           "id": "w3389p5qg7kp",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 97.236,
-        "all": 99.732
+        "90d": 97.201,
+        "all": 99.729
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors on Claude.ai, API, Claude Code",
           "impact": "critical",
           "started_at": "2026-04-15T14:53:02.031Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-15T17:42:57.229Z",
+          "status": "resolved"
         },
         {
           "id": "w3389p5qg7kp",
@@ -889,7 +889,7 @@
     }
   ],
   "aggregate": {
-    "90d": 96.507
+    "90d": 96.472
   },
   "daily_overall": [
     "good",
