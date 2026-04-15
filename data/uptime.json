@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-04-15T13:13:27.109552+00:00",
+  "generated_at": "2026-04-15T15:02:19.037584+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.601,
+        "90d": 96.596,
         "all": 99.471
       },
       "incidents": [
+        {
+          "id": "f00h6l76tsjs",
+          "name": "Elevated errors on Claude.ai, API, Claude Code",
+          "impact": "critical",
+          "started_at": "2026-04-15T14:53:02.031Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "w3389p5qg7kp",
           "name": "Degraded service on usage and analytics admin API endpoints",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-04-06T21:26:57.106Z",
           "resolved_at": "2026-04-06T21:45:48.108Z",
-          "status": "resolved"
-        },
-        {
-          "id": "vfjv5x6qkd4j",
-          "name": "Elevated errors on Claude.ai",
-          "impact": "major",
-          "started_at": "2026-04-06T15:45:36.497Z",
-          "resolved_at": "2026-04-06T17:16:41.222Z",
           "status": "resolved"
         }
       ],
@@ -180,17 +180,25 @@
         "good",
         "critical",
         "minor",
-        "good"
+        "critical"
       ]
     },
     {
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.837,
+        "90d": 97.831,
         "all": 99.629
       },
       "incidents": [
+        {
+          "id": "f00h6l76tsjs",
+          "name": "Elevated errors on Claude.ai, API, Claude Code",
+          "impact": "critical",
+          "started_at": "2026-04-15T14:53:02.031Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "w3389p5qg7kp",
           "name": "Degraded service on usage and analytics admin API endpoints",
@@ -262,14 +270,6 @@
           "started_at": "2026-04-06T21:26:57.106Z",
           "resolved_at": "2026-04-06T21:45:48.108Z",
           "status": "resolved"
-        },
-        {
-          "id": "vfjv5x6qkd4j",
-          "name": "Elevated errors on Claude.ai",
-          "impact": "major",
-          "started_at": "2026-04-06T15:45:36.497Z",
-          "resolved_at": "2026-04-06T17:16:41.222Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,17 +362,25 @@
         "good",
         "critical",
         "minor",
-        "good"
+        "critical"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 97.255,
+        "90d": 97.25,
         "all": 99.49
       },
       "incidents": [
+        {
+          "id": "f00h6l76tsjs",
+          "name": "Elevated errors on Claude.ai, API, Claude Code",
+          "impact": "critical",
+          "started_at": "2026-04-15T14:53:02.031Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "w3389p5qg7kp",
           "name": "Degraded service on usage and analytics admin API endpoints",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-04-06T21:26:57.106Z",
           "resolved_at": "2026-04-06T21:45:48.108Z",
-          "status": "resolved"
-        },
-        {
-          "id": "fznql3y9tpn7",
-          "name": "Elevated errors on requests to Claude Sonnet 4.6",
-          "impact": "major",
-          "started_at": "2026-04-03T18:12:45.703Z",
-          "resolved_at": "2026-04-03T19:21:08.318Z",
           "status": "resolved"
         }
       ],
@@ -544,17 +544,25 @@
         "good",
         "critical",
         "minor",
-        "good"
+        "critical"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 97.33,
-        "all": 99.74
+        "90d": 97.324,
+        "all": 99.739
       },
       "incidents": [
+        {
+          "id": "f00h6l76tsjs",
+          "name": "Elevated errors on Claude.ai, API, Claude Code",
+          "impact": "critical",
+          "started_at": "2026-04-15T14:53:02.031Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "w3389p5qg7kp",
           "name": "Degraded service on usage and analytics admin API endpoints",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-04-06T21:26:57.106Z",
           "resolved_at": "2026-04-06T21:45:48.108Z",
-          "status": "resolved"
-        },
-        {
-          "id": "vfjv5x6qkd4j",
-          "name": "Elevated errors on Claude.ai",
-          "impact": "major",
-          "started_at": "2026-04-06T15:45:36.497Z",
-          "resolved_at": "2026-04-06T17:16:41.222Z",
           "status": "resolved"
         }
       ],
@@ -726,7 +726,7 @@
         "good",
         "critical",
         "minor",
-        "good"
+        "critical"
       ]
     },
     {
@@ -889,7 +889,7 @@
     }
   ],
   "aggregate": {
-    "90d": 96.601
+    "90d": 96.596
   },
   "daily_overall": [
     "good",
@@ -981,7 +981,7 @@
     "good",
     "critical",
     "minor",
-    "good"
+    "critical"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
