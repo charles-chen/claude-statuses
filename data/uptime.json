@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-16T07:24:38.716525+00:00",
+  "generated_at": "2026-04-16T09:13:25.011583+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.446,
-        "all": 99.459
+        "90d": 96.431,
+        "all": 99.458
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Opus 4.6 elevated rate of errors",
           "impact": "minor",
           "started_at": "2026-04-16T06:50:56.058Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-16T07:43:32.000Z",
+          "status": "resolved"
         },
         {
           "id": "f00h6l76tsjs",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.681,
-        "all": 99.617
+        "90d": 97.667,
+        "all": 99.616
       },
       "incidents": [
         {
@@ -196,8 +196,8 @@
           "name": "Opus 4.6 elevated rate of errors",
           "impact": "minor",
           "started_at": "2026-04-16T06:50:56.058Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-16T07:43:32.000Z",
+          "status": "resolved"
         },
         {
           "id": "f00h6l76tsjs",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 97.21,
-        "all": 99.487
+        "90d": 97.196,
+        "all": 99.486
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Opus 4.6 elevated rate of errors",
           "impact": "minor",
           "started_at": "2026-04-16T06:50:56.058Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-16T07:43:32.000Z",
+          "status": "resolved"
         },
         {
           "id": "f00h6l76tsjs",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 97.175,
-        "all": 99.727
+        "90d": 97.16,
+        "all": 99.726
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Opus 4.6 elevated rate of errors",
           "impact": "minor",
           "started_at": "2026-04-16T06:50:56.058Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-16T07:43:32.000Z",
+          "status": "resolved"
         },
         {
           "id": "f00h6l76tsjs",
@@ -889,7 +889,7 @@
     }
   ],
   "aggregate": {
-    "90d": 96.446
+    "90d": 96.431
   },
   "daily_overall": [
     "good",
