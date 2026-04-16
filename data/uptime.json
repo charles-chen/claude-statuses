@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T21:37:52.824539+00:00",
+  "generated_at": "2026-04-16T22:34:48.021637+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -187,10 +187,18 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.667,
-        "all": 99.616
+        "90d": 97.66,
+        "all": 99.615
       },
       "incidents": [
+        {
+          "id": "fkltkq8kgjkh",
+          "name": "Failures to add Credentials to Vaults",
+          "impact": "minor",
+          "started_at": "2026-04-16T22:26:00.671Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "7jbzthbc1dwr",
           "name": "Opus 4.6 elevated rate of errors",
@@ -261,14 +269,6 @@
           "impact": "major",
           "started_at": "2026-04-08T06:23:25.058Z",
           "resolved_at": "2026-04-08T09:33:39.659Z",
-          "status": "resolved"
-        },
-        {
-          "id": "124yr07585k9",
-          "name": "Elevated errors on Claude.ai",
-          "impact": "critical",
-          "started_at": "2026-04-07T14:32:10.000Z",
-          "resolved_at": "2026-04-07T15:59:16.060Z",
           "status": "resolved"
         }
       ],
