@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T22:34:48.021637+00:00",
+  "generated_at": "2026-04-16T23:35:52.952630+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -187,7 +187,7 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.66,
+        "90d": 97.656,
         "all": 99.615
       },
       "incidents": [
@@ -196,8 +196,8 @@
           "name": "Failures to add Credentials to Vaults",
           "impact": "minor",
           "started_at": "2026-04-16T22:26:00.671Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-04-16T22:41:12.501Z",
+          "status": "resolved"
         },
         {
           "id": "7jbzthbc1dwr",
