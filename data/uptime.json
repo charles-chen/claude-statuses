@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-17T19:55:07.586250+00:00",
+  "generated_at": "2026-04-17T20:39:21.693484+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.389,
+        "90d": 96.388,
         "all": 99.455
       },
       "incidents": [
@@ -14,8 +14,8 @@
           "name": "Errors uploading documents to Google Drive in Claude.ai",
           "impact": "minor",
           "started_at": "2026-04-17T18:59:56.515Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-17T19:56:32.077Z",
+          "status": "resolved"
         },
         {
           "id": "7jbzthbc1dwr",
@@ -196,8 +196,8 @@
           "name": "Errors uploading documents to Google Drive in Claude.ai",
           "impact": "minor",
           "started_at": "2026-04-17T18:59:56.515Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-17T19:56:32.077Z",
+          "status": "resolved"
         },
         {
           "id": "fkltkq8kgjkh",
@@ -378,8 +378,8 @@
           "name": "Errors uploading documents to Google Drive in Claude.ai",
           "impact": "minor",
           "started_at": "2026-04-17T18:59:56.515Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-17T19:56:32.077Z",
+          "status": "resolved"
         },
         {
           "id": "7jbzthbc1dwr",
@@ -560,8 +560,8 @@
           "name": "Errors uploading documents to Google Drive in Claude.ai",
           "impact": "minor",
           "started_at": "2026-04-17T18:59:56.515Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-17T19:56:32.077Z",
+          "status": "resolved"
         },
         {
           "id": "7jbzthbc1dwr",
@@ -742,8 +742,8 @@
           "name": "Errors uploading documents to Google Drive in Claude.ai",
           "impact": "minor",
           "started_at": "2026-04-17T18:59:56.515Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-17T19:56:32.077Z",
+          "status": "resolved"
         },
         {
           "id": "w3389p5qg7kp",
@@ -897,7 +897,7 @@
     }
   ],
   "aggregate": {
-    "90d": 96.389
+    "90d": 96.388
   },
   "daily_overall": [
     "good",
