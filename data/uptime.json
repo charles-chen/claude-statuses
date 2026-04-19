@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T22:29:16.149291+00:00",
+  "generated_at": "2026-04-19T23:30:47.321136+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -9,6 +9,14 @@
         "all": 99.456
       },
       "incidents": [
+        {
+          "id": "34yy5hskyw2v",
+          "name": "Elevated errors on Opus 4.6",
+          "impact": "none",
+          "started_at": "2026-04-19T22:44:32.167Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "4t4qg3vkrz6z",
           "name": "Errors uploading documents to Google Drive in Claude.ai",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-04-08T17:46:29.194Z",
           "resolved_at": "2026-04-08T17:50:17.838Z",
-          "status": "resolved"
-        },
-        {
-          "id": "lhws0phdvzz3",
-          "name": "Sonnet 4.6 elevated rate of errors",
-          "impact": "major",
-          "started_at": "2026-04-08T06:23:25.058Z",
-          "resolved_at": "2026-04-08T09:33:39.659Z",
           "status": "resolved"
         }
       ],
@@ -192,6 +192,14 @@
       },
       "incidents": [
         {
+          "id": "34yy5hskyw2v",
+          "name": "Elevated errors on Opus 4.6",
+          "impact": "none",
+          "started_at": "2026-04-19T22:44:32.167Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
+        {
           "id": "4t4qg3vkrz6z",
           "name": "Errors uploading documents to Google Drive in Claude.ai",
           "impact": "minor",
@@ -261,14 +269,6 @@
           "impact": "minor",
           "started_at": "2026-04-09T08:07:21.151Z",
           "resolved_at": "2026-04-09T08:53:20.029Z",
-          "status": "resolved"
-        },
-        {
-          "id": "5f418rpyb84x",
-          "name": "Elevated errors on Claude.ai, API, Claude Code",
-          "impact": "minor",
-          "started_at": "2026-04-08T17:46:29.194Z",
-          "resolved_at": "2026-04-08T17:50:17.838Z",
           "status": "resolved"
         }
       ],
@@ -374,6 +374,14 @@
       },
       "incidents": [
         {
+          "id": "34yy5hskyw2v",
+          "name": "Elevated errors on Opus 4.6",
+          "impact": "none",
+          "started_at": "2026-04-19T22:44:32.167Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
+        {
           "id": "4t4qg3vkrz6z",
           "name": "Errors uploading documents to Google Drive in Claude.ai",
           "impact": "minor",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-04-08T17:46:29.194Z",
           "resolved_at": "2026-04-08T17:50:17.838Z",
-          "status": "resolved"
-        },
-        {
-          "id": "lhws0phdvzz3",
-          "name": "Sonnet 4.6 elevated rate of errors",
-          "impact": "major",
-          "started_at": "2026-04-08T06:23:25.058Z",
-          "resolved_at": "2026-04-08T09:33:39.659Z",
           "status": "resolved"
         }
       ],
@@ -556,6 +556,14 @@
       },
       "incidents": [
         {
+          "id": "34yy5hskyw2v",
+          "name": "Elevated errors on Opus 4.6",
+          "impact": "none",
+          "started_at": "2026-04-19T22:44:32.167Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
+        {
           "id": "4t4qg3vkrz6z",
           "name": "Errors uploading documents to Google Drive in Claude.ai",
           "impact": "minor",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-04-08T17:46:29.194Z",
           "resolved_at": "2026-04-08T17:50:17.838Z",
-          "status": "resolved"
-        },
-        {
-          "id": "lhws0phdvzz3",
-          "name": "Sonnet 4.6 elevated rate of errors",
-          "impact": "major",
-          "started_at": "2026-04-08T06:23:25.058Z",
-          "resolved_at": "2026-04-08T09:33:39.659Z",
           "status": "resolved"
         }
       ],
