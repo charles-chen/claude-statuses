@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-04-20T05:35:16.849481+00:00",
+  "generated_at": "2026-04-20T07:58:00.164150+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.388,
-        "all": 99.456
+        "90d": 96.366,
+        "all": 99.455
       },
       "incidents": [
+        {
+          "id": "8rg3l7v56ngc",
+          "name": "Claude Sonnet 4.5 error spike",
+          "impact": "major",
+          "started_at": "2026-04-20T06:14:02.286Z",
+          "resolved_at": "2026-04-20T07:25:21.435Z",
+          "status": "resolved"
+        },
         {
           "id": "34yy5hskyw2v",
           "name": "Elevated errors on Opus 4.6",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-04-09T08:07:21.151Z",
           "resolved_at": "2026-04-09T08:53:20.029Z",
-          "status": "resolved"
-        },
-        {
-          "id": "5f418rpyb84x",
-          "name": "Elevated errors on Claude.ai, API, Claude Code",
-          "impact": "minor",
-          "started_at": "2026-04-08T17:46:29.194Z",
-          "resolved_at": "2026-04-08T17:50:17.838Z",
           "status": "resolved"
         }
       ],
@@ -180,17 +180,25 @@
         "minor",
         "good",
         "good",
-        "good"
+        "major"
       ]
     },
     {
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.656,
-        "all": 99.616
+        "90d": 97.634,
+        "all": 99.614
       },
       "incidents": [
+        {
+          "id": "8rg3l7v56ngc",
+          "name": "Claude Sonnet 4.5 error spike",
+          "impact": "major",
+          "started_at": "2026-04-20T06:14:02.286Z",
+          "resolved_at": "2026-04-20T07:25:21.435Z",
+          "status": "resolved"
+        },
         {
           "id": "34yy5hskyw2v",
           "name": "Elevated errors on Opus 4.6",
@@ -262,14 +270,6 @@
           "started_at": "2026-04-10T04:28:06.375Z",
           "resolved_at": "2026-04-10T04:38:02.124Z",
           "status": "resolved"
-        },
-        {
-          "id": "v0t3z924dbhg",
-          "name": "Sonnet 4.6 elevated rate of errors",
-          "impact": "minor",
-          "started_at": "2026-04-09T08:07:21.151Z",
-          "resolved_at": "2026-04-09T08:53:20.029Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,17 +362,25 @@
         "minor",
         "good",
         "good",
-        "good"
+        "major"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 97.196,
-        "all": 99.488
+        "90d": 97.174,
+        "all": 99.486
       },
       "incidents": [
+        {
+          "id": "8rg3l7v56ngc",
+          "name": "Claude Sonnet 4.5 error spike",
+          "impact": "major",
+          "started_at": "2026-04-20T06:14:02.286Z",
+          "resolved_at": "2026-04-20T07:25:21.435Z",
+          "status": "resolved"
+        },
         {
           "id": "34yy5hskyw2v",
           "name": "Elevated errors on Opus 4.6",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-04-09T08:07:21.151Z",
           "resolved_at": "2026-04-09T08:53:20.029Z",
-          "status": "resolved"
-        },
-        {
-          "id": "5f418rpyb84x",
-          "name": "Elevated errors on Claude.ai, API, Claude Code",
-          "impact": "minor",
-          "started_at": "2026-04-08T17:46:29.194Z",
-          "resolved_at": "2026-04-08T17:50:17.838Z",
           "status": "resolved"
         }
       ],
@@ -544,17 +544,25 @@
         "minor",
         "good",
         "good",
-        "good"
+        "major"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 97.16,
-        "all": 99.727
+        "90d": 97.138,
+        "all": 99.725
       },
       "incidents": [
+        {
+          "id": "8rg3l7v56ngc",
+          "name": "Claude Sonnet 4.5 error spike",
+          "impact": "major",
+          "started_at": "2026-04-20T06:14:02.286Z",
+          "resolved_at": "2026-04-20T07:25:21.435Z",
+          "status": "resolved"
+        },
         {
           "id": "34yy5hskyw2v",
           "name": "Elevated errors on Opus 4.6",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-04-09T08:07:21.151Z",
           "resolved_at": "2026-04-09T08:53:20.029Z",
-          "status": "resolved"
-        },
-        {
-          "id": "5f418rpyb84x",
-          "name": "Elevated errors on Claude.ai, API, Claude Code",
-          "impact": "minor",
-          "started_at": "2026-04-08T17:46:29.194Z",
-          "resolved_at": "2026-04-08T17:50:17.838Z",
           "status": "resolved"
         }
       ],
@@ -726,17 +726,25 @@
         "minor",
         "good",
         "good",
-        "good"
+        "major"
       ]
     },
     {
       "id": "0scnb50nvy53",
       "name": "Claude for Government",
       "uptime": {
-        "90d": 99.762,
-        "all": 99.981
+        "90d": 99.741,
+        "all": 99.979
       },
       "incidents": [
+        {
+          "id": "8rg3l7v56ngc",
+          "name": "Claude Sonnet 4.5 error spike",
+          "impact": "major",
+          "started_at": "2026-04-20T06:14:02.286Z",
+          "resolved_at": "2026-04-20T07:25:21.435Z",
+          "status": "resolved"
+        },
         {
           "id": "4t4qg3vkrz6z",
           "name": "Errors uploading documents to Google Drive in Claude.ai",
@@ -892,12 +900,12 @@
         "minor",
         "good",
         "good",
-        "good"
+        "major"
       ]
     }
   ],
   "aggregate": {
-    "90d": 96.388
+    "90d": 96.366
   },
   "daily_overall": [
     "good",
@@ -989,7 +997,7 @@
     "minor",
     "good",
     "good",
-    "good"
+    "major"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
