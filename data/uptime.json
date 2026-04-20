@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T23:30:47.321136+00:00",
+  "generated_at": "2026-04-20T02:08:03.055423+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -14,8 +14,8 @@
           "name": "Elevated errors on Opus 4.6",
           "impact": "none",
           "started_at": "2026-04-19T22:44:32.167Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-20T00:00:15.207Z",
+          "status": "resolved"
         },
         {
           "id": "4t4qg3vkrz6z",
@@ -98,7 +98,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -179,6 +178,7 @@
         "critical",
         "minor",
         "minor",
+        "good",
         "good",
         "good"
       ]
@@ -196,8 +196,8 @@
           "name": "Elevated errors on Opus 4.6",
           "impact": "none",
           "started_at": "2026-04-19T22:44:32.167Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-20T00:00:15.207Z",
+          "status": "resolved"
         },
         {
           "id": "4t4qg3vkrz6z",
@@ -280,7 +280,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -361,6 +360,7 @@
         "critical",
         "minor",
         "minor",
+        "good",
         "good",
         "good"
       ]
@@ -378,8 +378,8 @@
           "name": "Elevated errors on Opus 4.6",
           "impact": "none",
           "started_at": "2026-04-19T22:44:32.167Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-20T00:00:15.207Z",
+          "status": "resolved"
         },
         {
           "id": "4t4qg3vkrz6z",
@@ -462,7 +462,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -543,6 +542,7 @@
         "critical",
         "minor",
         "minor",
+        "good",
         "good",
         "good"
       ]
@@ -560,8 +560,8 @@
           "name": "Elevated errors on Opus 4.6",
           "impact": "none",
           "started_at": "2026-04-19T22:44:32.167Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-20T00:00:15.207Z",
+          "status": "resolved"
         },
         {
           "id": "4t4qg3vkrz6z",
@@ -644,7 +644,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -725,6 +724,7 @@
         "critical",
         "minor",
         "minor",
+        "good",
         "good",
         "good"
       ]
@@ -840,7 +840,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -892,6 +891,7 @@
         "good",
         "minor",
         "good",
+        "good",
         "good"
       ]
     }
@@ -907,7 +907,6 @@
     "good",
     "good",
     "good",
-    "good",
     "minor",
     "minor",
     "good",
@@ -988,6 +987,7 @@
     "critical",
     "major",
     "minor",
+    "good",
     "good",
     "good"
   ],
