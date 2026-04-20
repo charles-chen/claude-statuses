@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-04-20T13:19:01.551854+00:00",
+  "generated_at": "2026-04-20T15:13:51.796288+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.366,
-        "all": 99.455
+        "90d": 96.328,
+        "all": 99.452
       },
       "incidents": [
+        {
+          "id": "8482mmb5n1n1",
+          "name": "Elevated errors for uploading files",
+          "impact": "minor",
+          "started_at": "2026-04-20T13:31:05.004Z",
+          "resolved_at": "2026-04-20T14:21:06.074Z",
+          "status": "resolved"
+        },
         {
           "id": "8rg3l7v56ngc",
           "name": "Claude Sonnet 4.5 error spike",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-04-09T16:54:18.794Z",
           "resolved_at": "2026-04-09T17:34:00.052Z",
-          "status": "resolved"
-        },
-        {
-          "id": "v0t3z924dbhg",
-          "name": "Sonnet 4.6 elevated rate of errors",
-          "impact": "minor",
-          "started_at": "2026-04-09T08:07:21.151Z",
-          "resolved_at": "2026-04-09T08:53:20.029Z",
           "status": "resolved"
         }
       ],
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 97.174,
-        "all": 99.486
+        "90d": 97.135,
+        "all": 99.483
       },
       "incidents": [
+        {
+          "id": "8482mmb5n1n1",
+          "name": "Elevated errors for uploading files",
+          "impact": "minor",
+          "started_at": "2026-04-20T13:31:05.004Z",
+          "resolved_at": "2026-04-20T14:21:06.074Z",
+          "status": "resolved"
+        },
         {
           "id": "8rg3l7v56ngc",
           "name": "Claude Sonnet 4.5 error spike",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-04-09T16:54:18.794Z",
           "resolved_at": "2026-04-09T17:34:00.052Z",
-          "status": "resolved"
-        },
-        {
-          "id": "v0t3z924dbhg",
-          "name": "Sonnet 4.6 elevated rate of errors",
-          "impact": "minor",
-          "started_at": "2026-04-09T08:07:21.151Z",
-          "resolved_at": "2026-04-09T08:53:20.029Z",
           "status": "resolved"
         }
       ],
@@ -905,7 +905,7 @@
     }
   ],
   "aggregate": {
-    "90d": 96.366
+    "90d": 96.328
   },
   "daily_overall": [
     "good",
