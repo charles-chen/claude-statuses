@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T02:06:17.232660+00:00",
+  "generated_at": "2026-04-23T05:25:16.621447+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -14,8 +14,8 @@
           "name": "MCP apps unavailable on Claude.ai",
           "impact": "minor",
           "started_at": "2026-04-23T00:41:43.260Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-23T02:09:00.622Z",
+          "status": "resolved"
         },
         {
           "id": "8482mmb5n1n1",
@@ -196,8 +196,8 @@
           "name": "MCP apps unavailable on Claude.ai",
           "impact": "minor",
           "started_at": "2026-04-23T00:41:43.260Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-23T02:09:00.622Z",
+          "status": "resolved"
         },
         {
           "id": "8rg3l7v56ngc",
@@ -378,8 +378,8 @@
           "name": "MCP apps unavailable on Claude.ai",
           "impact": "minor",
           "started_at": "2026-04-23T00:41:43.260Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-23T02:09:00.622Z",
+          "status": "resolved"
         },
         {
           "id": "8482mmb5n1n1",
@@ -560,8 +560,8 @@
           "name": "MCP apps unavailable on Claude.ai",
           "impact": "minor",
           "started_at": "2026-04-23T00:41:43.260Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-23T02:09:00.622Z",
+          "status": "resolved"
         },
         {
           "id": "8rg3l7v56ngc",
@@ -742,8 +742,8 @@
           "name": "MCP apps unavailable on Claude.ai",
           "impact": "minor",
           "started_at": "2026-04-23T00:41:43.260Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-04-23T02:09:00.622Z",
+          "status": "resolved"
         },
         {
           "id": "8rg3l7v56ngc",
