@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-04-22T23:41:15.615091+00:00",
+  "generated_at": "2026-04-23T02:06:17.232660+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.328,
-        "all": 99.453
+        "90d": 96.315,
+        "all": 99.452
       },
       "incidents": [
+        {
+          "id": "9tyl1z4b03cs",
+          "name": "MCP apps unavailable on Claude.ai",
+          "impact": "minor",
+          "started_at": "2026-04-23T00:41:43.260Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "8482mmb5n1n1",
           "name": "Elevated errors for uploading files",
@@ -80,14 +88,6 @@
           "started_at": "2026-04-10T16:30:38.832Z",
           "resolved_at": "2026-04-10T16:51:44.183Z",
           "status": "resolved"
-        },
-        {
-          "id": "cb0h2zyzl0kd",
-          "name": "Elevated Connector Error Rates",
-          "impact": "minor",
-          "started_at": "2026-04-09T16:54:18.794Z",
-          "resolved_at": "2026-04-09T17:34:00.052Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -95,7 +95,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -180,7 +179,8 @@
         "good",
         "major",
         "good",
-        "good"
+        "good",
+        "minor"
       ]
     },
     {
@@ -191,6 +191,14 @@
         "all": 99.615
       },
       "incidents": [
+        {
+          "id": "9tyl1z4b03cs",
+          "name": "MCP apps unavailable on Claude.ai",
+          "impact": "minor",
+          "started_at": "2026-04-23T00:41:43.260Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "8rg3l7v56ngc",
           "name": "Claude Sonnet 4.5 error spike",
@@ -262,14 +270,6 @@
           "started_at": "2026-04-10T16:30:38.832Z",
           "resolved_at": "2026-04-10T16:51:44.183Z",
           "status": "resolved"
-        },
-        {
-          "id": "2z4mf00ffcwd",
-          "name": "Degraded Performance on Vaults",
-          "impact": "minor",
-          "started_at": "2026-04-10T04:28:06.375Z",
-          "resolved_at": "2026-04-10T04:38:02.124Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -277,7 +277,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -362,7 +361,8 @@
         "good",
         "major",
         "good",
-        "good"
+        "good",
+        "minor"
       ]
     },
     {
@@ -373,6 +373,14 @@
         "all": 99.484
       },
       "incidents": [
+        {
+          "id": "9tyl1z4b03cs",
+          "name": "MCP apps unavailable on Claude.ai",
+          "impact": "minor",
+          "started_at": "2026-04-23T00:41:43.260Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "8482mmb5n1n1",
           "name": "Elevated errors for uploading files",
@@ -444,14 +452,6 @@
           "started_at": "2026-04-10T16:30:38.832Z",
           "resolved_at": "2026-04-10T16:51:44.183Z",
           "status": "resolved"
-        },
-        {
-          "id": "cb0h2zyzl0kd",
-          "name": "Elevated Connector Error Rates",
-          "impact": "minor",
-          "started_at": "2026-04-09T16:54:18.794Z",
-          "resolved_at": "2026-04-09T17:34:00.052Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -459,7 +459,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -544,7 +543,8 @@
         "good",
         "major",
         "good",
-        "good"
+        "good",
+        "minor"
       ]
     },
     {
@@ -555,6 +555,14 @@
         "all": 99.726
       },
       "incidents": [
+        {
+          "id": "9tyl1z4b03cs",
+          "name": "MCP apps unavailable on Claude.ai",
+          "impact": "minor",
+          "started_at": "2026-04-23T00:41:43.260Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "8rg3l7v56ngc",
           "name": "Claude Sonnet 4.5 error spike",
@@ -626,14 +634,6 @@
           "started_at": "2026-04-09T16:54:18.794Z",
           "resolved_at": "2026-04-09T17:34:00.052Z",
           "status": "resolved"
-        },
-        {
-          "id": "v0t3z924dbhg",
-          "name": "Sonnet 4.6 elevated rate of errors",
-          "impact": "minor",
-          "started_at": "2026-04-09T08:07:21.151Z",
-          "resolved_at": "2026-04-09T08:53:20.029Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -641,7 +641,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -726,7 +725,8 @@
         "good",
         "major",
         "good",
-        "good"
+        "good",
+        "minor"
       ]
     },
     {
@@ -737,6 +737,14 @@
         "all": 99.979
       },
       "incidents": [
+        {
+          "id": "9tyl1z4b03cs",
+          "name": "MCP apps unavailable on Claude.ai",
+          "impact": "minor",
+          "started_at": "2026-04-23T00:41:43.260Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "8rg3l7v56ngc",
           "name": "Claude Sonnet 4.5 error spike",
@@ -845,7 +853,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -900,19 +907,19 @@
         "good",
         "major",
         "good",
-        "good"
+        "good",
+        "minor"
       ]
     }
   ],
   "aggregate": {
-    "90d": 96.328
+    "90d": 96.315
   },
   "daily_overall": [
     "good",
     "good",
     "good",
     "good",
-    "good",
     "minor",
     "minor",
     "good",
@@ -997,7 +1004,8 @@
     "good",
     "major",
     "good",
-    "good"
+    "good",
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
