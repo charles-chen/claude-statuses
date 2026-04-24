@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-04-24T02:06:49.833806+00:00",
+  "generated_at": "2026-04-24T05:30:00.493179+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.292,
-        "all": 99.451
+        "90d": 96.262,
+        "all": 99.448
       },
       "incidents": [
+        {
+          "id": "wlysnq540b32",
+          "name": "Elevated errors on Sonnet 4.6",
+          "impact": "critical",
+          "started_at": "2026-04-24T02:55:26.860Z",
+          "resolved_at": "2026-04-24T03:34:28.107Z",
+          "status": "resolved"
+        },
         {
           "id": "1gz3fcvd76fx",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-04-14T09:24:51.906Z",
           "resolved_at": "2026-04-14T15:21:03.965Z",
-          "status": "resolved"
-        },
-        {
-          "id": "6jd2m42f8mld",
-          "name": "Claude.ai down",
-          "impact": "critical",
-          "started_at": "2026-04-13T15:40:43.562Z",
-          "resolved_at": "2026-04-13T16:35:58.062Z",
           "status": "resolved"
         }
       ],
@@ -180,17 +180,25 @@
         "good",
         "good",
         "minor",
-        "good"
+        "critical"
       ]
     },
     {
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.634,
-        "all": 99.616
+        "90d": 97.605,
+        "all": 99.613
       },
       "incidents": [
+        {
+          "id": "wlysnq540b32",
+          "name": "Elevated errors on Sonnet 4.6",
+          "impact": "critical",
+          "started_at": "2026-04-24T02:55:26.860Z",
+          "resolved_at": "2026-04-24T03:34:28.107Z",
+          "status": "resolved"
+        },
         {
           "id": "9tyl1z4b03cs",
           "name": "MCP apps unavailable on Claude.ai",
@@ -262,14 +270,6 @@
           "started_at": "2026-04-13T15:40:43.562Z",
           "resolved_at": "2026-04-13T16:35:58.062Z",
           "status": "resolved"
-        },
-        {
-          "id": "411xbc51v608",
-          "name": "Elevated errors on requests to Claude models",
-          "impact": "minor",
-          "started_at": "2026-04-10T16:30:38.832Z",
-          "resolved_at": "2026-04-10T16:51:44.183Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,17 +362,25 @@
         "good",
         "good",
         "minor",
-        "good"
+        "critical"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 97.112,
-        "all": 99.483
+        "90d": 97.082,
+        "all": 99.481
       },
       "incidents": [
+        {
+          "id": "wlysnq540b32",
+          "name": "Elevated errors on Sonnet 4.6",
+          "impact": "critical",
+          "started_at": "2026-04-24T02:55:26.860Z",
+          "resolved_at": "2026-04-24T03:34:28.107Z",
+          "status": "resolved"
+        },
         {
           "id": "1gz3fcvd76fx",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -444,14 +452,6 @@
           "started_at": "2026-04-14T09:24:51.906Z",
           "resolved_at": "2026-04-14T15:21:03.965Z",
           "status": "resolved"
-        },
-        {
-          "id": "6jd2m42f8mld",
-          "name": "Claude.ai down",
-          "impact": "critical",
-          "started_at": "2026-04-13T15:40:43.562Z",
-          "resolved_at": "2026-04-13T16:35:58.062Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -544,17 +544,25 @@
         "good",
         "good",
         "minor",
-        "good"
+        "critical"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 97.115,
-        "all": 99.725
+        "90d": 97.085,
+        "all": 99.722
       },
       "incidents": [
+        {
+          "id": "wlysnq540b32",
+          "name": "Elevated errors on Sonnet 4.6",
+          "impact": "critical",
+          "started_at": "2026-04-24T02:55:26.860Z",
+          "resolved_at": "2026-04-24T03:34:28.107Z",
+          "status": "resolved"
+        },
         {
           "id": "1gz3fcvd76fx",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -626,14 +634,6 @@
           "started_at": "2026-04-13T15:40:43.562Z",
           "resolved_at": "2026-04-13T16:35:58.062Z",
           "status": "resolved"
-        },
-        {
-          "id": "411xbc51v608",
-          "name": "Elevated errors on requests to Claude models",
-          "impact": "minor",
-          "started_at": "2026-04-10T16:30:38.832Z",
-          "resolved_at": "2026-04-10T16:51:44.183Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -726,17 +726,25 @@
         "good",
         "good",
         "minor",
-        "good"
+        "critical"
       ]
     },
     {
       "id": "0scnb50nvy53",
       "name": "Claude for Government",
       "uptime": {
-        "90d": 99.741,
-        "all": 99.979
+        "90d": 99.711,
+        "all": 99.977
       },
       "incidents": [
+        {
+          "id": "wlysnq540b32",
+          "name": "Elevated errors on Sonnet 4.6",
+          "impact": "critical",
+          "started_at": "2026-04-24T02:55:26.860Z",
+          "resolved_at": "2026-04-24T03:34:28.107Z",
+          "status": "resolved"
+        },
         {
           "id": "9tyl1z4b03cs",
           "name": "MCP apps unavailable on Claude.ai",
@@ -808,14 +816,6 @@
           "started_at": "2026-03-16T14:02:12.441Z",
           "resolved_at": "2026-03-16T16:35:27.589Z",
           "status": "resolved"
-        },
-        {
-          "id": "0xc7ybw5wd3x",
-          "name": "Sonnet 4.6 elevated error rate",
-          "impact": "minor",
-          "started_at": "2026-02-27T19:31:59.984Z",
-          "resolved_at": "2026-02-27T19:43:42.320Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -908,12 +908,12 @@
         "good",
         "good",
         "minor",
-        "good"
+        "critical"
       ]
     }
   ],
   "aggregate": {
-    "90d": 96.292
+    "90d": 96.262
   },
   "daily_overall": [
     "good",
@@ -1005,7 +1005,7 @@
     "good",
     "good",
     "minor",
-    "good"
+    "critical"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
