@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T18:41:46.909617+00:00",
+  "generated_at": "2026-04-25T19:40:36.974578+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -9,6 +9,14 @@
         "all": 99.441
       },
       "incidents": [
+        {
+          "id": "c3km369dp85h",
+          "name": "Investigated elevated errors and slower responses on claude.ai",
+          "impact": "none",
+          "started_at": "2026-04-25T18:42:40.700Z",
+          "resolved_at": "2026-04-25T19:02:15.710Z",
+          "status": "resolved"
+        },
         {
           "id": "87m29x6sk78g",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-04-20T13:31:05.004Z",
           "resolved_at": "2026-04-20T14:21:06.074Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8rg3l7v56ngc",
-          "name": "Claude Sonnet 4.5 error spike",
-          "impact": "major",
-          "started_at": "2026-04-20T06:14:02.286Z",
-          "resolved_at": "2026-04-20T07:25:21.435Z",
           "status": "resolved"
         }
       ],
