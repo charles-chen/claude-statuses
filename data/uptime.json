@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T11:34:37.246091+00:00",
+  "generated_at": "2026-04-25T12:53:03.752217+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -14,8 +14,8 @@
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "minor",
           "started_at": "2026-04-25T08:43:51.169Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-04-25T11:58:15.877Z",
+          "status": "resolved"
         },
         {
           "id": "29ryc4sj27jk",
@@ -196,8 +196,8 @@
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "minor",
           "started_at": "2026-04-25T08:43:51.169Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-04-25T11:58:15.877Z",
+          "status": "resolved"
         },
         {
           "id": "zqsk02ryfmrd",
@@ -378,8 +378,8 @@
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "minor",
           "started_at": "2026-04-25T08:43:51.169Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-04-25T11:58:15.877Z",
+          "status": "resolved"
         },
         {
           "id": "29ryc4sj27jk",
@@ -560,8 +560,8 @@
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "minor",
           "started_at": "2026-04-25T08:43:51.169Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-04-25T11:58:15.877Z",
+          "status": "resolved"
         },
         {
           "id": "29ryc4sj27jk",
