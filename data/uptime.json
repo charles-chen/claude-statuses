@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-04-27T12:20:59.584744+00:00",
+  "generated_at": "2026-04-27T15:02:55.205971+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 96.154,
-        "all": 99.441
+        "all": 99.442
       },
       "incidents": [
+        {
+          "id": "mct55f8gxb7k",
+          "name": "Elevated billing related errors on Claude.ai",
+          "impact": "none",
+          "started_at": "2026-04-27T14:11:29.152Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "c3km369dp85h",
           "name": "Investigated elevated errors and slower responses on claude.ai",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-04-23T00:41:43.260Z",
           "resolved_at": "2026-04-23T02:09:00.622Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8482mmb5n1n1",
-          "name": "Elevated errors for uploading files",
-          "impact": "minor",
-          "started_at": "2026-04-20T13:31:05.004Z",
-          "resolved_at": "2026-04-20T14:21:06.074Z",
           "status": "resolved"
         }
       ],
