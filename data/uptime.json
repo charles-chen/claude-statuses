@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T15:02:55.205971+00:00",
+  "generated_at": "2026-04-27T17:17:12.561207+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -14,8 +14,8 @@
           "name": "Elevated billing related errors on Claude.ai",
           "impact": "none",
           "started_at": "2026-04-27T14:11:29.152Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-27T15:18:47.275Z",
+          "status": "resolved"
         },
         {
           "id": "c3km369dp85h",
@@ -552,7 +552,7 @@
       "name": "Claude Code",
       "uptime": {
         "90d": 96.977,
-        "all": 99.714
+        "all": 99.715
       },
       "incidents": [
         {
