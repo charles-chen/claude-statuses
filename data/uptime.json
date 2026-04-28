@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T23:47:40.383471+00:00",
+  "generated_at": "2026-04-28T02:28:07.017769+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -91,7 +91,6 @@
         }
       ],
       "daily": [
-        "minor",
         "good",
         "good",
         "good",
@@ -179,6 +178,7 @@
         "minor",
         "critical",
         "minor",
+        "good",
         "good",
         "good"
       ]
@@ -274,7 +274,6 @@
       ],
       "daily": [
         "minor",
-        "minor",
         "good",
         "good",
         "good",
@@ -361,6 +360,7 @@
         "minor",
         "critical",
         "minor",
+        "good",
         "good",
         "good"
       ]
@@ -455,7 +455,6 @@
         }
       ],
       "daily": [
-        "minor",
         "good",
         "good",
         "good",
@@ -543,6 +542,7 @@
         "minor",
         "critical",
         "minor",
+        "good",
         "good",
         "good"
       ]
@@ -637,7 +637,6 @@
         }
       ],
       "daily": [
-        "minor",
         "good",
         "good",
         "minor",
@@ -725,6 +724,7 @@
         "minor",
         "critical",
         "minor",
+        "good",
         "good",
         "good"
       ]
@@ -848,7 +848,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -907,6 +906,7 @@
         "minor",
         "critical",
         "minor",
+        "good",
         "good",
         "good"
       ]
@@ -917,7 +917,6 @@
   },
   "daily_overall": [
     "minor",
-    "minor",
     "good",
     "minor",
     "good",
@@ -1004,6 +1003,7 @@
     "minor",
     "critical",
     "minor",
+    "good",
     "good",
     "good"
   ],
