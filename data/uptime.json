@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-28T12:26:36.637291+00:00",
+  "generated_at": "2026-04-28T15:23:46.500953+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.152,
-        "all": 99.442
+        "90d": 96.16,
+        "all": 99.441
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors on Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-04-28T12:24:00.721Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-28T12:45:07.680Z",
+          "status": "resolved"
         },
         {
           "id": "mct55f8gxb7k",
@@ -187,7 +187,7 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.526,
+        "90d": 97.543,
         "all": 99.609
       },
       "incidents": [
@@ -369,17 +369,25 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 96.972,
-        "all": 99.474
+        "90d": 96.965,
+        "all": 99.472
       },
       "incidents": [
+        {
+          "id": "x1y91zcb2rp2",
+          "name": "Elevated errors on Claude Sonnet 4.5",
+          "impact": "minor",
+          "started_at": "2026-04-28T13:29:56.314Z",
+          "resolved_at": "2026-04-28T13:50:06.606Z",
+          "status": "resolved"
+        },
         {
           "id": "c20m4lbfd6pm",
           "name": "Elevated errors on Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-04-28T12:24:00.721Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-04-28T12:45:07.680Z",
+          "status": "resolved"
         },
         {
           "id": "87m29x6sk78g",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-04-23T00:41:43.260Z",
           "resolved_at": "2026-04-23T02:09:00.622Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8482mmb5n1n1",
-          "name": "Elevated errors for uploading files",
-          "impact": "minor",
-          "started_at": "2026-04-20T13:31:05.004Z",
-          "resolved_at": "2026-04-20T14:21:06.074Z",
           "status": "resolved"
         }
       ],
@@ -551,7 +551,7 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 96.977,
+        "90d": 96.995,
         "all": 99.715
       },
       "incidents": [
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 96.152
+    "90d": 96.16
   },
   "daily_overall": [
     "minor",
