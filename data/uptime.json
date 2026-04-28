@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-04-28T10:59:49.290611+00:00",
+  "generated_at": "2026-04-28T12:26:36.637291+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.154,
+        "90d": 96.152,
         "all": 99.442
       },
       "incidents": [
+        {
+          "id": "c20m4lbfd6pm",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-04-28T12:24:00.721Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "mct55f8gxb7k",
           "name": "Elevated billing related errors on Claude.ai",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-04-23T15:29:04.118Z",
           "resolved_at": "2026-04-23T15:59:21.781Z",
-          "status": "resolved"
-        },
-        {
-          "id": "9tyl1z4b03cs",
-          "name": "MCP apps unavailable on Claude.ai",
-          "impact": "minor",
-          "started_at": "2026-04-23T00:41:43.260Z",
-          "resolved_at": "2026-04-23T02:09:00.622Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "minor",
         "good",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 96.974,
+        "90d": 96.972,
         "all": 99.474
       },
       "incidents": [
+        {
+          "id": "c20m4lbfd6pm",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-04-28T12:24:00.721Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "87m29x6sk78g",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-04-20T13:31:05.004Z",
           "resolved_at": "2026-04-20T14:21:06.074Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8rg3l7v56ngc",
-          "name": "Claude Sonnet 4.5 error spike",
-          "impact": "major",
-          "started_at": "2026-04-20T06:14:02.286Z",
-          "resolved_at": "2026-04-20T07:25:21.435Z",
           "status": "resolved"
         }
       ],
@@ -544,7 +544,7 @@
         "minor",
         "good",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 96.154
+    "90d": 96.152
   },
   "daily_overall": [
     "minor",
@@ -1005,7 +1005,7 @@
     "minor",
     "good",
     "good",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
