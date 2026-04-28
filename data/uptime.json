@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-04-28T15:23:46.500953+00:00",
+  "generated_at": "2026-04-28T17:43:13.672650+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.16,
+        "90d": 96.159,
         "all": 99.441
       },
       "incidents": [
+        {
+          "id": "9l93x2ht4s5w",
+          "name": "Claude.ai unavailable",
+          "impact": "major",
+          "started_at": "2026-04-28T17:41:55.342Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "c20m4lbfd6pm",
           "name": "Elevated errors on Claude Haiku 4.5",
@@ -80,14 +88,6 @@
           "started_at": "2026-04-24T02:55:26.860Z",
           "resolved_at": "2026-04-24T03:34:28.107Z",
           "status": "resolved"
-        },
-        {
-          "id": "1gz3fcvd76fx",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-04-23T15:29:04.118Z",
-          "resolved_at": "2026-04-23T15:59:21.781Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -180,7 +180,7 @@
         "minor",
         "good",
         "good",
-        "minor"
+        "major"
       ]
     },
     {
@@ -191,6 +191,14 @@
         "all": 99.609
       },
       "incidents": [
+        {
+          "id": "9l93x2ht4s5w",
+          "name": "Claude.ai unavailable",
+          "impact": "major",
+          "started_at": "2026-04-28T17:41:55.342Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "87m29x6sk78g",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -262,14 +270,6 @@
           "started_at": "2026-04-17T18:59:56.515Z",
           "resolved_at": "2026-04-17T19:56:32.077Z",
           "status": "resolved"
-        },
-        {
-          "id": "fkltkq8kgjkh",
-          "name": "Failures to add Credentials to Vaults",
-          "impact": "minor",
-          "started_at": "2026-04-16T22:26:00.671Z",
-          "resolved_at": "2026-04-16T22:41:12.501Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,7 +362,7 @@
         "minor",
         "good",
         "good",
-        "good"
+        "major"
       ]
     },
     {
@@ -373,6 +373,14 @@
         "all": 99.472
       },
       "incidents": [
+        {
+          "id": "9l93x2ht4s5w",
+          "name": "Claude.ai unavailable",
+          "impact": "major",
+          "started_at": "2026-04-28T17:41:55.342Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "x1y91zcb2rp2",
           "name": "Elevated errors on Claude Sonnet 4.5",
@@ -444,14 +452,6 @@
           "started_at": "2026-04-23T15:29:04.118Z",
           "resolved_at": "2026-04-23T15:59:21.781Z",
           "status": "resolved"
-        },
-        {
-          "id": "9tyl1z4b03cs",
-          "name": "MCP apps unavailable on Claude.ai",
-          "impact": "minor",
-          "started_at": "2026-04-23T00:41:43.260Z",
-          "resolved_at": "2026-04-23T02:09:00.622Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -544,17 +544,25 @@
         "minor",
         "good",
         "good",
-        "minor"
+        "major"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 96.995,
+        "90d": 96.994,
         "all": 99.715
       },
       "incidents": [
+        {
+          "id": "9l93x2ht4s5w",
+          "name": "Claude.ai unavailable",
+          "impact": "major",
+          "started_at": "2026-04-28T17:41:55.342Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "87m29x6sk78g",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -626,14 +634,6 @@
           "started_at": "2026-04-20T06:14:02.286Z",
           "resolved_at": "2026-04-20T07:25:21.435Z",
           "status": "resolved"
-        },
-        {
-          "id": "34yy5hskyw2v",
-          "name": "Elevated errors on Opus 4.6",
-          "impact": "none",
-          "started_at": "2026-04-19T22:44:32.167Z",
-          "resolved_at": "2026-04-20T00:00:15.207Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -726,7 +726,7 @@
         "minor",
         "good",
         "good",
-        "good"
+        "major"
       ]
     },
     {
@@ -737,6 +737,14 @@
         "all": 99.977
       },
       "incidents": [
+        {
+          "id": "9l93x2ht4s5w",
+          "name": "Claude.ai unavailable",
+          "impact": "major",
+          "started_at": "2026-04-28T17:41:55.342Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "zqsk02ryfmrd",
           "name": "Claude Code v2.1.120 Crashes on Startup",
@@ -808,14 +816,6 @@
           "started_at": "2026-04-10T16:30:38.832Z",
           "resolved_at": "2026-04-10T16:51:44.183Z",
           "status": "resolved"
-        },
-        {
-          "id": "b9802k1zb5l2",
-          "name": "Elevated error rates on Opus 4.6",
-          "impact": "major",
-          "started_at": "2026-03-27T06:59:38.335Z",
-          "resolved_at": "2026-03-27T16:46:24.919Z",
-          "status": "postmortem"
         }
       ],
       "daily": [
@@ -908,12 +908,12 @@
         "minor",
         "good",
         "good",
-        "good"
+        "major"
       ]
     }
   ],
   "aggregate": {
-    "90d": 96.16
+    "90d": 96.159
   },
   "daily_overall": [
     "minor",
@@ -1005,7 +1005,7 @@
     "minor",
     "good",
     "good",
-    "minor"
+    "major"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
