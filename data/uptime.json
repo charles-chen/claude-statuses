@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T17:22:31.210933+00:00",
+  "generated_at": "2026-04-29T19:16:54.949989+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -187,7 +187,7 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.543,
+        "90d": 97.548,
         "all": 99.609
       },
       "incidents": [
