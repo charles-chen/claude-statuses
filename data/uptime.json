@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T12:13:45.099009+00:00",
+  "generated_at": "2026-04-29T15:07:37.265998+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 96.891,
-        "all": 99.467
+        "90d": 96.881,
+        "all": 99.466
       },
       "incidents": [
+        {
+          "id": "3yxsctr39y3j",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-04-29T13:47:45.179Z",
+          "resolved_at": "2026-04-29T14:14:34.340Z",
+          "status": "resolved"
+        },
         {
           "id": "lryjwwy0q9pl",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-04-24T10:05:59.985Z",
           "resolved_at": "2026-04-24T10:59:52.400Z",
-          "status": "resolved"
-        },
-        {
-          "id": "wlysnq540b32",
-          "name": "Elevated errors on Sonnet 4.6",
-          "impact": "critical",
-          "started_at": "2026-04-24T02:55:26.860Z",
-          "resolved_at": "2026-04-24T03:34:28.107Z",
           "status": "resolved"
         }
       ],
