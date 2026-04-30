@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-04-30T12:11:17.869137+00:00",
+  "generated_at": "2026-04-30T15:04:21.835216+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 96.055,
-        "all": 99.434
+        "90d": 96.015,
+        "all": 99.431
       },
       "incidents": [
+        {
+          "id": "dv9r688vqt8s",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-04-30T13:10:09.287Z",
+          "resolved_at": "2026-04-30T14:01:41.394Z",
+          "status": "resolved"
+        },
         {
           "id": "2gf1jpyty350",
           "name": "claude.ai and API unavailable",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-04-25T01:45:32.606Z",
           "resolved_at": "2026-04-25T02:35:50.465Z",
-          "status": "resolved"
-        },
-        {
-          "id": "q93x64nrhwnn",
-          "name": "Elevated error rates on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-04-25T01:35:55.654Z",
-          "resolved_at": "2026-04-25T02:34:30.182Z",
           "status": "resolved"
         }
       ],
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 96.055
+    "90d": 96.015
   },
   "daily_overall": [
     "minor",
