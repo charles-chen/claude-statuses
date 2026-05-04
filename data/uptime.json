@@ -1,14 +1,30 @@
 {
-  "generated_at": "2026-05-04T13:46:30.957625+00:00",
+  "generated_at": "2026-05-04T15:57:16.964810+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 95.959,
-        "all": 99.428
+        "90d": 95.932,
+        "all": 99.426
       },
       "incidents": [
+        {
+          "id": "89vbl7qk5dqp",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "impact": "minor",
+          "started_at": "2026-05-04T14:07:57.444Z",
+          "resolved_at": "2026-05-04T14:33:46.074Z",
+          "status": "resolved"
+        },
+        {
+          "id": "77j6yv8kc0vn",
+          "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
+          "impact": "minor",
+          "started_at": "2026-05-04T13:59:17.704Z",
+          "resolved_at": "2026-05-04T14:45:58.262Z",
+          "status": "resolved"
+        },
         {
           "id": "zxv1xv501678",
           "name": "Elevated errors on Claude Opus 4.5",
@@ -71,22 +87,6 @@
           "impact": "none",
           "started_at": "2026-04-25T18:42:40.700Z",
           "resolved_at": "2026-04-25T19:02:15.710Z",
-          "status": "resolved"
-        },
-        {
-          "id": "87m29x6sk78g",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-04-25T08:43:51.169Z",
-          "resolved_at": "2026-04-25T11:58:15.877Z",
-          "status": "resolved"
-        },
-        {
-          "id": "29ryc4sj27jk",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-04-25T07:48:30.891Z",
-          "resolved_at": "2026-04-25T08:37:30.865Z",
           "status": "resolved"
         }
       ],
@@ -187,10 +187,18 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.588,
-        "all": 99.609
+        "90d": 97.568,
+        "all": 99.607
       },
       "incidents": [
+        {
+          "id": "89vbl7qk5dqp",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "impact": "minor",
+          "started_at": "2026-05-04T14:07:57.444Z",
+          "resolved_at": "2026-05-04T14:33:46.074Z",
+          "status": "resolved"
+        },
         {
           "id": "2gf1jpyty350",
           "name": "claude.ai and API unavailable",
@@ -261,14 +269,6 @@
           "impact": "major",
           "started_at": "2026-04-20T06:14:02.286Z",
           "resolved_at": "2026-04-20T07:25:21.435Z",
-          "status": "resolved"
-        },
-        {
-          "id": "34yy5hskyw2v",
-          "name": "Elevated errors on Opus 4.6",
-          "impact": "none",
-          "started_at": "2026-04-19T22:44:32.167Z",
-          "resolved_at": "2026-04-20T00:00:15.207Z",
           "status": "resolved"
         }
       ],
@@ -362,17 +362,33 @@
         "good",
         "good",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 96.8,
-        "all": 99.462
+        "90d": 96.774,
+        "all": 99.46
       },
       "incidents": [
+        {
+          "id": "89vbl7qk5dqp",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "impact": "minor",
+          "started_at": "2026-05-04T14:07:57.444Z",
+          "resolved_at": "2026-05-04T14:33:46.074Z",
+          "status": "resolved"
+        },
+        {
+          "id": "77j6yv8kc0vn",
+          "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
+          "impact": "minor",
+          "started_at": "2026-05-04T13:59:17.704Z",
+          "resolved_at": "2026-05-04T14:45:58.262Z",
+          "status": "resolved"
+        },
         {
           "id": "zxv1xv501678",
           "name": "Elevated errors on Claude Opus 4.5",
@@ -435,22 +451,6 @@
           "impact": "minor",
           "started_at": "2026-04-25T08:43:51.169Z",
           "resolved_at": "2026-04-25T11:58:15.877Z",
-          "status": "resolved"
-        },
-        {
-          "id": "29ryc4sj27jk",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-04-25T07:48:30.891Z",
-          "resolved_at": "2026-04-25T08:37:30.865Z",
-          "status": "resolved"
-        },
-        {
-          "id": "zqsk02ryfmrd",
-          "name": "Claude Code v2.1.120 Crashes on Startup",
-          "impact": "minor",
-          "started_at": "2026-04-25T01:45:32.606Z",
-          "resolved_at": "2026-04-25T02:35:50.465Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,26 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 96.87,
-        "all": 99.704
+        "90d": 96.844,
+        "all": 99.701
       },
       "incidents": [
+        {
+          "id": "89vbl7qk5dqp",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "impact": "minor",
+          "started_at": "2026-05-04T14:07:57.444Z",
+          "resolved_at": "2026-05-04T14:33:46.074Z",
+          "status": "resolved"
+        },
+        {
+          "id": "77j6yv8kc0vn",
+          "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
+          "impact": "minor",
+          "started_at": "2026-05-04T13:59:17.704Z",
+          "resolved_at": "2026-05-04T14:45:58.262Z",
+          "status": "resolved"
+        },
         {
           "id": "zxv1xv501678",
           "name": "Elevated errors on Claude Opus 4.5",
@@ -617,22 +633,6 @@
           "impact": "minor",
           "started_at": "2026-04-25T01:35:55.654Z",
           "resolved_at": "2026-04-25T02:34:30.182Z",
-          "status": "resolved"
-        },
-        {
-          "id": "1mx31vhgl3ms",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-04-24T10:05:59.985Z",
-          "resolved_at": "2026-04-24T10:59:52.400Z",
-          "status": "resolved"
-        },
-        {
-          "id": "wlysnq540b32",
-          "name": "Elevated errors on Sonnet 4.6",
-          "impact": "critical",
-          "started_at": "2026-04-24T02:55:26.860Z",
-          "resolved_at": "2026-04-24T03:34:28.107Z",
           "status": "resolved"
         }
       ],
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 95.959
+    "90d": 95.932
   },
   "daily_overall": [
     "good",
