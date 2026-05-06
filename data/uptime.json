@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-05-06T21:06:42.111554+00:00",
+  "generated_at": "2026-05-06T22:43:39.367091+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 95.883,
+        "90d": 95.875,
         "all": 99.423
       },
       "incidents": [
+        {
+          "id": "snxm62gpxfc9",
+          "name": "Connection failures for organizations restricting GitHub access by IP address",
+          "impact": "major",
+          "started_at": "2026-05-06T22:32:53.974Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "437swp24nrf4",
           "name": "Elevated errors across multiple models",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-04-28T12:24:00.721Z",
           "resolved_at": "2026-04-28T12:45:07.680Z",
-          "status": "resolved"
-        },
-        {
-          "id": "mct55f8gxb7k",
-          "name": "Elevated billing related errors on Claude.ai",
-          "impact": "none",
-          "started_at": "2026-04-27T14:11:29.152Z",
-          "resolved_at": "2026-04-27T15:18:47.275Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 96.795,
+        "90d": 96.786,
         "all": 99.698
       },
       "incidents": [
+        {
+          "id": "snxm62gpxfc9",
+          "name": "Connection failures for organizations restricting GitHub access by IP address",
+          "impact": "major",
+          "started_at": "2026-05-06T22:32:53.974Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "437swp24nrf4",
           "name": "Elevated errors across multiple models",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-04-25T07:48:30.891Z",
           "resolved_at": "2026-04-25T08:37:30.865Z",
-          "status": "resolved"
-        },
-        {
-          "id": "zqsk02ryfmrd",
-          "name": "Claude Code v2.1.120 Crashes on Startup",
-          "impact": "minor",
-          "started_at": "2026-04-25T01:45:32.606Z",
-          "resolved_at": "2026-04-25T02:35:50.465Z",
           "status": "resolved"
         }
       ],
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 95.883
+    "90d": 95.875
   },
   "daily_overall": [
     "good",
