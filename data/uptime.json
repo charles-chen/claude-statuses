@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-07T13:53:07.126562+00:00",
+  "generated_at": "2026-05-07T16:04:07.964583+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 95.173,
-        "all": 99.368
+        "90d": 95.108,
+        "all": 99.363
       },
       "incidents": [
         {
@@ -23,7 +23,7 @@
           "impact": "major",
           "started_at": "2026-05-06T22:32:53.974Z",
           "resolved_at": null,
-          "status": "identified"
+          "status": "monitoring"
         },
         {
           "id": "437swp24nrf4",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 96.085,
-        "all": 99.643
+        "90d": 96.02,
+        "all": 99.638
       },
       "incidents": [
         {
@@ -569,7 +569,7 @@
           "impact": "major",
           "started_at": "2026-05-06T22:32:53.974Z",
           "resolved_at": null,
-          "status": "identified"
+          "status": "monitoring"
         },
         {
           "id": "437swp24nrf4",
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 95.173
+    "90d": 95.108
   },
   "daily_overall": [
     "good",
