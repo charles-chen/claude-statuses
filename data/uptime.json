@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-06T23:43:58.709112+00:00",
+  "generated_at": "2026-05-07T02:25:59.597005+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 95.828,
-        "all": 99.419
+        "90d": 95.703,
+        "all": 99.409
       },
       "incidents": [
         {
@@ -111,7 +111,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "major",
         "good",
@@ -180,6 +179,7 @@
         "good",
         "minor",
         "good",
+        "major",
         "major"
       ]
     },
@@ -293,7 +293,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -362,7 +361,8 @@
         "good",
         "minor",
         "good",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
@@ -475,7 +475,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -544,15 +543,16 @@
         "good",
         "minor",
         "good",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 96.74,
-        "all": 99.694
+        "90d": 96.615,
+        "all": 99.684
       },
       "incidents": [
         {
@@ -657,7 +657,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -726,6 +725,7 @@
         "good",
         "minor",
         "good",
+        "major",
         "major"
       ]
     },
@@ -839,7 +839,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -903,6 +902,7 @@
         "major",
         "good",
         "critical",
+        "good",
         "good",
         "good",
         "good",
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 95.828
+    "90d": 95.703
   },
   "daily_overall": [
     "good",
@@ -936,7 +936,6 @@
     "good",
     "good",
     "good",
-    "good",
     "minor",
     "major",
     "good",
@@ -1005,6 +1004,7 @@
     "good",
     "minor",
     "good",
+    "major",
     "major"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
