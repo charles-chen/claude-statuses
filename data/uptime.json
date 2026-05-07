@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T16:04:07.964583+00:00",
+  "generated_at": "2026-05-07T18:19:42.465983+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -22,8 +22,8 @@
           "name": "Connection failures for organizations restricting GitHub access by IP address",
           "impact": "major",
           "started_at": "2026-05-06T22:32:53.974Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-05-07T16:36:27.816Z",
+          "status": "resolved"
         },
         {
           "id": "437swp24nrf4",
@@ -568,8 +568,8 @@
           "name": "Connection failures for organizations restricting GitHub access by IP address",
           "impact": "major",
           "started_at": "2026-05-06T22:32:53.974Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-05-07T16:36:27.816Z",
+          "status": "resolved"
         },
         {
           "id": "437swp24nrf4",
