@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-05-07T11:05:27.255473+00:00",
+  "generated_at": "2026-05-07T13:53:07.126562+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 95.303,
-        "all": 99.378
+        "90d": 95.173,
+        "all": 99.368
       },
       "incidents": [
+        {
+          "id": "9h32bh60z06w",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "impact": "minor",
+          "started_at": "2026-05-07T12:10:17.744Z",
+          "resolved_at": "2026-05-07T12:45:50.391Z",
+          "status": "resolved"
+        },
         {
           "id": "snxm62gpxfc9",
           "name": "Connection failures for organizations restricting GitHub access by IP address",
@@ -79,14 +87,6 @@
           "impact": "major",
           "started_at": "2026-04-28T17:41:55.342Z",
           "resolved_at": "2026-04-28T19:15:52.858Z",
-          "status": "resolved"
-        },
-        {
-          "id": "c20m4lbfd6pm",
-          "name": "Elevated errors on Claude Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-04-28T12:24:00.721Z",
-          "resolved_at": "2026-04-28T12:45:07.680Z",
           "status": "resolved"
         }
       ],
@@ -187,10 +187,18 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.519,
+        "90d": 97.511,
         "all": 99.604
       },
       "incidents": [
+        {
+          "id": "9h32bh60z06w",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "impact": "minor",
+          "started_at": "2026-05-07T12:10:17.744Z",
+          "resolved_at": "2026-05-07T12:45:50.391Z",
+          "status": "resolved"
+        },
         {
           "id": "437swp24nrf4",
           "name": "Elevated errors across multiple models",
@@ -262,14 +270,6 @@
           "started_at": "2026-04-24T02:55:26.860Z",
           "resolved_at": "2026-04-24T03:34:28.107Z",
           "status": "resolved"
-        },
-        {
-          "id": "9tyl1z4b03cs",
-          "name": "MCP apps unavailable on Claude.ai",
-          "impact": "minor",
-          "started_at": "2026-04-23T00:41:43.260Z",
-          "resolved_at": "2026-04-23T02:09:00.622Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,17 +362,25 @@
         "minor",
         "good",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 96.725,
+        "90d": 96.717,
         "all": 99.457
       },
       "incidents": [
+        {
+          "id": "9h32bh60z06w",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "impact": "minor",
+          "started_at": "2026-05-07T12:10:17.744Z",
+          "resolved_at": "2026-05-07T12:45:50.391Z",
+          "status": "resolved"
+        },
         {
           "id": "437swp24nrf4",
           "name": "Elevated errors across multiple models",
@@ -444,14 +452,6 @@
           "started_at": "2026-04-28T13:29:56.314Z",
           "resolved_at": "2026-04-28T13:50:06.606Z",
           "status": "resolved"
-        },
-        {
-          "id": "c20m4lbfd6pm",
-          "name": "Elevated errors on Claude Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-04-28T12:24:00.721Z",
-          "resolved_at": "2026-04-28T12:45:07.680Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -544,17 +544,25 @@
         "minor",
         "good",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 96.214,
-        "all": 99.653
+        "90d": 96.085,
+        "all": 99.643
       },
       "incidents": [
+        {
+          "id": "9h32bh60z06w",
+          "name": "Elevated errors on Claude Opus 4.7",
+          "impact": "minor",
+          "started_at": "2026-05-07T12:10:17.744Z",
+          "resolved_at": "2026-05-07T12:45:50.391Z",
+          "status": "resolved"
+        },
         {
           "id": "snxm62gpxfc9",
           "name": "Connection failures for organizations restricting GitHub access by IP address",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-04-25T08:43:51.169Z",
           "resolved_at": "2026-04-25T11:58:15.877Z",
-          "status": "resolved"
-        },
-        {
-          "id": "29ryc4sj27jk",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-04-25T07:48:30.891Z",
-          "resolved_at": "2026-04-25T08:37:30.865Z",
           "status": "resolved"
         }
       ],
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 95.303
+    "90d": 95.173
   },
   "daily_overall": [
     "good",
