@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T22:36:47.603494+00:00",
+  "generated_at": "2026-05-09T23:41:40.183108+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 95.82,
-        "all": 99.623
+        "90d": 95.813,
+        "all": 99.622
       },
       "incidents": [
+        {
+          "id": "4b7cjct792q2",
+          "name": "Claude Code on the Web Partial Outage",
+          "impact": "minor",
+          "started_at": "2026-05-09T23:33:21.096Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "1m6xs1xcw9kk",
           "name": "Elevated errors on Claude Opus 4.1",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-05-04T14:07:57.444Z",
           "resolved_at": "2026-05-04T14:33:46.074Z",
-          "status": "resolved"
-        },
-        {
-          "id": "77j6yv8kc0vn",
-          "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
-          "impact": "minor",
-          "started_at": "2026-05-04T13:59:17.704Z",
-          "resolved_at": "2026-05-04T14:45:58.262Z",
           "status": "resolved"
         }
       ],
