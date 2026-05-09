@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-05-09T07:48:57.458965+00:00",
+  "generated_at": "2026-05-09T09:13:40.478881+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 95.016,
-        "all": 99.357
+        "90d": 94.996,
+        "all": 99.355
       },
       "incidents": [
+        {
+          "id": "1m6xs1xcw9kk",
+          "name": "Elevated errors on Claude Opus 4.1",
+          "impact": "minor",
+          "started_at": "2026-05-09T07:57:05.655Z",
+          "resolved_at": "2026-05-09T08:22:13.336Z",
+          "status": "resolved"
+        },
         {
           "id": "5p98r08qfvwl",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-05-04T13:59:17.704Z",
           "resolved_at": "2026-05-04T14:45:58.262Z",
-          "status": "resolved"
-        },
-        {
-          "id": "zxv1xv501678",
-          "name": "Elevated errors on Claude Opus 4.5",
-          "impact": "minor",
-          "started_at": "2026-05-04T08:09:37.650Z",
-          "resolved_at": "2026-05-04T09:49:29.769Z",
           "status": "resolved"
         }
       ],
@@ -180,17 +180,25 @@
         "major",
         "major",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.428,
-        "all": 99.598
+        "90d": 97.408,
+        "all": 99.596
       },
       "incidents": [
+        {
+          "id": "1m6xs1xcw9kk",
+          "name": "Elevated errors on Claude Opus 4.1",
+          "impact": "minor",
+          "started_at": "2026-05-09T07:57:05.655Z",
+          "resolved_at": "2026-05-09T08:22:13.336Z",
+          "status": "resolved"
+        },
         {
           "id": "fv8psq0wdpkn",
           "name": "Elevated errors on Claude Sonnet 4.6",
@@ -262,14 +270,6 @@
           "started_at": "2026-04-25T01:45:32.606Z",
           "resolved_at": "2026-04-25T02:35:50.465Z",
           "status": "resolved"
-        },
-        {
-          "id": "q93x64nrhwnn",
-          "name": "Elevated error rates on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-04-25T01:35:55.654Z",
-          "resolved_at": "2026-04-25T02:34:30.182Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,17 +362,25 @@
         "major",
         "minor",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 96.624,
-        "all": 99.45
+        "90d": 96.605,
+        "all": 99.449
       },
       "incidents": [
+        {
+          "id": "1m6xs1xcw9kk",
+          "name": "Elevated errors on Claude Opus 4.1",
+          "impact": "minor",
+          "started_at": "2026-05-09T07:57:05.655Z",
+          "resolved_at": "2026-05-09T08:22:13.336Z",
+          "status": "resolved"
+        },
         {
           "id": "5p98r08qfvwl",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -444,14 +452,6 @@
           "started_at": "2026-05-04T08:09:37.650Z",
           "resolved_at": "2026-05-04T09:49:29.769Z",
           "status": "resolved"
-        },
-        {
-          "id": "2gf1jpyty350",
-          "name": "claude.ai and API unavailable",
-          "impact": "critical",
-          "started_at": "2026-04-30T01:20:26.246Z",
-          "resolved_at": "2026-04-30T01:51:16.534Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -544,17 +544,25 @@
         "major",
         "minor",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 95.839,
-        "all": 99.624
+        "90d": 95.82,
+        "all": 99.623
       },
       "incidents": [
+        {
+          "id": "1m6xs1xcw9kk",
+          "name": "Elevated errors on Claude Opus 4.1",
+          "impact": "minor",
+          "started_at": "2026-05-09T07:57:05.655Z",
+          "resolved_at": "2026-05-09T08:22:13.336Z",
+          "status": "resolved"
+        },
         {
           "id": "w5cw47ytckzx",
           "name": "Claude Code IDE extension unable to load on Windows",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-05-04T13:59:17.704Z",
           "resolved_at": "2026-05-04T14:45:58.262Z",
-          "status": "resolved"
-        },
-        {
-          "id": "zxv1xv501678",
-          "name": "Elevated errors on Claude Opus 4.5",
-          "impact": "minor",
-          "started_at": "2026-05-04T08:09:37.650Z",
-          "resolved_at": "2026-05-04T09:49:29.769Z",
           "status": "resolved"
         }
       ],
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 95.016
+    "90d": 94.996
   },
   "daily_overall": [
     "good",
