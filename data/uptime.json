@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T23:52:14.593600+00:00",
+  "generated_at": "2026-05-09T02:26:15.502116+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -109,7 +109,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "major",
         "good",
@@ -180,7 +179,8 @@
         "good",
         "major",
         "major",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
@@ -291,7 +291,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -362,7 +361,8 @@
         "good",
         "major",
         "minor",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
@@ -473,7 +473,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -544,15 +543,16 @@
         "good",
         "major",
         "minor",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 95.864,
-        "all": 99.626
+        "90d": 95.839,
+        "all": 99.624
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Claude Code IDE extension unable to load on Windows",
           "impact": "major",
           "started_at": "2026-05-08T22:30:44.619Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-05-09T00:24:41.774Z",
+          "status": "resolved"
         },
         {
           "id": "5p98r08qfvwl",
@@ -655,7 +655,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -724,6 +723,7 @@
         "good",
         "minor",
         "good",
+        "major",
         "major",
         "major",
         "major"
@@ -837,7 +837,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -908,7 +907,8 @@
         "good",
         "good",
         "good",
-        "major"
+        "major",
+        "good"
       ]
     }
   ],
@@ -934,7 +934,6 @@
     "good",
     "good",
     "good",
-    "good",
     "minor",
     "major",
     "good",
@@ -1003,6 +1002,7 @@
     "good",
     "minor",
     "good",
+    "major",
     "major",
     "major",
     "major"
