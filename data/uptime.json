@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T23:41:40.183108+00:00",
+  "generated_at": "2026-05-10T02:29:16.145094+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -108,7 +108,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "major",
         "good",
@@ -180,7 +179,8 @@
         "major",
         "major",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -290,7 +290,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -362,7 +361,8 @@
         "major",
         "minor",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -472,7 +472,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -544,14 +543,15 @@
         "major",
         "minor",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 95.813,
+        "90d": 95.806,
         "all": 99.622
       },
       "incidents": [
@@ -560,8 +560,8 @@
           "name": "Claude Code on the Web Partial Outage",
           "impact": "minor",
           "started_at": "2026-05-09T23:33:21.096Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-05-09T23:51:03.174Z",
+          "status": "resolved"
         },
         {
           "id": "1m6xs1xcw9kk",
@@ -654,7 +654,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -726,7 +725,8 @@
         "major",
         "major",
         "major",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
@@ -836,7 +836,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -908,6 +907,7 @@
         "good",
         "good",
         "major",
+        "good",
         "good"
       ]
     }
@@ -933,7 +933,6 @@
     "good",
     "good",
     "good",
-    "good",
     "minor",
     "major",
     "good",
@@ -1005,7 +1004,8 @@
     "major",
     "major",
     "major",
-    "major"
+    "major",
+    "good"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
