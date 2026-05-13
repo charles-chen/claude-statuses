@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-05-13T11:59:10.090294+00:00",
+  "generated_at": "2026-05-13T14:46:53.348489+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 94.935,
-        "all": 99.353
+        "90d": 94.825,
+        "all": 99.344
       },
       "incidents": [
+        {
+          "id": "yn24rtdnf77b",
+          "name": "Claude.ai is experiencing elevated error rates",
+          "impact": "major",
+          "started_at": "2026-05-13T12:21:57.626Z",
+          "resolved_at": "2026-05-13T14:45:32.586Z",
+          "status": "resolved"
+        },
         {
           "id": "sb7byp4h7yp8",
           "name": "Claude.ai is experiencing elevated error rates",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-05-07T12:10:17.744Z",
           "resolved_at": "2026-05-07T12:45:50.391Z",
-          "status": "resolved"
-        },
-        {
-          "id": "snxm62gpxfc9",
-          "name": "Connection failures for organizations restricting GitHub access by IP address",
-          "impact": "major",
-          "started_at": "2026-05-06T22:32:53.974Z",
-          "resolved_at": "2026-05-07T16:36:27.816Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 95.745,
-        "all": 99.618
+        "90d": 95.634,
+        "all": 99.61
       },
       "incidents": [
+        {
+          "id": "yn24rtdnf77b",
+          "name": "Claude.ai is experiencing elevated error rates",
+          "impact": "major",
+          "started_at": "2026-05-13T12:21:57.626Z",
+          "resolved_at": "2026-05-13T14:45:32.586Z",
+          "status": "resolved"
+        },
         {
           "id": "sb7byp4h7yp8",
           "name": "Claude.ai is experiencing elevated error rates",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-05-08T09:49:14.035Z",
           "resolved_at": "2026-05-08T11:40:41.886Z",
-          "status": "resolved"
-        },
-        {
-          "id": "9h32bh60z06w",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-05-07T12:10:17.744Z",
-          "resolved_at": "2026-05-07T12:45:50.391Z",
           "status": "resolved"
         }
       ],
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 94.935
+    "90d": 94.825
   },
   "daily_overall": [
     "good",
