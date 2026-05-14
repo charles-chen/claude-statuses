@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-13T23:01:09.807553+00:00",
+  "generated_at": "2026-05-14T02:38:49.122597+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 94.825,
-        "all": 99.344
+        "all": 99.345
       },
       "incidents": [
         {
@@ -104,7 +104,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "major",
         "good",
@@ -180,7 +179,8 @@
         "good",
         "good",
         "major",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
@@ -286,7 +286,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -362,6 +361,7 @@
         "good",
         "good",
         "major",
+        "good",
         "good"
       ]
     },
@@ -468,7 +468,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -544,6 +543,7 @@
         "good",
         "good",
         "major",
+        "good",
         "good"
       ]
     },
@@ -650,7 +650,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -726,7 +725,8 @@
         "good",
         "good",
         "major",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
@@ -832,7 +832,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -904,6 +903,7 @@
         "good",
         "good",
         "major",
+        "good",
         "good",
         "good",
         "good",
@@ -929,7 +929,6 @@
     "good",
     "good",
     "good",
-    "good",
     "minor",
     "major",
     "good",
@@ -1005,7 +1004,8 @@
     "good",
     "good",
     "major",
-    "major"
+    "major",
+    "good"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
