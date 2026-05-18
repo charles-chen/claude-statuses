@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T23:53:52.048670+00:00",
+  "generated_at": "2026-05-18T02:46:41.980950+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -100,7 +100,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "major",
         "good",
@@ -180,6 +179,7 @@
         "minor",
         "good",
         "major",
+        "good",
         "good"
       ]
     },
@@ -282,7 +282,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -362,6 +361,7 @@
         "good",
         "good",
         "major",
+        "good",
         "good"
       ]
     },
@@ -464,7 +464,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -544,6 +543,7 @@
         "minor",
         "major",
         "major",
+        "good",
         "good"
       ]
     },
@@ -646,7 +646,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -726,6 +725,7 @@
         "minor",
         "major",
         "major",
+        "good",
         "good"
       ]
     },
@@ -828,7 +828,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -900,6 +899,7 @@
         "good",
         "good",
         "major",
+        "good",
         "good",
         "good",
         "good",
@@ -925,7 +925,6 @@
     "good",
     "good",
     "good",
-    "good",
     "minor",
     "major",
     "good",
@@ -1005,6 +1004,7 @@
     "minor",
     "major",
     "major",
+    "good",
     "good"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
