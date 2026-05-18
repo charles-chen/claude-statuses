@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-18T06:52:05.491977+00:00",
+  "generated_at": "2026-05-18T11:03:06.148197+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 94.755,
-        "all": 99.341
+        "90d": 94.727,
+        "all": 99.339
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors on Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-05-18T06:12:16.405Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-05-18T08:07:44.258Z",
+          "status": "resolved"
         },
         {
           "id": "v9s6d0jt84hj",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.329,
-        "all": 99.593
+        "90d": 97.301,
+        "all": 99.591
       },
       "incidents": [
         {
@@ -196,8 +196,8 @@
           "name": "Elevated errors on Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-05-18T06:12:16.405Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-05-18T08:07:44.258Z",
+          "status": "resolved"
         },
         {
           "id": "v9s6d0jt84hj",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 96.424,
-        "all": 99.439
+        "90d": 96.397,
+        "all": 99.437
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors on Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-05-18T06:12:16.405Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-05-18T08:07:44.258Z",
+          "status": "resolved"
         },
         {
           "id": "v9s6d0jt84hj",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 95.497,
-        "all": 99.6
+        "90d": 95.469,
+        "all": 99.598
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors on Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-05-18T06:12:16.405Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-05-18T08:07:44.258Z",
+          "status": "resolved"
         },
         {
           "id": "v9s6d0jt84hj",
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 94.755
+    "90d": 94.727
   },
   "daily_overall": [
     "good",
