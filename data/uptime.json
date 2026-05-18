@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-05-18T02:46:41.980950+00:00",
+  "generated_at": "2026-05-18T06:52:05.491977+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 94.786,
-        "all": 99.344
+        "90d": 94.755,
+        "all": 99.341
       },
       "incidents": [
+        {
+          "id": "fvddmdx8z6y7",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-05-18T06:12:16.405Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "v9s6d0jt84hj",
           "name": "Elevated error rates on requests to multiple models",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-05-08T15:03:50.649Z",
           "resolved_at": "2026-05-08T15:11:04.695Z",
-          "status": "resolved"
-        },
-        {
-          "id": "vtt35dc73941",
-          "name": "Elevated Errors on File Operations",
-          "impact": "minor",
-          "started_at": "2026-05-08T14:12:26.858Z",
-          "resolved_at": "2026-05-08T15:17:02.018Z",
           "status": "resolved"
         }
       ],
@@ -180,17 +180,25 @@
         "good",
         "major",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.36,
-        "all": 99.596
+        "90d": 97.329,
+        "all": 99.593
       },
       "incidents": [
+        {
+          "id": "fvddmdx8z6y7",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-05-18T06:12:16.405Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "v9s6d0jt84hj",
           "name": "Elevated error rates on requests to multiple models",
@@ -262,14 +270,6 @@
           "started_at": "2026-05-04T14:07:57.444Z",
           "resolved_at": "2026-05-04T14:33:46.074Z",
           "status": "resolved"
-        },
-        {
-          "id": "2gf1jpyty350",
-          "name": "claude.ai and API unavailable",
-          "impact": "critical",
-          "started_at": "2026-04-30T01:20:26.246Z",
-          "resolved_at": "2026-04-30T01:51:16.534Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,17 +362,25 @@
         "good",
         "major",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 96.455,
-        "all": 99.441
+        "90d": 96.424,
+        "all": 99.439
       },
       "incidents": [
+        {
+          "id": "fvddmdx8z6y7",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-05-18T06:12:16.405Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "v9s6d0jt84hj",
           "name": "Elevated error rates on requests to multiple models",
@@ -444,14 +452,6 @@
           "started_at": "2026-05-08T14:12:26.858Z",
           "resolved_at": "2026-05-08T15:17:02.018Z",
           "status": "resolved"
-        },
-        {
-          "id": "378dqscjgghp",
-          "name": "Elevated errors across Claude Models",
-          "impact": "major",
-          "started_at": "2026-05-08T09:49:14.035Z",
-          "resolved_at": "2026-05-08T11:40:41.886Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -544,17 +544,25 @@
         "major",
         "major",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 95.527,
-        "all": 99.603
+        "90d": 95.497,
+        "all": 99.6
       },
       "incidents": [
+        {
+          "id": "fvddmdx8z6y7",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-05-18T06:12:16.405Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "v9s6d0jt84hj",
           "name": "Elevated error rates on requests to multiple models",
@@ -626,14 +634,6 @@
           "started_at": "2026-05-09T07:57:05.655Z",
           "resolved_at": "2026-05-09T08:22:13.336Z",
           "status": "resolved"
-        },
-        {
-          "id": "w5cw47ytckzx",
-          "name": "Claude Code IDE extension unable to load on Windows",
-          "impact": "major",
-          "started_at": "2026-05-08T22:30:44.619Z",
-          "resolved_at": "2026-05-09T00:24:41.774Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -726,7 +726,7 @@
         "major",
         "major",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 94.786
+    "90d": 94.755
   },
   "daily_overall": [
     "good",
@@ -1005,7 +1005,7 @@
     "major",
     "major",
     "good",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
