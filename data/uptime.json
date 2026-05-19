@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-05-19T00:01:33.054004+00:00",
+  "generated_at": "2026-05-19T04:55:24.770934+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 94.72,
+        "90d": 94.716,
         "all": 99.339
       },
       "incidents": [
+        {
+          "id": "cgwwyh79gpm3",
+          "name": "Elevated errors on Claude.ai and Claude Code login",
+          "impact": "minor",
+          "started_at": "2026-05-19T04:46:49.477Z",
+          "resolved_at": "2026-05-19T04:51:51.164Z",
+          "status": "resolved"
+        },
         {
           "id": "6qbg6ft2r9j4",
           "name": "Elevated errors for Claude Opus 4.7",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-05-09T07:57:05.655Z",
           "resolved_at": "2026-05-09T08:22:13.336Z",
-          "status": "resolved"
-        },
-        {
-          "id": "5p98r08qfvwl",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-05-08T17:01:08.458Z",
-          "resolved_at": "2026-05-08T17:25:40.350Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "major",
         "good",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 95.462,
+        "90d": 95.458,
         "all": 99.598
       },
       "incidents": [
+        {
+          "id": "cgwwyh79gpm3",
+          "name": "Elevated errors on Claude.ai and Claude Code login",
+          "impact": "minor",
+          "started_at": "2026-05-19T04:46:49.477Z",
+          "resolved_at": "2026-05-19T04:51:51.164Z",
+          "status": "resolved"
+        },
         {
           "id": "6qbg6ft2r9j4",
           "name": "Elevated errors for Claude Opus 4.7",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-05-12T19:36:37.997Z",
           "resolved_at": "2026-05-12T20:13:05.698Z",
-          "status": "resolved"
-        },
-        {
-          "id": "4b7cjct792q2",
-          "name": "Claude Code on the Web Partial Outage",
-          "impact": "minor",
-          "started_at": "2026-05-09T23:33:21.096Z",
-          "resolved_at": "2026-05-09T23:51:03.174Z",
           "status": "resolved"
         }
       ],
@@ -726,7 +726,7 @@
         "major",
         "good",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 94.72
+    "90d": 94.716
   },
   "daily_overall": [
     "good",
@@ -1005,7 +1005,7 @@
     "major",
     "good",
     "major",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
