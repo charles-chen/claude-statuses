@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T23:07:38.054160+00:00",
+  "generated_at": "2026-05-21T02:47:14.485021+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -97,7 +97,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "major",
         "good",
@@ -180,7 +179,8 @@
         "good",
         "major",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -279,7 +279,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -362,7 +361,8 @@
         "good",
         "major",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -370,7 +370,7 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "90d": 96.13,
-        "all": 99.417
+        "all": 99.418
       },
       "incidents": [
         {
@@ -461,7 +461,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -544,7 +543,8 @@
         "good",
         "major",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -643,7 +643,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -726,7 +725,8 @@
         "good",
         "major",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -825,7 +825,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -897,6 +896,7 @@
         "good",
         "good",
         "major",
+        "good",
         "good",
         "good",
         "good",
@@ -922,7 +922,6 @@
     "good",
     "good",
     "good",
-    "good",
     "minor",
     "major",
     "good",
@@ -1005,7 +1004,8 @@
     "good",
     "major",
     "major",
-    "minor"
+    "minor",
+    "good"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
