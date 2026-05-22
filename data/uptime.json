@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-05-22T00:09:18.097863+00:00",
+  "generated_at": "2026-05-22T04:56:24.256335+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 94.441,
-        "all": 99.319
+        "90d": 94.411,
+        "all": 99.317
       },
       "incidents": [
+        {
+          "id": "p0mgnjv3bj97",
+          "name": "Elevated error rate on multiple models",
+          "impact": "major",
+          "started_at": "2026-05-22T04:16:42.159Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "zvlgr3k8lny0",
           "name": "Elevated errors on Claude.ai",
@@ -80,14 +88,6 @@
           "started_at": "2026-05-18T06:12:16.405Z",
           "resolved_at": "2026-05-18T08:07:44.258Z",
           "status": "resolved"
-        },
-        {
-          "id": "v9s6d0jt84hj",
-          "name": "Elevated error rates on requests to multiple models",
-          "impact": "major",
-          "started_at": "2026-05-16T18:08:45.580Z",
-          "resolved_at": "2026-05-16T18:24:42.281Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -180,17 +180,25 @@
         "major",
         "minor",
         "minor",
-        "good"
+        "major"
       ]
     },
     {
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.098,
-        "all": 99.577
+        "90d": 97.067,
+        "all": 99.574
       },
       "incidents": [
+        {
+          "id": "p0mgnjv3bj97",
+          "name": "Elevated error rate on multiple models",
+          "impact": "major",
+          "started_at": "2026-05-22T04:16:42.159Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "vpwz6hxsvgs3",
           "name": "Elevated errors on Claude Haiku 4.5",
@@ -262,14 +270,6 @@
           "started_at": "2026-05-12T18:47:02.891Z",
           "resolved_at": "2026-05-12T18:57:59.246Z",
           "status": "resolved"
-        },
-        {
-          "id": "1m6xs1xcw9kk",
-          "name": "Elevated errors on Claude Opus 4.1",
-          "impact": "minor",
-          "started_at": "2026-05-09T07:57:05.655Z",
-          "resolved_at": "2026-05-09T08:22:13.336Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,17 +362,25 @@
         "major",
         "minor",
         "good",
-        "good"
+        "major"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 96.13,
-        "all": 99.418
+        "90d": 96.1,
+        "all": 99.416
       },
       "incidents": [
+        {
+          "id": "p0mgnjv3bj97",
+          "name": "Elevated error rate on multiple models",
+          "impact": "major",
+          "started_at": "2026-05-22T04:16:42.159Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "4znk51f63g93",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -444,14 +452,6 @@
           "started_at": "2026-05-15T00:18:38.330Z",
           "resolved_at": "2026-05-15T01:46:46.527Z",
           "status": "resolved"
-        },
-        {
-          "id": "6f1wzlw5cjqx",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-05-14T20:33:01.118Z",
-          "resolved_at": "2026-05-14T22:25:06.764Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -544,17 +544,25 @@
         "major",
         "minor",
         "good",
-        "good"
+        "major"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 95.199,
-        "all": 99.579
+        "90d": 95.168,
+        "all": 99.576
       },
       "incidents": [
+        {
+          "id": "p0mgnjv3bj97",
+          "name": "Elevated error rate on multiple models",
+          "impact": "major",
+          "started_at": "2026-05-22T04:16:42.159Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "4znk51f63g93",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -626,14 +634,6 @@
           "started_at": "2026-05-16T18:08:45.580Z",
           "resolved_at": "2026-05-16T18:24:42.281Z",
           "status": "resolved"
-        },
-        {
-          "id": "8z7l5zcy0v3b",
-          "name": "Elevated error rates on requests to some models",
-          "impact": "major",
-          "started_at": "2026-05-15T00:18:38.330Z",
-          "resolved_at": "2026-05-15T01:46:46.527Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -726,7 +726,7 @@
         "major",
         "minor",
         "good",
-        "good"
+        "major"
       ]
     },
     {
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 94.441
+    "90d": 94.411
   },
   "daily_overall": [
     "good",
@@ -1005,7 +1005,7 @@
     "major",
     "minor",
     "minor",
-    "good"
+    "major"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
