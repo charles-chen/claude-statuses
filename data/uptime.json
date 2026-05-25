@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T08:14:38.080657+00:00",
+  "generated_at": "2026-05-25T12:23:14.632486+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -9,6 +9,14 @@
         "all": 99.306
       },
       "incidents": [
+        {
+          "id": "44pgyz54d48z",
+          "name": "Elevated error rates on Opus 4.7",
+          "impact": "none",
+          "started_at": "2026-05-25T10:32:38.897Z",
+          "resolved_at": "2026-05-25T10:39:30.243Z",
+          "status": "resolved"
+        },
         {
           "id": "r1prbh7v5gcn",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-05-19T04:46:49.477Z",
           "resolved_at": "2026-05-19T04:51:51.164Z",
-          "status": "resolved"
-        },
-        {
-          "id": "6qbg6ft2r9j4",
-          "name": "Elevated errors for Claude Opus 4.7",
-          "impact": "major",
-          "started_at": "2026-05-18T22:10:48.992Z",
-          "resolved_at": "2026-05-18T22:19:34.931Z",
           "status": "resolved"
         }
       ],
@@ -192,6 +192,14 @@
       },
       "incidents": [
         {
+          "id": "44pgyz54d48z",
+          "name": "Elevated error rates on Opus 4.7",
+          "impact": "none",
+          "started_at": "2026-05-25T10:32:38.897Z",
+          "resolved_at": "2026-05-25T10:39:30.243Z",
+          "status": "resolved"
+        },
+        {
           "id": "r1prbh7v5gcn",
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "minor",
@@ -261,14 +269,6 @@
           "impact": "major",
           "started_at": "2026-05-16T18:08:45.580Z",
           "resolved_at": "2026-05-16T18:24:42.281Z",
-          "status": "resolved"
-        },
-        {
-          "id": "c2hjyfpgsprx",
-          "name": "Elevated errors for Claude Sonnet 4.6 and Haiku 4.5",
-          "impact": "major",
-          "started_at": "2026-05-12T19:36:37.997Z",
-          "resolved_at": "2026-05-12T20:13:05.698Z",
           "status": "resolved"
         }
       ],
@@ -374,6 +374,14 @@
       },
       "incidents": [
         {
+          "id": "44pgyz54d48z",
+          "name": "Elevated error rates on Opus 4.7",
+          "impact": "none",
+          "started_at": "2026-05-25T10:32:38.897Z",
+          "resolved_at": "2026-05-25T10:39:30.243Z",
+          "status": "resolved"
+        },
+        {
           "id": "r1prbh7v5gcn",
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "minor",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-05-18T06:12:16.405Z",
           "resolved_at": "2026-05-18T08:07:44.258Z",
-          "status": "resolved"
-        },
-        {
-          "id": "v9s6d0jt84hj",
-          "name": "Elevated error rates on requests to multiple models",
-          "impact": "major",
-          "started_at": "2026-05-16T18:08:45.580Z",
-          "resolved_at": "2026-05-16T18:24:42.281Z",
           "status": "resolved"
         }
       ],
@@ -556,6 +556,14 @@
       },
       "incidents": [
         {
+          "id": "44pgyz54d48z",
+          "name": "Elevated error rates on Opus 4.7",
+          "impact": "none",
+          "started_at": "2026-05-25T10:32:38.897Z",
+          "resolved_at": "2026-05-25T10:39:30.243Z",
+          "status": "resolved"
+        },
+        {
           "id": "r1prbh7v5gcn",
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "minor",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-05-18T22:10:48.992Z",
           "resolved_at": "2026-05-18T22:19:34.931Z",
-          "status": "resolved"
-        },
-        {
-          "id": "fvddmdx8z6y7",
-          "name": "Elevated errors on Claude Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-05-18T06:12:16.405Z",
-          "resolved_at": "2026-05-18T08:07:44.258Z",
           "status": "resolved"
         }
       ],
