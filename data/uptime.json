@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T00:01:06.368313+00:00",
+  "generated_at": "2026-05-26T08:33:36.327094+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 94.996,
-        "all": 99.564
+        "90d": 94.839,
+        "all": 99.552
       },
       "incidents": [
+        {
+          "id": "fl8sx824x72r",
+          "name": "Elevated errors for Claude Code in Slack",
+          "impact": "minor",
+          "started_at": "2026-05-26T01:56:10.550Z",
+          "resolved_at": "2026-05-26T05:19:13.475Z",
+          "status": "resolved"
+        },
         {
           "id": "44pgyz54d48z",
           "name": "Elevated error rates on Opus 4.7",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-05-19T04:46:49.477Z",
           "resolved_at": "2026-05-19T04:51:51.164Z",
-          "status": "resolved"
-        },
-        {
-          "id": "6qbg6ft2r9j4",
-          "name": "Elevated errors for Claude Opus 4.7",
-          "impact": "major",
-          "started_at": "2026-05-18T22:10:48.992Z",
-          "resolved_at": "2026-05-18T22:19:34.931Z",
           "status": "resolved"
         }
       ],
@@ -726,7 +726,7 @@
         "good",
         "good",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
@@ -1005,7 +1005,7 @@
     "good",
     "good",
     "good",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
