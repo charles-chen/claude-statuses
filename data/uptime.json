@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-27T08:36:20.267081+00:00",
+  "generated_at": "2026-05-27T16:34:05.207668+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 94.199,
-        "all": 99.304
+        "90d": 94.171,
+        "all": 99.302
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "major",
           "started_at": "2026-05-27T08:04:03.958Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-05-27T09:41:14.101Z",
+          "status": "resolved"
         },
         {
           "id": "fw96fnc5bw45",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 95.888,
-        "all": 99.402
+        "90d": 95.86,
+        "all": 99.4
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "major",
           "started_at": "2026-05-27T08:04:03.958Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-05-27T09:41:14.101Z",
+          "status": "resolved"
         },
         {
           "id": "fw96fnc5bw45",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 94.799,
-        "all": 99.55
+        "90d": 94.772,
+        "all": 99.548
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "major",
           "started_at": "2026-05-27T08:04:03.958Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-05-27T09:41:14.101Z",
+          "status": "resolved"
         },
         {
           "id": "fw96fnc5bw45",
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 94.199
+    "90d": 94.171
   },
   "daily_overall": [
     "minor",
