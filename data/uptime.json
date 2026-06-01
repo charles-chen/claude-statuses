@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-06-01T17:26:24.716050+00:00",
+  "generated_at": "2026-06-01T21:25:13.568514+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 94.134,
-        "all": 99.29
+        "90d": 94.104,
+        "all": 99.287
       },
       "incidents": [
+        {
+          "id": "vxp8fdrckj7q",
+          "name": "Degraded performance for Claude Sonnet 4.6",
+          "impact": "minor",
+          "started_at": "2026-06-01T18:28:42.370Z",
+          "resolved_at": "2026-06-01T19:06:53.632Z",
+          "status": "resolved"
+        },
         {
           "id": "8p6f4r16xxmp",
           "name": "Elevated errors on Claude Sonnet 4.6",
@@ -79,14 +87,6 @@
           "impact": "major",
           "started_at": "2026-05-28T08:38:05.057Z",
           "resolved_at": "2026-05-28T09:17:07.377Z",
-          "status": "resolved"
-        },
-        {
-          "id": "rtr7z82cqmp9",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "major",
-          "started_at": "2026-05-27T08:04:03.958Z",
-          "resolved_at": "2026-05-27T09:41:14.101Z",
           "status": "resolved"
         }
       ],
@@ -187,10 +187,18 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 96.759,
-        "all": 99.554
+        "90d": 96.73,
+        "all": 99.552
       },
       "incidents": [
+        {
+          "id": "vxp8fdrckj7q",
+          "name": "Degraded performance for Claude Sonnet 4.6",
+          "impact": "minor",
+          "started_at": "2026-06-01T18:28:42.370Z",
+          "resolved_at": "2026-06-01T19:06:53.632Z",
+          "status": "resolved"
+        },
         {
           "id": "8p6f4r16xxmp",
           "name": "Elevated errors on Claude Sonnet 4.6",
@@ -261,14 +269,6 @@
           "impact": "minor",
           "started_at": "2026-05-22T10:17:30.244Z",
           "resolved_at": "2026-05-22T10:31:12.926Z",
-          "status": "resolved"
-        },
-        {
-          "id": "p0mgnjv3bj97",
-          "name": "Elevated error rate on multiple models",
-          "impact": "major",
-          "started_at": "2026-05-22T04:16:42.159Z",
-          "resolved_at": "2026-05-22T08:50:24.441Z",
           "status": "resolved"
         }
       ],
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 95.76,
-        "all": 99.393
+        "90d": 95.731,
+        "all": 99.391
       },
       "incidents": [
+        {
+          "id": "vxp8fdrckj7q",
+          "name": "Degraded performance for Claude Sonnet 4.6",
+          "impact": "minor",
+          "started_at": "2026-06-01T18:28:42.370Z",
+          "resolved_at": "2026-06-01T19:06:53.632Z",
+          "status": "resolved"
+        },
         {
           "id": "8p6f4r16xxmp",
           "name": "Elevated errors on Claude Sonnet 4.6",
@@ -443,14 +451,6 @@
           "impact": "major",
           "started_at": "2026-05-27T05:43:07.393Z",
           "resolved_at": "2026-05-27T06:40:46.853Z",
-          "status": "resolved"
-        },
-        {
-          "id": "44pgyz54d48z",
-          "name": "Elevated error rates on Opus 4.7",
-          "impact": "none",
-          "started_at": "2026-05-25T10:32:38.897Z",
-          "resolved_at": "2026-05-25T10:39:30.243Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 94.672,
-        "all": 99.54
+        "90d": 94.642,
+        "all": 99.538
       },
       "incidents": [
+        {
+          "id": "vxp8fdrckj7q",
+          "name": "Degraded performance for Claude Sonnet 4.6",
+          "impact": "minor",
+          "started_at": "2026-06-01T18:28:42.370Z",
+          "resolved_at": "2026-06-01T19:06:53.632Z",
+          "status": "resolved"
+        },
         {
           "id": "8p6f4r16xxmp",
           "name": "Elevated errors on Claude Sonnet 4.6",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-05-27T05:43:07.393Z",
           "resolved_at": "2026-05-27T06:40:46.853Z",
-          "status": "resolved"
-        },
-        {
-          "id": "fl8sx824x72r",
-          "name": "Elevated errors for Claude Code in Slack",
-          "impact": "minor",
-          "started_at": "2026-05-26T01:56:10.550Z",
-          "resolved_at": "2026-05-26T05:19:13.475Z",
           "status": "resolved"
         }
       ],
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 94.134
+    "90d": 94.104
   },
   "daily_overall": [
     "good",
