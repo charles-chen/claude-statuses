@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-02T12:12:41.835251+00:00",
+  "generated_at": "2026-06-02T17:15:34.062640+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 93.89,
-        "all": 99.271
+        "all": 99.272
       },
       "incidents": [
         {
           "id": "zkr25thltwc9",
-          "name": "Elevated errors on Opus 4.6",
+          "name": "Elevated errors on multiple models",
           "impact": "major",
           "started_at": "2026-06-02T06:04:59.234Z",
           "resolved_at": "2026-06-02T11:49:06.139Z",
@@ -193,7 +193,7 @@
       "incidents": [
         {
           "id": "zkr25thltwc9",
-          "name": "Elevated errors on Opus 4.6",
+          "name": "Elevated errors on multiple models",
           "impact": "major",
           "started_at": "2026-06-02T06:04:59.234Z",
           "resolved_at": "2026-06-02T11:49:06.139Z",
@@ -370,12 +370,12 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "90d": 95.517,
-        "all": 99.374
+        "all": 99.375
       },
       "incidents": [
         {
           "id": "zkr25thltwc9",
-          "name": "Elevated errors on Opus 4.6",
+          "name": "Elevated errors on multiple models",
           "impact": "major",
           "started_at": "2026-06-02T06:04:59.234Z",
           "resolved_at": "2026-06-02T11:49:06.139Z",
@@ -557,7 +557,7 @@
       "incidents": [
         {
           "id": "zkr25thltwc9",
-          "name": "Elevated errors on Opus 4.6",
+          "name": "Elevated errors on multiple models",
           "impact": "major",
           "started_at": "2026-06-02T06:04:59.234Z",
           "resolved_at": "2026-06-02T11:49:06.139Z",
