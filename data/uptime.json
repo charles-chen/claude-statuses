@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T00:27:43.036244+00:00",
+  "generated_at": "2026-06-03T05:59:36.812293+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 94.428,
-        "all": 99.522
+        "90d": 94.349,
+        "all": 99.516
       },
       "incidents": [
+        {
+          "id": "0w1blp7cngrr",
+          "name": "Issue affecting some Claude Code services",
+          "impact": "major",
+          "started_at": "2026-06-03T04:17:04.977Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "zkr25thltwc9",
           "name": "Elevated errors on multiple models",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-05-28T08:38:05.057Z",
           "resolved_at": "2026-05-28T09:17:07.377Z",
-          "status": "resolved"
-        },
-        {
-          "id": "rtr7z82cqmp9",
-          "name": "Elevated errors on Claude Opus 4.7",
-          "impact": "major",
-          "started_at": "2026-05-27T08:04:03.958Z",
-          "resolved_at": "2026-05-27T09:41:14.101Z",
           "status": "resolved"
         }
       ],
@@ -726,7 +726,7 @@
         "good",
         "minor",
         "major",
-        "good"
+        "major"
       ]
     },
     {
@@ -1005,7 +1005,7 @@
     "minor",
     "minor",
     "major",
-    "good"
+    "major"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
