@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T00:13:49.345462+00:00",
+  "generated_at": "2026-06-08T05:26:21.586528+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -370,7 +370,7 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "90d": 95.307,
-        "all": 99.361
+        "all": 99.362
       },
       "incidents": [
         {
