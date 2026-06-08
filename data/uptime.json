@@ -1,21 +1,29 @@
 {
-  "generated_at": "2026-06-08T17:47:54.950079+00:00",
+  "generated_at": "2026-06-08T20:07:19.793837+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 93.656,
-        "all": 99.257
+        "90d": 93.618,
+        "all": 99.255
       },
       "incidents": [
+        {
+          "id": "829kf0y1f7pn",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-06-08T19:10:50.150Z",
+          "resolved_at": "2026-06-08T19:52:06.416Z",
+          "status": "resolved"
+        },
         {
           "id": "3n1flr3mnpgl",
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "minor",
           "started_at": "2026-06-08T17:15:03.838Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-06-08T19:22:14.510Z",
+          "status": "resolved"
         },
         {
           "id": "1h2k3ryt64wl",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-06-01T18:28:42.370Z",
           "resolved_at": "2026-06-01T19:06:53.632Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8p6f4r16xxmp",
-          "name": "Elevated errors on Claude Sonnet 4.6",
-          "impact": "minor",
-          "started_at": "2026-06-01T14:40:22.935Z",
-          "resolved_at": "2026-06-01T15:41:10.741Z",
           "status": "resolved"
         }
       ],
@@ -369,17 +369,25 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 95.282,
-        "all": 99.36
+        "90d": 95.245,
+        "all": 99.357
       },
       "incidents": [
+        {
+          "id": "829kf0y1f7pn",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-06-08T19:10:50.150Z",
+          "resolved_at": "2026-06-08T19:52:06.416Z",
+          "status": "resolved"
+        },
         {
           "id": "3n1flr3mnpgl",
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "minor",
           "started_at": "2026-06-08T17:15:03.838Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-06-08T19:22:14.510Z",
+          "status": "resolved"
         },
         {
           "id": "1h2k3ryt64wl",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-06-01T18:28:42.370Z",
           "resolved_at": "2026-06-01T19:06:53.632Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8p6f4r16xxmp",
-          "name": "Elevated errors on Claude Sonnet 4.6",
-          "impact": "minor",
-          "started_at": "2026-06-01T14:40:22.935Z",
-          "resolved_at": "2026-06-01T15:41:10.741Z",
           "status": "resolved"
         }
       ],
@@ -551,17 +551,25 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 94.054,
-        "all": 99.496
+        "90d": 94.017,
+        "all": 99.493
       },
       "incidents": [
+        {
+          "id": "829kf0y1f7pn",
+          "name": "Elevated errors on Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-06-08T19:10:50.150Z",
+          "resolved_at": "2026-06-08T19:52:06.416Z",
+          "status": "resolved"
+        },
         {
           "id": "3n1flr3mnpgl",
           "name": "Elevated errors on Claude Opus 4.7",
           "impact": "minor",
           "started_at": "2026-06-08T17:15:03.838Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-06-08T19:22:14.510Z",
+          "status": "resolved"
         },
         {
           "id": "1h2k3ryt64wl",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-06-02T06:04:59.234Z",
           "resolved_at": "2026-06-02T11:49:06.139Z",
-          "status": "resolved"
-        },
-        {
-          "id": "vxp8fdrckj7q",
-          "name": "Degraded performance for Claude Sonnet 4.6",
-          "impact": "minor",
-          "started_at": "2026-06-01T18:28:42.370Z",
-          "resolved_at": "2026-06-01T19:06:53.632Z",
           "status": "resolved"
         }
       ],
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 93.656
+    "90d": 93.618
   },
   "daily_overall": [
     "good",
