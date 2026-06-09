@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-06-09T00:00:39.605972+00:00",
+  "generated_at": "2026-06-09T04:59:50.547912+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 93.583,
-        "all": 99.252
+        "90d": 93.561,
+        "all": 99.25
       },
       "incidents": [
+        {
+          "id": "cmsxwks3fzd9",
+          "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
+          "impact": "minor",
+          "started_at": "2026-06-09T03:13:08.252Z",
+          "resolved_at": "2026-06-09T03:42:08.379Z",
+          "status": "resolved"
+        },
         {
           "id": "1gjynxqv85rk",
           "name": "Elevated errors on Claude Opus 4.8",
@@ -79,14 +87,6 @@
           "impact": "major",
           "started_at": "2026-06-05T15:19:26.623Z",
           "resolved_at": "2026-06-05T18:28:04.170Z",
-          "status": "resolved"
-        },
-        {
-          "id": "thp2kyjx60qn",
-          "name": "Elevated errors on Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-06-03T07:10:01.257Z",
-          "resolved_at": "2026-06-03T07:38:04.935Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "minor",
         "minor",
         "minor",
-        "good"
+        "minor"
       ]
     },
     {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 95.222,
-        "all": 99.355
+        "90d": 95.199,
+        "all": 99.354
       },
       "incidents": [
+        {
+          "id": "cmsxwks3fzd9",
+          "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
+          "impact": "minor",
+          "started_at": "2026-06-09T03:13:08.252Z",
+          "resolved_at": "2026-06-09T03:42:08.379Z",
+          "status": "resolved"
+        },
         {
           "id": "8b7xx9g8rkhm",
           "name": "Elevated errors on Claude Opus 4.7",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-06-03T07:10:01.257Z",
           "resolved_at": "2026-06-03T07:38:04.935Z",
-          "status": "resolved"
-        },
-        {
-          "id": "zkr25thltwc9",
-          "name": "Elevated errors on multiple models",
-          "impact": "major",
-          "started_at": "2026-06-02T06:04:59.234Z",
-          "resolved_at": "2026-06-02T11:49:06.139Z",
           "status": "resolved"
         }
       ],
@@ -544,17 +544,25 @@
         "minor",
         "minor",
         "minor",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 93.982,
-        "all": 99.49
+        "90d": 93.959,
+        "all": 99.489
       },
       "incidents": [
+        {
+          "id": "cmsxwks3fzd9",
+          "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
+          "impact": "minor",
+          "started_at": "2026-06-09T03:13:08.252Z",
+          "resolved_at": "2026-06-09T03:42:08.379Z",
+          "status": "resolved"
+        },
         {
           "id": "1gjynxqv85rk",
           "name": "Elevated errors on Claude Opus 4.8",
@@ -626,14 +634,6 @@
           "started_at": "2026-06-05T15:19:26.623Z",
           "resolved_at": "2026-06-05T18:28:04.170Z",
           "status": "resolved"
-        },
-        {
-          "id": "thp2kyjx60qn",
-          "name": "Elevated errors on Opus 4.7",
-          "impact": "minor",
-          "started_at": "2026-06-03T07:10:01.257Z",
-          "resolved_at": "2026-06-03T07:38:04.935Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -726,7 +726,7 @@
         "minor",
         "minor",
         "minor",
-        "good"
+        "minor"
       ]
     },
     {
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 93.583
+    "90d": 93.561
   },
   "daily_overall": [
     "good",
@@ -1005,7 +1005,7 @@
     "minor",
     "minor",
     "minor",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
