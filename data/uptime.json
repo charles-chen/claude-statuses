@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T16:30:45.512758+00:00",
+  "generated_at": "2026-06-10T19:30:05.623848+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -14,8 +14,8 @@
           "name": "Elevated errors on Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-06-10T13:06:47.542Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-06-10T17:21:33.620Z",
+          "status": "resolved"
         },
         {
           "id": "xwrtmlm3tnxf",
@@ -378,8 +378,8 @@
           "name": "Elevated errors on Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-06-10T13:06:47.542Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-06-10T17:21:33.620Z",
+          "status": "resolved"
         },
         {
           "id": "xwrtmlm3tnxf",
@@ -560,8 +560,8 @@
           "name": "Elevated errors on Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-06-10T13:06:47.542Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-06-10T17:21:33.620Z",
+          "status": "resolved"
         },
         {
           "id": "xwrtmlm3tnxf",
