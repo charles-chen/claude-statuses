@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T22:19:06.633042+00:00",
+  "generated_at": "2026-06-10T00:06:59.015348+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -91,7 +91,6 @@
         }
       ],
       "daily": [
-        "good",
         "major",
         "good",
         "good",
@@ -180,7 +179,8 @@
         "minor",
         "minor",
         "minor",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -276,7 +276,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "major",
         "major",
@@ -362,6 +361,7 @@
         "minor",
         "minor",
         "minor",
+        "good",
         "good"
       ]
     },
@@ -370,7 +370,7 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "90d": 95.123,
-        "all": 99.348
+        "all": 99.349
       },
       "incidents": [
         {
@@ -455,7 +455,6 @@
         }
       ],
       "daily": [
-        "good",
         "major",
         "good",
         "good",
@@ -544,7 +543,8 @@
         "minor",
         "minor",
         "minor",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -637,7 +637,6 @@
         }
       ],
       "daily": [
-        "good",
         "major",
         "good",
         "good",
@@ -726,7 +725,8 @@
         "minor",
         "minor",
         "minor",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
@@ -822,7 +822,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "major",
@@ -877,6 +876,7 @@
         "good",
         "good",
         "major",
+        "good",
         "good",
         "good",
         "good",
@@ -916,7 +916,6 @@
     "90d": 93.485
   },
   "daily_overall": [
-    "good",
     "major",
     "good",
     "good",
@@ -1005,7 +1004,8 @@
     "minor",
     "minor",
     "minor",
-    "major"
+    "major",
+    "good"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
