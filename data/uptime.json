@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-10T23:21:35.072359+00:00",
+  "generated_at": "2026-06-11T03:23:16.534249+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 93.335,
-        "all": 99.234
+        "all": 99.235
       },
       "incidents": [
         {
@@ -91,7 +91,6 @@
         }
       ],
       "daily": [
-        "major",
         "good",
         "good",
         "minor",
@@ -180,7 +179,8 @@
         "minor",
         "minor",
         "minor",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -275,7 +275,6 @@
       "daily": [
         "good",
         "good",
-        "good",
         "minor",
         "major",
         "major",
@@ -361,6 +360,7 @@
         "minor",
         "minor",
         "minor",
+        "good",
         "good",
         "good"
       ]
@@ -455,7 +455,6 @@
         }
       ],
       "daily": [
-        "major",
         "good",
         "good",
         "minor",
@@ -544,7 +543,8 @@
         "minor",
         "minor",
         "minor",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -637,7 +637,6 @@
         }
       ],
       "daily": [
-        "major",
         "good",
         "good",
         "minor",
@@ -726,7 +725,8 @@
         "minor",
         "minor",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -821,7 +821,6 @@
       "daily": [
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "major",
@@ -876,6 +875,7 @@
         "good",
         "good",
         "major",
+        "good",
         "good",
         "good",
         "good",
@@ -916,7 +916,6 @@
     "90d": 93.335
   },
   "daily_overall": [
-    "major",
     "good",
     "good",
     "minor",
@@ -1005,7 +1004,8 @@
     "minor",
     "minor",
     "major",
-    "minor"
+    "minor",
+    "good"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
