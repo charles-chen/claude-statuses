@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-16T20:57:34.791904+00:00",
+  "generated_at": "2026-06-16T22:53:07.376945+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 89.857,
-        "all": 98.912
+        "90d": 89.768,
+        "all": 98.905
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors for Claude Opus 4.8",
           "impact": "major",
           "started_at": "2026-06-16T20:50:01.923Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-06-16T22:02:34.876Z",
+          "status": "resolved"
         },
         {
           "id": "8q88rrz9rjd0",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 91.147,
-        "all": 99.015
+        "90d": 91.058,
+        "all": 99.008
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors for Claude Opus 4.8",
           "impact": "major",
           "started_at": "2026-06-16T20:50:01.923Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-06-16T22:02:34.876Z",
+          "status": "resolved"
         },
         {
           "id": "xmhsglsz3h3w",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 89.942,
-        "all": 99.149
+        "90d": 89.853,
+        "all": 99.142
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors for Claude Opus 4.8",
           "impact": "major",
           "started_at": "2026-06-16T20:50:01.923Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-06-16T22:02:34.876Z",
+          "status": "resolved"
         },
         {
           "id": "8q88rrz9rjd0",
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 89.857
+    "90d": 89.768
   },
   "daily_overall": [
     "critical",
