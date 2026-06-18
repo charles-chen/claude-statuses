@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-06-18T02:58:33.924510+00:00",
+  "generated_at": "2026-06-18T08:10:39.057040+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 88.541,
-        "all": 98.808
+        "90d": 88.3,
+        "all": 98.79
       },
       "incidents": [
+        {
+          "id": "jlbvcpfwwq8z",
+          "name": "Service disruption on Claude services",
+          "impact": "major",
+          "started_at": "2026-06-18T07:41:30.325Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "s107yx224p9r",
           "name": "Elevated errors for Claude Opus 4.8",
@@ -80,14 +88,6 @@
           "started_at": "2026-06-13T02:03:03.005Z",
           "resolved_at": "2026-06-13T02:11:58.215Z",
           "status": "resolved"
-        },
-        {
-          "id": "s9w82lp9dcn9",
-          "name": "We\u2019ve suspended access to Claude Mythos 5 and Claude Fable 5",
-          "impact": "major",
-          "started_at": "2026-06-13T00:50:43.823Z",
-          "resolved_at": null,
-          "status": "monitoring"
         }
       ],
       "daily": [
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 89.83,
-        "all": 98.911
+        "90d": 89.589,
+        "all": 98.893
       },
       "incidents": [
         {
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 88.626,
-        "all": 99.045
+        "90d": 88.385,
+        "all": 99.026
       },
       "incidents": [
         {
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 88.541
+    "90d": 88.3
   },
   "daily_overall": [
     "major",
