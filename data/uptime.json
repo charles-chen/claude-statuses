@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-06-21T23:05:46.513313+00:00",
+  "generated_at": "2026-06-22T03:37:02.913031+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 84.446,
-        "all": 98.491
+        "90d": 84.237,
+        "all": 98.475
       },
       "incidents": [
+        {
+          "id": "lv35v0q9nsj2",
+          "name": "Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, and Haiku 4.5",
+          "impact": "major",
+          "started_at": "2026-06-22T00:37:06.355Z",
+          "resolved_at": "2026-06-22T02:06:43.543Z",
+          "status": "resolved"
+        },
         {
           "id": "nbp7j8k3kgw2",
           "name": "Opus 4.8 errors",
@@ -80,18 +88,9 @@
           "started_at": "2026-06-16T20:50:01.923Z",
           "resolved_at": "2026-06-16T22:02:34.876Z",
           "status": "resolved"
-        },
-        {
-          "id": "8q88rrz9rjd0",
-          "name": "Opus 4.8 errors",
-          "impact": "none",
-          "started_at": "2026-06-16T19:59:26.501Z",
-          "resolved_at": "2026-06-16T20:16:07.194Z",
-          "status": "resolved"
         }
       ],
       "daily": [
-        "good",
         "major",
         "major",
         "major",
@@ -172,6 +171,7 @@
         "minor",
         "major",
         "good",
+        "major",
         "major",
         "major",
         "major",
@@ -273,7 +273,6 @@
         }
       ],
       "daily": [
-        "good",
         "major",
         "major",
         "major",
@@ -362,6 +361,7 @@
         "good",
         "minor",
         "minor",
+        "good",
         "good"
       ]
     },
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 85.639,
-        "all": 98.593
+        "90d": 85.43,
+        "all": 98.577
       },
       "incidents": [
+        {
+          "id": "lv35v0q9nsj2",
+          "name": "Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, and Haiku 4.5",
+          "impact": "major",
+          "started_at": "2026-06-22T00:37:06.355Z",
+          "resolved_at": "2026-06-22T02:06:43.543Z",
+          "status": "resolved"
+        },
         {
           "id": "nbp7j8k3kgw2",
           "name": "Opus 4.8 errors",
@@ -444,18 +452,9 @@
           "started_at": "2026-06-16T17:29:52.477Z",
           "resolved_at": "2026-06-16T19:32:23.759Z",
           "status": "resolved"
-        },
-        {
-          "id": "slm0mhv6r1pf",
-          "name": "Elevated errors on Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-15T06:20:31.010Z",
-          "resolved_at": "2026-06-15T08:56:11.620Z",
-          "status": "resolved"
         }
       ],
       "daily": [
-        "good",
         "major",
         "major",
         "major",
@@ -536,6 +535,7 @@
         "minor",
         "major",
         "good",
+        "major",
         "major",
         "major",
         "major",
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 84.434,
-        "all": 98.726
+        "90d": 84.225,
+        "all": 98.711
       },
       "incidents": [
+        {
+          "id": "lv35v0q9nsj2",
+          "name": "Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, and Haiku 4.5",
+          "impact": "major",
+          "started_at": "2026-06-22T00:37:06.355Z",
+          "resolved_at": "2026-06-22T02:06:43.543Z",
+          "status": "resolved"
+        },
         {
           "id": "nbp7j8k3kgw2",
           "name": "Opus 4.8 errors",
@@ -626,18 +634,9 @@
           "started_at": "2026-06-16T19:59:26.501Z",
           "resolved_at": "2026-06-16T20:16:07.194Z",
           "status": "resolved"
-        },
-        {
-          "id": "xmhsglsz3h3w",
-          "name": "Elevated errors across many models",
-          "impact": "minor",
-          "started_at": "2026-06-16T17:29:52.477Z",
-          "resolved_at": "2026-06-16T19:32:23.759Z",
-          "status": "resolved"
         }
       ],
       "daily": [
-        "good",
         "major",
         "major",
         "major",
@@ -718,6 +717,7 @@
         "minor",
         "major",
         "good",
+        "major",
         "major",
         "major",
         "major",
@@ -821,7 +821,6 @@
       "daily": [
         "good",
         "good",
-        "good",
         "major",
         "good",
         "good",
@@ -865,6 +864,7 @@
         "good",
         "good",
         "major",
+        "good",
         "good",
         "good",
         "good",
@@ -913,10 +913,9 @@
     }
   ],
   "aggregate": {
-    "90d": 84.434
+    "90d": 84.225
   },
   "daily_overall": [
-    "good",
     "major",
     "major",
     "major",
@@ -997,6 +996,7 @@
     "minor",
     "major",
     "good",
+    "major",
     "major",
     "major",
     "major",
