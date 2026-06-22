@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-22T09:43:11.155747+00:00",
+  "generated_at": "2026-06-22T15:19:06.666026+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 83.954,
-        "all": 98.454
+        "90d": 83.695,
+        "all": 98.435
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors for Claude Opus 4.8",
           "impact": "minor",
           "started_at": "2026-06-22T08:11:50.406Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-06-22T14:44:16.735Z",
+          "status": "resolved"
         },
         {
           "id": "lv35v0q9nsj2",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 85.147,
-        "all": 98.556
+        "90d": 84.888,
+        "all": 98.537
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors for Claude Opus 4.8",
           "impact": "minor",
           "started_at": "2026-06-22T08:11:50.406Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-06-22T14:44:16.735Z",
+          "status": "resolved"
         },
         {
           "id": "lv35v0q9nsj2",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 83.942,
-        "all": 98.689
+        "90d": 83.683,
+        "all": 98.67
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors for Claude Opus 4.8",
           "impact": "minor",
           "started_at": "2026-06-22T08:11:50.406Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-06-22T14:44:16.735Z",
+          "status": "resolved"
         },
         {
           "id": "lv35v0q9nsj2",
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 83.942
+    "90d": 83.683
   },
   "daily_overall": [
     "major",
