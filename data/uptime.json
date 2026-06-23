@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-06-23T13:40:17.507680+00:00",
+  "generated_at": "2026-06-23T16:24:15.980523+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 82.826,
-        "all": 98.358
+        "90d": 82.816,
+        "all": 98.349
       },
       "incidents": [
+        {
+          "id": "jbhf20wjmzrf",
+          "name": "Elevated error rate across multiple models",
+          "impact": "critical",
+          "started_at": "2026-06-23T14:19:06.024Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "2stpj60m2fr9",
           "name": "Elevated errors for Claude Opus 4.8",
@@ -80,14 +88,6 @@
           "started_at": "2026-06-17T15:34:18.375Z",
           "resolved_at": "2026-06-17T16:28:10.294Z",
           "status": "resolved"
-        },
-        {
-          "id": "k8563n9wd0r8",
-          "name": "Elevated errors for Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-17T08:24:34.946Z",
-          "resolved_at": "2026-06-17T10:03:12.447Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -170,27 +170,35 @@
         "minor",
         "major",
         "good",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major"
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical"
       ]
     },
     {
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 96.659,
-        "all": 99.506
+        "90d": 96.639,
+        "all": 99.5
       },
       "incidents": [
+        {
+          "id": "jbhf20wjmzrf",
+          "name": "Elevated error rate across multiple models",
+          "impact": "critical",
+          "started_at": "2026-06-23T14:19:06.024Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "2stpj60m2fr9",
           "name": "Elevated errors for Claude Opus 4.8",
@@ -262,14 +270,6 @@
           "started_at": "2026-06-15T06:20:31.010Z",
           "resolved_at": "2026-06-15T08:56:11.620Z",
           "status": "resolved"
-        },
-        {
-          "id": "1gjynxqv85rk",
-          "name": "Elevated errors on Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-08T22:20:42.574Z",
-          "resolved_at": "2026-06-08T22:36:14.494Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,17 +362,25 @@
         "minor",
         "good",
         "good",
-        "minor"
+        "critical"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 84.018,
-        "all": 98.46
+        "90d": 83.954,
+        "all": 98.451
       },
       "incidents": [
+        {
+          "id": "jbhf20wjmzrf",
+          "name": "Elevated error rate across multiple models",
+          "impact": "critical",
+          "started_at": "2026-06-23T14:19:06.024Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "2stpj60m2fr9",
           "name": "Elevated errors for Claude Opus 4.8",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-06-17T08:24:34.946Z",
           "resolved_at": "2026-06-17T10:03:12.447Z",
-          "status": "resolved"
-        },
-        {
-          "id": "zw75lhl39skc",
-          "name": "Elevated errors for Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-17T05:08:19.986Z",
-          "resolved_at": "2026-06-17T06:37:45.424Z",
           "status": "resolved"
         }
       ],
@@ -534,27 +534,35 @@
         "minor",
         "major",
         "good",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major"
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 82.814,
-        "all": 98.593
+        "90d": 82.749,
+        "all": 98.584
       },
       "incidents": [
+        {
+          "id": "jbhf20wjmzrf",
+          "name": "Elevated error rate across multiple models",
+          "impact": "critical",
+          "started_at": "2026-06-23T14:19:06.024Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "2stpj60m2fr9",
           "name": "Elevated errors for Claude Opus 4.8",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-06-17T08:24:34.946Z",
           "resolved_at": "2026-06-17T10:03:12.447Z",
-          "status": "resolved"
-        },
-        {
-          "id": "zw75lhl39skc",
-          "name": "Elevated errors for Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-17T05:08:19.986Z",
-          "resolved_at": "2026-06-17T06:37:45.424Z",
           "status": "resolved"
         }
       ],
@@ -716,17 +716,17 @@
         "minor",
         "major",
         "good",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major",
-        "major"
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical",
+        "critical"
       ]
     },
     {
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 82.814
+    "90d": 82.749
   },
   "daily_overall": [
     "major",
@@ -995,17 +995,17 @@
     "minor",
     "major",
     "good",
-    "major",
-    "major",
-    "major",
-    "major",
-    "major",
-    "major",
-    "major",
-    "major",
-    "major",
-    "major",
-    "major"
+    "critical",
+    "critical",
+    "critical",
+    "critical",
+    "critical",
+    "critical",
+    "critical",
+    "critical",
+    "critical",
+    "critical",
+    "critical"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
