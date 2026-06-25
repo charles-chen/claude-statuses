@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-25T04:59:32.583386+00:00",
+  "generated_at": "2026-06-25T08:26:38.944324+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 81.619,
-        "all": 98.223
+        "90d": 81.526,
+        "all": 98.212
       },
       "incidents": [
         {
@@ -187,7 +187,7 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.058,
+        "90d": 97.126,
         "all": 99.494
       },
       "incidents": [
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 82.756,
-        "all": 98.326
+        "90d": 82.664,
+        "all": 98.314
       },
       "incidents": [
         {
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 81.552,
-        "all": 98.458
+        "90d": 81.459,
+        "all": 98.447
       },
       "incidents": [
         {
@@ -733,7 +733,7 @@
       "id": "0scnb50nvy53",
       "name": "Claude for Government",
       "uptime": {
-        "90d": 99.707,
+        "90d": 99.774,
         "all": 99.974
       },
       "incidents": [
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 81.552
+    "90d": 81.459
   },
   "daily_overall": [
     "minor",
