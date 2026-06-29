@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-29T12:26:10.999843+00:00",
+  "generated_at": "2026-06-29T16:35:34.025684+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 77.5,
-        "all": 97.871
+        "90d": 77.308,
+        "all": 97.857
       },
       "incidents": [
         {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 78.546,
-        "all": 97.973
+        "90d": 78.353,
+        "all": 97.959
       },
       "incidents": [
+        {
+          "id": "lxpx271gkx7p",
+          "name": "Elevated errors on Opus 4.5",
+          "impact": "minor",
+          "started_at": "2026-06-29T13:35:42.792Z",
+          "resolved_at": "2026-06-29T14:27:35.715Z",
+          "status": "resolved"
+        },
         {
           "id": "8b0rggdfh1hv",
           "name": "Elevated error rate on Claude Opus 4.8",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-06-19T06:07:26.665Z",
           "resolved_at": "2026-06-19T07:17:19.953Z",
-          "status": "resolved"
-        },
-        {
-          "id": "s107yx224p9r",
-          "name": "Elevated errors for Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-17T15:34:18.375Z",
-          "resolved_at": "2026-06-17T16:28:10.294Z",
           "status": "resolved"
         }
       ],
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 77.341,
-        "all": 98.105
+        "90d": 77.149,
+        "all": 98.091
       },
       "incidents": [
         {
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 77.341
+    "90d": 77.149
   },
   "daily_overall": [
     "major",
