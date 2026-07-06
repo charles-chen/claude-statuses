@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-06T21:24:09.226550+00:00",
+  "generated_at": "2026-07-06T23:01:41.291269+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 75.241,
-        "all": 97.682
+        "all": 97.683
       },
       "incidents": [
         {
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 75.043,
-        "all": 97.916
+        "90d": 74.987,
+        "all": 97.912
       },
       "incidents": [
+        {
+          "id": "d23j8s7t8rx2",
+          "name": "Claude Tag seeing elevated GitHub operation failures",
+          "impact": "minor",
+          "started_at": "2026-07-06T21:49:14.387Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "k5yvlfppnp4f",
           "name": "Elevated errors on Claude.ai",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-06-23T06:28:56.188Z",
           "resolved_at": "2026-06-23T08:45:58.019Z",
-          "status": "resolved"
-        },
-        {
-          "id": "bbcpk0t2cj4p",
-          "name": "Elevated errors across many models",
-          "impact": "minor",
-          "started_at": "2026-06-22T19:14:18.930Z",
-          "resolved_at": "2026-06-22T19:45:45.449Z",
           "status": "resolved"
         }
       ],
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 75.043
+    "90d": 74.987
   },
   "daily_overall": [
     "major",
