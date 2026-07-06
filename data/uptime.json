@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-07-06T05:05:44.291676+00:00",
+  "generated_at": "2026-07-06T10:05:32.881483+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 75.288,
-        "all": 97.688
+        "90d": 75.213,
+        "all": 97.683
       },
       "incidents": [
+        {
+          "id": "tl8x3p1msff2",
+          "name": "Elevated errors on several models",
+          "impact": "minor",
+          "started_at": "2026-07-06T07:36:23.498Z",
+          "resolved_at": "2026-07-06T09:13:37.323Z",
+          "status": "resolved"
+        },
         {
           "id": "c0052w6jxl47",
           "name": "Elevated errors across many models",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-06-22T19:14:18.930Z",
           "resolved_at": "2026-06-22T19:45:45.449Z",
-          "status": "resolved"
-        },
-        {
-          "id": "dymmnf6xk0mg",
-          "name": "Elevated errors for Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-22T08:11:50.406Z",
-          "resolved_at": "2026-06-22T14:44:16.735Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "minor",
         "minor",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 76.223,
-        "all": 97.789
+        "90d": 76.148,
+        "all": 97.784
       },
       "incidents": [
+        {
+          "id": "tl8x3p1msff2",
+          "name": "Elevated errors on several models",
+          "impact": "minor",
+          "started_at": "2026-07-06T07:36:23.498Z",
+          "resolved_at": "2026-07-06T09:13:37.323Z",
+          "status": "resolved"
+        },
         {
           "id": "c0052w6jxl47",
           "name": "Elevated errors across many models",
@@ -444,14 +452,6 @@
           "started_at": "2026-06-22T19:14:18.930Z",
           "resolved_at": "2026-06-22T19:45:45.449Z",
           "status": "resolved"
-        },
-        {
-          "id": "dymmnf6xk0mg",
-          "name": "Elevated errors for Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-22T08:11:50.406Z",
-          "resolved_at": "2026-06-22T14:44:16.735Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -544,17 +544,25 @@
         "minor",
         "minor",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 75.082,
-        "all": 97.921
+        "90d": 75.007,
+        "all": 97.916
       },
       "incidents": [
+        {
+          "id": "tl8x3p1msff2",
+          "name": "Elevated errors on several models",
+          "impact": "minor",
+          "started_at": "2026-07-06T07:36:23.498Z",
+          "resolved_at": "2026-07-06T09:13:37.323Z",
+          "status": "resolved"
+        },
         {
           "id": "c0052w6jxl47",
           "name": "Elevated errors across many models",
@@ -626,14 +634,6 @@
           "started_at": "2026-06-22T08:11:50.406Z",
           "resolved_at": "2026-06-22T14:44:16.735Z",
           "status": "resolved"
-        },
-        {
-          "id": "lv35v0q9nsj2",
-          "name": "Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, and Haiku 4.5",
-          "impact": "major",
-          "started_at": "2026-06-22T00:37:06.355Z",
-          "resolved_at": "2026-06-22T02:06:43.543Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -726,7 +726,7 @@
         "minor",
         "minor",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 75.082
+    "90d": 75.007
   },
   "daily_overall": [
     "major",
@@ -1005,7 +1005,7 @@
     "minor",
     "minor",
     "good",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
