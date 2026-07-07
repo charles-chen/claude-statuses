@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-07-07T18:57:38.766383+00:00",
+  "generated_at": "2026-07-07T20:49:26.412094+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 75.336,
-        "all": 97.682
+        "90d": 75.3,
+        "all": 97.679
       },
       "incidents": [
+        {
+          "id": "l9zyw879cyd6",
+          "name": "Elevated errors for some models",
+          "impact": "major",
+          "started_at": "2026-07-07T20:02:33.237Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "hh9hj15mxkrx",
           "name": "Elevated errors on Claude Sonnet 5",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-06-23T18:24:12.282Z",
           "resolved_at": "2026-06-23T18:32:57.379Z",
-          "status": "resolved"
-        },
-        {
-          "id": "jbhf20wjmzrf",
-          "name": "Elevated error rate across multiple models",
-          "impact": "critical",
-          "started_at": "2026-06-23T14:19:06.024Z",
-          "resolved_at": "2026-06-23T16:44:28.022Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "minor",
         "good",
         "critical",
-        "minor"
+        "major"
       ]
     },
     {
@@ -188,7 +188,7 @@
       "name": "platform.claude.com",
       "uptime": {
         "90d": 97.845,
-        "all": 99.498
+        "all": 99.499
       },
       "incidents": [
         {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 76.243,
-        "all": 97.784
+        "90d": 76.207,
+        "all": 97.782
       },
       "incidents": [
+        {
+          "id": "l9zyw879cyd6",
+          "name": "Elevated errors for some models",
+          "impact": "major",
+          "started_at": "2026-07-07T20:02:33.237Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "hh9hj15mxkrx",
           "name": "Elevated errors on Claude Sonnet 5",
@@ -444,14 +452,6 @@
           "started_at": "2026-06-23T14:19:06.024Z",
           "resolved_at": "2026-06-23T16:44:28.022Z",
           "status": "resolved"
-        },
-        {
-          "id": "2stpj60m2fr9",
-          "name": "Elevated errors for Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-23T06:28:56.188Z",
-          "resolved_at": "2026-06-23T08:45:58.019Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -544,17 +544,25 @@
         "minor",
         "good",
         "minor",
-        "minor"
+        "major"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 74.348,
-        "all": 97.856
+        "90d": 74.312,
+        "all": 97.854
       },
       "incidents": [
+        {
+          "id": "l9zyw879cyd6",
+          "name": "Elevated errors for some models",
+          "impact": "major",
+          "started_at": "2026-07-07T20:02:33.237Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "hh9hj15mxkrx",
           "name": "Elevated errors on Claude Sonnet 5",
@@ -626,14 +634,6 @@
           "started_at": "2026-06-24T13:16:17.535Z",
           "resolved_at": "2026-06-24T14:56:21.835Z",
           "status": "resolved"
-        },
-        {
-          "id": "jbhf20wjmzrf",
-          "name": "Elevated error rate across multiple models",
-          "impact": "critical",
-          "started_at": "2026-06-23T14:19:06.024Z",
-          "resolved_at": "2026-06-23T16:44:28.022Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -726,7 +726,7 @@
         "minor",
         "good",
         "critical",
-        "minor"
+        "major"
       ]
     },
     {
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 74.348
+    "90d": 74.312
   },
   "daily_overall": [
     "minor",
@@ -1005,7 +1005,7 @@
     "minor",
     "good",
     "critical",
-    "minor"
+    "major"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
