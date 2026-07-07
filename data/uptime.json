@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-07T22:07:29.561121+00:00",
+  "generated_at": "2026-07-07T23:53:16.099597+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 75.24,
-        "all": 97.675
+        "90d": 75.163,
+        "all": 97.669
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors for some models",
           "impact": "major",
           "started_at": "2026-07-07T20:02:33.237Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-07-07T23:46:13.329Z",
+          "status": "resolved"
         },
         {
           "id": "hh9hj15mxkrx",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 76.146,
-        "all": 97.778
+        "90d": 76.07,
+        "all": 97.772
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors for some models",
           "impact": "major",
           "started_at": "2026-07-07T20:02:33.237Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-07-07T23:46:13.329Z",
+          "status": "resolved"
         },
         {
           "id": "hh9hj15mxkrx",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 74.252,
-        "all": 97.849
+        "90d": 74.176,
+        "all": 97.844
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors for some models",
           "impact": "major",
           "started_at": "2026-07-07T20:02:33.237Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-07-07T23:46:13.329Z",
+          "status": "resolved"
         },
         {
           "id": "hh9hj15mxkrx",
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 74.252
+    "90d": 74.176
   },
   "daily_overall": [
     "minor",
