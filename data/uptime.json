@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-07-08T17:23:42.807996+00:00",
+  "generated_at": "2026-07-08T19:15:50.241424+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 75.211,
-        "all": 97.67
+        "90d": 75.16,
+        "all": 97.666
       },
       "incidents": [
+        {
+          "id": "dcxc66flmxbd",
+          "name": "Elevated errors on multiple models",
+          "impact": "minor",
+          "started_at": "2026-07-08T18:00:18.069Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "n3v83qmtlbqm",
           "name": "Elevated errors on Claude Sonnet 5",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-06-30T14:31:04.499Z",
           "resolved_at": "2026-06-30T15:28:26.509Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8b0rggdfh1hv",
-          "name": "Elevated error rate on Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-24T13:16:17.535Z",
-          "resolved_at": "2026-06-24T14:56:21.835Z",
           "status": "resolved"
         }
       ],
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 76.117,
-        "all": 97.773
+        "90d": 76.067,
+        "all": 97.768
       },
       "incidents": [
+        {
+          "id": "dcxc66flmxbd",
+          "name": "Elevated errors on multiple models",
+          "impact": "minor",
+          "started_at": "2026-07-08T18:00:18.069Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "n3v83qmtlbqm",
           "name": "Elevated errors on Claude Sonnet 5",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-06-29T13:35:42.792Z",
           "resolved_at": "2026-06-29T14:27:35.715Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8b0rggdfh1hv",
-          "name": "Elevated error rate on Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-24T13:16:17.535Z",
-          "resolved_at": "2026-06-24T14:56:21.835Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,26 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 74.223,
-        "all": 97.844
+        "90d": 74.173,
+        "all": 97.84
       },
       "incidents": [
+        {
+          "id": "rvb96c56gn6k",
+          "name": "Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions",
+          "impact": "minor",
+          "started_at": "2026-07-08T19:07:26.000Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
+        {
+          "id": "dcxc66flmxbd",
+          "name": "Elevated errors on multiple models",
+          "impact": "minor",
+          "started_at": "2026-07-08T18:00:18.069Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "n3v83qmtlbqm",
           "name": "Elevated errors on Claude Sonnet 5",
@@ -617,22 +633,6 @@
           "impact": "minor",
           "started_at": "2026-07-03T21:54:20.402Z",
           "resolved_at": "2026-07-03T22:06:42.392Z",
-          "status": "resolved"
-        },
-        {
-          "id": "lcccgkzvj2yx",
-          "name": "Elevated errors on Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-07-02T00:38:30.690Z",
-          "resolved_at": "2026-07-02T01:19:36.020Z",
-          "status": "resolved"
-        },
-        {
-          "id": "7ykkywg6yln4",
-          "name": "Elevated error rates on Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-30T14:31:04.499Z",
-          "resolved_at": "2026-06-30T15:28:26.509Z",
           "status": "resolved"
         }
       ],
@@ -913,7 +913,7 @@
     }
   ],
   "aggregate": {
-    "90d": 74.223
+    "90d": 74.173
   },
   "daily_overall": [
     "minor",
