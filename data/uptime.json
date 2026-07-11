@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T23:55:34.916341+00:00",
+  "generated_at": "2026-07-11T02:10:26.442907+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -91,7 +91,6 @@
         }
       ],
       "daily": [
-        "good",
         "critical",
         "minor",
         "critical",
@@ -180,7 +179,8 @@
         "major",
         "minor",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -273,7 +273,6 @@
         }
       ],
       "daily": [
-        "good",
         "critical",
         "minor",
         "critical",
@@ -362,7 +361,8 @@
         "good",
         "good",
         "good",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -370,7 +370,7 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "90d": 75.962,
-        "all": 97.763
+        "all": 97.764
       },
       "incidents": [
         {
@@ -455,7 +455,6 @@
         }
       ],
       "daily": [
-        "good",
         "critical",
         "minor",
         "critical",
@@ -544,7 +543,8 @@
         "major",
         "minor",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -637,7 +637,6 @@
         }
       ],
       "daily": [
-        "good",
         "critical",
         "minor",
         "critical",
@@ -726,7 +725,8 @@
         "major",
         "minor",
         "major",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -819,7 +819,6 @@
         }
       ],
       "daily": [
-        "good",
         "critical",
         "minor",
         "good",
@@ -899,6 +898,7 @@
         "good",
         "good",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -916,7 +916,6 @@
     "90d": 74.068
   },
   "daily_overall": [
-    "good",
     "critical",
     "minor",
     "critical",
@@ -1005,7 +1004,8 @@
     "major",
     "minor",
     "major",
-    "minor"
+    "minor",
+    "good"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
