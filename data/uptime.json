@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-07-14T20:54:03.656216+00:00",
+  "generated_at": "2026-07-14T21:52:45.859378+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 75.212,
-        "all": 97.667
+        "90d": 75.196,
+        "all": 97.666
       },
       "incidents": [
+        {
+          "id": "89rcltb8qg63",
+          "name": "Partial outage of claude.ai: container creation",
+          "impact": "major",
+          "started_at": "2026-07-14T21:31:37.000Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "pb6hndrzfhxn",
           "name": "Elevated errors on Claude Haiku 4.5",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-07-06T07:36:23.498Z",
           "resolved_at": "2026-07-06T09:13:37.323Z",
-          "status": "resolved"
-        },
-        {
-          "id": "c0052w6jxl47",
-          "name": "Elevated errors across many models",
-          "impact": "minor",
-          "started_at": "2026-07-03T23:42:20.784Z",
-          "resolved_at": "2026-07-04T00:20:18.266Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "good",
         "good",
         "minor",
-        "good"
+        "major"
       ]
     },
     {
@@ -1005,7 +1005,7 @@
     "good",
     "good",
     "minor",
-    "good"
+    "major"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
