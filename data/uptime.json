@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-14T21:52:45.859378+00:00",
+  "generated_at": "2026-07-14T22:52:24.429428+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 75.196,
-        "all": 97.666
+        "90d": 75.177,
+        "all": 97.665
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Partial outage of claude.ai: container creation",
           "impact": "major",
           "started_at": "2026-07-14T21:31:37.000Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-14T22:16:57.799Z",
+          "status": "resolved"
         },
         {
           "id": "pb6hndrzfhxn",
@@ -370,7 +370,7 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "90d": 76.241,
-        "all": 97.769
+        "all": 97.77
       },
       "incidents": [
         {
