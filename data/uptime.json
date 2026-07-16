@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-16T22:52:10.875598+00:00",
+  "generated_at": "2026-07-16T23:53:37.568716+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 74.837,
-        "all": 97.637
+        "all": 97.638
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors for multiple models",
           "impact": "major",
           "started_at": "2026-07-16T18:36:58.750Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-16T22:53:12.373Z",
+          "status": "resolved"
         },
         {
           "id": "0hzwq1ylg80g",
@@ -378,8 +378,8 @@
           "name": "Elevated errors for multiple models",
           "impact": "major",
           "started_at": "2026-07-16T18:36:58.750Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-16T22:53:12.373Z",
+          "status": "resolved"
         },
         {
           "id": "vjfp60ngq2zj",
@@ -560,8 +560,8 @@
           "name": "Elevated errors for multiple models",
           "impact": "major",
           "started_at": "2026-07-16T18:36:58.750Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-16T22:53:12.373Z",
+          "status": "resolved"
         },
         {
           "id": "vjfp60ngq2zj",
