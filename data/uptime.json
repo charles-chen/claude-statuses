@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-17T19:18:12.619283+00:00",
+  "generated_at": "2026-07-17T20:47:11.967820+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.519,
-        "all": 97.616
+        "90d": 74.5,
+        "all": 97.614
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors across Fable 5",
           "impact": "major",
           "started_at": "2026-07-17T18:32:32.619Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-17T19:43:35.467Z",
+          "status": "resolved"
         },
         {
           "id": "lj0khk5vd7v7",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 75.539,
-        "all": 97.72
+        "90d": 75.52,
+        "all": 97.719
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors across Fable 5",
           "impact": "major",
           "started_at": "2026-07-17T18:32:32.619Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-17T19:43:35.467Z",
+          "status": "resolved"
         },
         {
           "id": "lj0khk5vd7v7",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 73.495,
-        "all": 97.791
+        "90d": 73.475,
+        "all": 97.79
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors across Fable 5",
           "impact": "major",
           "started_at": "2026-07-17T18:32:32.619Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-17T19:43:35.467Z",
+          "status": "resolved"
         },
         {
           "id": "lj0khk5vd7v7",
@@ -905,7 +905,7 @@
     }
   ],
   "aggregate": {
-    "90d": 73.495
+    "90d": 73.475
   },
   "daily_overall": [
     "good",
