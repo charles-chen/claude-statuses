@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-07-17T05:35:35.951737+00:00",
+  "generated_at": "2026-07-17T07:59:38.718944+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.837,
-        "all": 97.638
+        "90d": 74.787,
+        "all": 97.635
       },
       "incidents": [
+        {
+          "id": "7gpjd8n56rlq",
+          "name": "Elevated errors on Sonnet 5 and Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-07-17T06:47:54.866Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "kqbd7wm6hnnr",
           "name": "Elevated errors for multiple models",
@@ -79,14 +87,6 @@
           "impact": "major",
           "started_at": "2026-07-09T03:28:18.197Z",
           "resolved_at": "2026-07-09T03:50:34.059Z",
-          "status": "resolved"
-        },
-        {
-          "id": "dcxc66flmxbd",
-          "name": "Elevated errors on multiple models",
-          "impact": "minor",
-          "started_at": "2026-07-08T18:00:18.069Z",
-          "resolved_at": "2026-07-08T21:04:18.634Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "major",
         "minor",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 75.857,
-        "all": 97.742
+        "90d": 75.807,
+        "all": 97.739
       },
       "incidents": [
+        {
+          "id": "7gpjd8n56rlq",
+          "name": "Elevated errors on Sonnet 5 and Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-07-17T06:47:54.866Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "kqbd7wm6hnnr",
           "name": "Elevated errors for multiple models",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-07-08T06:26:16.864Z",
           "resolved_at": "2026-07-08T06:40:31.473Z",
-          "status": "resolved"
-        },
-        {
-          "id": "l9zyw879cyd6",
-          "name": "Elevated errors for some models",
-          "impact": "major",
-          "started_at": "2026-07-07T20:02:33.237Z",
-          "resolved_at": "2026-07-07T23:46:13.329Z",
           "status": "resolved"
         }
       ],
@@ -544,17 +544,25 @@
         "good",
         "minor",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 73.812,
-        "all": 97.814
+        "90d": 73.762,
+        "all": 97.81
       },
       "incidents": [
+        {
+          "id": "7gpjd8n56rlq",
+          "name": "Elevated errors on Sonnet 5 and Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-07-17T06:47:54.866Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "kqbd7wm6hnnr",
           "name": "Elevated errors for multiple models",
@@ -626,14 +634,6 @@
           "started_at": "2026-07-08T18:00:18.069Z",
           "resolved_at": "2026-07-08T21:04:18.634Z",
           "status": "resolved"
-        },
-        {
-          "id": "n3v83qmtlbqm",
-          "name": "Elevated errors on Claude Sonnet 5",
-          "impact": "minor",
-          "started_at": "2026-07-08T06:26:16.864Z",
-          "resolved_at": "2026-07-08T06:40:31.473Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -726,7 +726,7 @@
         "good",
         "minor",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
@@ -905,7 +905,7 @@
     }
   ],
   "aggregate": {
-    "90d": 73.812
+    "90d": 73.762
   },
   "daily_overall": [
     "good",
@@ -997,7 +997,7 @@
     "major",
     "minor",
     "major",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
