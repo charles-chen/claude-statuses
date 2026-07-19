@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-19T05:45:06.186019+00:00",
+  "generated_at": "2026-07-19T08:06:35.660035+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.5,
+        "90d": 74.521,
         "all": 97.617
       },
       "incidents": [
@@ -187,7 +187,7 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.752,
+        "90d": 97.773,
         "all": 99.479
       },
       "incidents": [
@@ -369,7 +369,7 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 75.52,
+        "90d": 75.541,
         "all": 97.721
       },
       "incidents": [
@@ -551,7 +551,7 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 73.475,
+        "90d": 73.497,
         "all": 97.792
       },
       "incidents": [
@@ -733,7 +733,7 @@
       "id": "0scnb50nvy53",
       "name": "Claude for Government",
       "uptime": {
-        "90d": 99.885,
+        "90d": 99.906,
         "all": 99.974
       },
       "incidents": [
@@ -799,14 +799,6 @@
           "impact": "minor",
           "started_at": "2026-04-23T00:41:43.260Z",
           "resolved_at": "2026-04-23T02:09:00.622Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8rg3l7v56ngc",
-          "name": "Claude Sonnet 4.5 error spike",
-          "impact": "major",
-          "started_at": "2026-04-20T06:14:02.286Z",
-          "resolved_at": "2026-04-20T07:25:21.435Z",
           "status": "resolved"
         }
       ],
@@ -905,7 +897,7 @@
     }
   ],
   "aggregate": {
-    "90d": 73.475
+    "90d": 73.497
   },
   "daily_overall": [
     "good",
