@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-20T15:05:47.618149+00:00",
+  "generated_at": "2026-07-20T17:54:46.962942+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.479,
-        "all": 97.614
+        "90d": 74.431,
+        "all": 97.611
       },
       "incidents": [
         {
@@ -14,16 +14,16 @@
           "name": "Elevated errors for Claude Opus 4.8",
           "impact": "minor",
           "started_at": "2026-07-20T14:41:12.509Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-20T16:16:00.095Z",
+          "status": "resolved"
         },
         {
           "id": "s39rkbp2xhpd",
           "name": "Elevated errors on Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-07-20T13:20:48.478Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-20T15:41:03.604Z",
+          "status": "resolved"
         },
         {
           "id": "g613ntyj2pwf",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.512,
-        "all": 99.46
+        "90d": 97.464,
+        "all": 99.457
       },
       "incidents": [
         {
@@ -196,16 +196,16 @@
           "name": "Elevated errors for Claude Opus 4.8",
           "impact": "minor",
           "started_at": "2026-07-20T14:41:12.509Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-20T16:16:00.095Z",
+          "status": "resolved"
         },
         {
           "id": "s39rkbp2xhpd",
           "name": "Elevated errors on Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-07-20T13:20:48.478Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-20T15:41:03.604Z",
+          "status": "resolved"
         },
         {
           "id": "hlt0yqp4lkww",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 75.319,
-        "all": 97.705
+        "90d": 75.271,
+        "all": 97.701
       },
       "incidents": [
         {
@@ -378,16 +378,16 @@
           "name": "Elevated errors for Claude Opus 4.8",
           "impact": "minor",
           "started_at": "2026-07-20T14:41:12.509Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-20T16:16:00.095Z",
+          "status": "resolved"
         },
         {
           "id": "s39rkbp2xhpd",
           "name": "Elevated errors on Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-07-20T13:20:48.478Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-20T15:41:03.604Z",
+          "status": "resolved"
         },
         {
           "id": "hlt0yqp4lkww",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 73.236,
-        "all": 97.776
+        "90d": 73.188,
+        "all": 97.772
       },
       "incidents": [
         {
@@ -560,24 +560,24 @@
           "name": "Elevated errors for Claude Opus 4.8",
           "impact": "minor",
           "started_at": "2026-07-20T14:41:12.509Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-20T16:16:00.095Z",
+          "status": "resolved"
         },
         {
           "id": "s39rkbp2xhpd",
           "name": "Elevated errors on Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-07-20T13:20:48.478Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-20T15:41:03.604Z",
+          "status": "resolved"
         },
         {
           "id": "tnypgb2jbqnq",
           "name": "Fable 5 requiring usage credits on Max plans",
           "impact": "minor",
           "started_at": "2026-07-20T07:35:29.147Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-20T15:35:33.021Z",
+          "status": "resolved"
         },
         {
           "id": "hlt0yqp4lkww",
@@ -897,7 +897,7 @@
     }
   ],
   "aggregate": {
-    "90d": 73.236
+    "90d": 73.188
   },
   "daily_overall": [
     "good",
