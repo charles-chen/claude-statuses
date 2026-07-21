@@ -1,21 +1,37 @@
 {
-  "generated_at": "2026-07-21T11:02:06.495511+00:00",
+  "generated_at": "2026-07-21T13:25:08.176791+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.314,
-        "all": 97.603
+        "90d": 74.272,
+        "all": 97.6
       },
       "incidents": [
+        {
+          "id": "j0y67nj6w93z",
+          "name": "Elevated errors on Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-07-21T13:04:35.874Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
+        {
+          "id": "lw0sb1srtznh",
+          "name": "Elevated errors across Fable 5",
+          "impact": "minor",
+          "started_at": "2026-07-21T11:19:32.993Z",
+          "resolved_at": "2026-07-21T12:07:32.039Z",
+          "status": "resolved"
+        },
         {
           "id": "y65gwqbztbsp",
           "name": "Elevated errors across models",
           "impact": "minor",
           "started_at": "2026-07-21T10:11:10.767Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-21T11:18:50.485Z",
+          "status": "resolved"
         },
         {
           "id": "v35b71rthzhp",
@@ -71,22 +87,6 @@
           "impact": "minor",
           "started_at": "2026-07-17T06:47:54.866Z",
           "resolved_at": "2026-07-17T12:21:30.321Z",
-          "status": "resolved"
-        },
-        {
-          "id": "kqbd7wm6hnnr",
-          "name": "Elevated errors for multiple models",
-          "impact": "major",
-          "started_at": "2026-07-16T18:36:58.750Z",
-          "resolved_at": "2026-07-16T22:53:12.373Z",
-          "status": "resolved"
-        },
-        {
-          "id": "0hzwq1ylg80g",
-          "name": "Enterprise SSO sign-in failures",
-          "impact": "major",
-          "started_at": "2026-07-16T09:23:54.452Z",
-          "resolved_at": "2026-07-16T10:27:48.529Z",
           "status": "resolved"
         }
       ],
@@ -187,10 +187,26 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.386,
-        "all": 99.451
+        "90d": 97.35,
+        "all": 99.449
       },
       "incidents": [
+        {
+          "id": "j0y67nj6w93z",
+          "name": "Elevated errors on Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-07-21T13:04:35.874Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
+        {
+          "id": "lw0sb1srtznh",
+          "name": "Elevated errors across Fable 5",
+          "impact": "minor",
+          "started_at": "2026-07-21T11:19:32.993Z",
+          "resolved_at": "2026-07-21T12:07:32.039Z",
+          "status": "resolved"
+        },
         {
           "id": "v35b71rthzhp",
           "name": "Elevated errors on Haiku 4.5",
@@ -253,22 +269,6 @@
           "impact": "minor",
           "started_at": "2026-07-16T08:58:05.854Z",
           "resolved_at": "2026-07-16T13:30:55.394Z",
-          "status": "resolved"
-        },
-        {
-          "id": "30x7lsq713tl",
-          "name": "Elevated errors on Claude Sonnet 5",
-          "impact": "minor",
-          "started_at": "2026-07-16T08:39:14.297Z",
-          "resolved_at": "2026-07-16T08:53:52.263Z",
-          "status": "resolved"
-        },
-        {
-          "id": "09g0fh2l7qbb",
-          "name": "Elevated errors on multiple models",
-          "impact": "minor",
-          "started_at": "2026-07-15T14:04:00.449Z",
-          "resolved_at": "2026-07-15T15:11:10.047Z",
           "status": "resolved"
         }
       ],
@@ -369,17 +369,33 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 75.153,
-        "all": 97.694
+        "90d": 75.111,
+        "all": 97.691
       },
       "incidents": [
+        {
+          "id": "j0y67nj6w93z",
+          "name": "Elevated errors on Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-07-21T13:04:35.874Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
+        {
+          "id": "lw0sb1srtznh",
+          "name": "Elevated errors across Fable 5",
+          "impact": "minor",
+          "started_at": "2026-07-21T11:19:32.993Z",
+          "resolved_at": "2026-07-21T12:07:32.039Z",
+          "status": "resolved"
+        },
         {
           "id": "y65gwqbztbsp",
           "name": "Elevated errors across models",
           "impact": "minor",
           "started_at": "2026-07-21T10:11:10.767Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-21T11:18:50.485Z",
+          "status": "resolved"
         },
         {
           "id": "v35b71rthzhp",
@@ -435,22 +451,6 @@
           "impact": "minor",
           "started_at": "2026-07-17T14:57:42.434Z",
           "resolved_at": "2026-07-17T15:33:15.604Z",
-          "status": "resolved"
-        },
-        {
-          "id": "7gpjd8n56rlq",
-          "name": "Elevated errors on Sonnet 5 and Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-17T06:47:54.866Z",
-          "resolved_at": "2026-07-17T12:21:30.321Z",
-          "status": "resolved"
-        },
-        {
-          "id": "kqbd7wm6hnnr",
-          "name": "Elevated errors for multiple models",
-          "impact": "major",
-          "started_at": "2026-07-16T18:36:58.750Z",
-          "resolved_at": "2026-07-16T22:53:12.373Z",
           "status": "resolved"
         }
       ],
@@ -551,17 +551,33 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 73.07,
-        "all": 97.765
+        "90d": 73.028,
+        "all": 97.762
       },
       "incidents": [
+        {
+          "id": "j0y67nj6w93z",
+          "name": "Elevated errors on Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-07-21T13:04:35.874Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
+        {
+          "id": "lw0sb1srtznh",
+          "name": "Elevated errors across Fable 5",
+          "impact": "minor",
+          "started_at": "2026-07-21T11:19:32.993Z",
+          "resolved_at": "2026-07-21T12:07:32.039Z",
+          "status": "resolved"
+        },
         {
           "id": "y65gwqbztbsp",
           "name": "Elevated errors across models",
           "impact": "minor",
           "started_at": "2026-07-21T10:11:10.767Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-21T11:18:50.485Z",
+          "status": "resolved"
         },
         {
           "id": "v35b71rthzhp",
@@ -617,22 +633,6 @@
           "impact": "major",
           "started_at": "2026-07-17T18:12:57.879Z",
           "resolved_at": "2026-07-17T18:27:33.486Z",
-          "status": "resolved"
-        },
-        {
-          "id": "bwz7ld34gcxt",
-          "name": "Elevated errors for Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-07-17T14:57:42.434Z",
-          "resolved_at": "2026-07-17T15:33:15.604Z",
-          "status": "resolved"
-        },
-        {
-          "id": "7gpjd8n56rlq",
-          "name": "Elevated errors on Sonnet 5 and Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-17T06:47:54.866Z",
-          "resolved_at": "2026-07-17T12:21:30.321Z",
           "status": "resolved"
         }
       ],
@@ -897,7 +897,7 @@
     }
   ],
   "aggregate": {
-    "90d": 73.07
+    "90d": 73.028
   },
   "daily_overall": [
     "minor",
