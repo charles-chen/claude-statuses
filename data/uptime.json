@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-21T15:38:22.181708+00:00",
+  "generated_at": "2026-07-21T17:10:30.257939+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.23,
-        "all": 97.598
+        "90d": 74.162,
+        "all": 97.593
       },
       "incidents": [
         {
@@ -15,15 +15,15 @@
           "impact": "critical",
           "started_at": "2026-07-21T15:35:03.985Z",
           "resolved_at": null,
-          "status": "investigating"
+          "status": "monitoring"
         },
         {
           "id": "j0y67nj6w93z",
           "name": "Elevated errors on Haiku 4.5",
           "impact": "major",
           "started_at": "2026-07-21T13:04:35.874Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-21T16:38:26.703Z",
+          "status": "resolved"
         },
         {
           "id": "lw0sb1srtznh",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.309,
-        "all": 99.446
+        "90d": 97.263,
+        "all": 99.442
       },
       "incidents": [
         {
@@ -196,8 +196,8 @@
           "name": "Elevated errors on Haiku 4.5",
           "impact": "major",
           "started_at": "2026-07-21T13:04:35.874Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-21T16:38:26.703Z",
+          "status": "resolved"
         },
         {
           "id": "lw0sb1srtznh",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 75.07,
-        "all": 97.688
+        "90d": 75.001,
+        "all": 97.683
       },
       "incidents": [
         {
@@ -379,15 +379,15 @@
           "impact": "critical",
           "started_at": "2026-07-21T15:35:03.985Z",
           "resolved_at": null,
-          "status": "investigating"
+          "status": "monitoring"
         },
         {
           "id": "j0y67nj6w93z",
           "name": "Elevated errors on Haiku 4.5",
           "impact": "major",
           "started_at": "2026-07-21T13:04:35.874Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-21T16:38:26.703Z",
+          "status": "resolved"
         },
         {
           "id": "lw0sb1srtznh",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.987,
-        "all": 97.759
+        "90d": 72.918,
+        "all": 97.754
       },
       "incidents": [
         {
@@ -561,15 +561,15 @@
           "impact": "critical",
           "started_at": "2026-07-21T15:35:03.985Z",
           "resolved_at": null,
-          "status": "investigating"
+          "status": "monitoring"
         },
         {
           "id": "j0y67nj6w93z",
           "name": "Elevated errors on Haiku 4.5",
           "impact": "major",
           "started_at": "2026-07-21T13:04:35.874Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-21T16:38:26.703Z",
+          "status": "resolved"
         },
         {
           "id": "lw0sb1srtznh",
@@ -897,7 +897,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.987
+    "90d": 72.918
   },
   "daily_overall": [
     "minor",
