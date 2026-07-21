@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T17:10:30.257939+00:00",
+  "generated_at": "2026-07-21T19:10:33.186707+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -14,8 +14,8 @@
           "name": "Elevated errors on several models",
           "impact": "critical",
           "started_at": "2026-07-21T15:35:03.985Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-21T18:18:55.036Z",
+          "status": "resolved"
         },
         {
           "id": "j0y67nj6w93z",
@@ -378,8 +378,8 @@
           "name": "Elevated errors on several models",
           "impact": "critical",
           "started_at": "2026-07-21T15:35:03.985Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-21T18:18:55.036Z",
+          "status": "resolved"
         },
         {
           "id": "j0y67nj6w93z",
@@ -551,17 +551,25 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.918,
-        "all": 97.754
+        "90d": 72.9,
+        "all": 97.753
       },
       "incidents": [
+        {
+          "id": "4qsb0fp16tpb",
+          "name": "Service disruption on Claude services",
+          "impact": "critical",
+          "started_at": "2026-07-21T17:40:25.000Z",
+          "resolved_at": "2026-07-21T18:03:47.003Z",
+          "status": "resolved"
+        },
         {
           "id": "vcynh9cf33xp",
           "name": "Elevated errors on several models",
           "impact": "critical",
           "started_at": "2026-07-21T15:35:03.985Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-21T18:18:55.036Z",
+          "status": "resolved"
         },
         {
           "id": "j0y67nj6w93z",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-07-20T07:03:46.105Z",
           "resolved_at": "2026-07-20T12:48:06.788Z",
-          "status": "resolved"
-        },
-        {
-          "id": "g613ntyj2pwf",
-          "name": "Elevated errors across Fable 5",
-          "impact": "major",
-          "started_at": "2026-07-17T18:32:32.619Z",
-          "resolved_at": "2026-07-17T19:43:35.467Z",
           "status": "resolved"
         }
       ],
@@ -897,7 +897,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.918
+    "90d": 72.9
   },
   "daily_overall": [
     "minor",
