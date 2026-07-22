@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-07-22T22:05:52.526572+00:00",
+  "generated_at": "2026-07-22T23:57:10.664110+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.077,
+        "90d": 74.074,
         "all": 97.586
       },
       "incidents": [
+        {
+          "id": "db1mh1r2zrn5",
+          "name": "Elevated errors on Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-07-22T23:52:59.568Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "ng5shnqxj1r7",
           "name": "Service disruption on Claude Services",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-07-20T14:41:12.509Z",
           "resolved_at": "2026-07-20T16:16:00.095Z",
-          "status": "resolved"
-        },
-        {
-          "id": "s39rkbp2xhpd",
-          "name": "Elevated errors on Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-20T13:20:48.478Z",
-          "resolved_at": "2026-07-20T15:41:03.604Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.809,
+        "90d": 72.806,
         "all": 97.747
       },
       "incidents": [
+        {
+          "id": "db1mh1r2zrn5",
+          "name": "Elevated errors on Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-07-22T23:52:59.568Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "6h7589wl6l45",
           "name": "Elevated error rates for Sonnet 5",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-07-21T07:11:52.667Z",
           "resolved_at": "2026-07-21T08:53:13.684Z",
-          "status": "resolved"
-        },
-        {
-          "id": "4n0mmv2v41rf",
-          "name": "Elevated errors for Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-07-20T14:41:12.509Z",
-          "resolved_at": "2026-07-20T16:16:00.095Z",
           "status": "resolved"
         }
       ],
@@ -889,7 +889,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.809
+    "90d": 72.806
   },
   "daily_overall": [
     "critical",
