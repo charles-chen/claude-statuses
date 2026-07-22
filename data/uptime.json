@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T08:16:05.818920+00:00",
+  "generated_at": "2026-07-22T11:02:43.621457+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 75.001,
+        "90d": 74.993,
         "all": 97.684
       },
       "incidents": [
+        {
+          "id": "xvbzmkjbzh0x",
+          "name": "Elevated errors for Claude Opus 4.1",
+          "impact": "minor",
+          "started_at": "2026-07-22T08:34:31.874Z",
+          "resolved_at": "2026-07-22T09:00:25.206Z",
+          "status": "resolved"
+        },
         {
           "id": "vcynh9cf33xp",
           "name": "Elevated errors on several models",
@@ -444,14 +452,6 @@
           "started_at": "2026-07-17T18:32:32.619Z",
           "resolved_at": "2026-07-17T19:43:35.467Z",
           "status": "resolved"
-        },
-        {
-          "id": "lj0khk5vd7v7",
-          "name": "Elevated error rates for Sonnet 5",
-          "impact": "major",
-          "started_at": "2026-07-17T18:12:57.879Z",
-          "resolved_at": "2026-07-17T18:27:33.486Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -544,17 +544,25 @@
         "good",
         "minor",
         "critical",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.9,
+        "90d": 72.892,
         "all": 97.754
       },
       "incidents": [
+        {
+          "id": "xvbzmkjbzh0x",
+          "name": "Elevated errors for Claude Opus 4.1",
+          "impact": "minor",
+          "started_at": "2026-07-22T08:34:31.874Z",
+          "resolved_at": "2026-07-22T09:00:25.206Z",
+          "status": "resolved"
+        },
         {
           "id": "4qsb0fp16tpb",
           "name": "Service disruption on Claude services",
@@ -626,14 +634,6 @@
           "started_at": "2026-07-20T07:35:29.147Z",
           "resolved_at": "2026-07-20T15:35:33.021Z",
           "status": "resolved"
-        },
-        {
-          "id": "hlt0yqp4lkww",
-          "name": "Elevated error rates for Opus 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-20T07:03:46.105Z",
-          "resolved_at": "2026-07-20T12:48:06.788Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -726,7 +726,7 @@
         "good",
         "minor",
         "critical",
-        "good"
+        "minor"
       ]
     },
     {
@@ -889,7 +889,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.9
+    "90d": 72.892
   },
   "daily_overall": [
     "critical",
@@ -981,7 +981,7 @@
     "good",
     "minor",
     "critical",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
