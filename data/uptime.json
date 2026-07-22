@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-22T15:27:44.249897+00:00",
+  "generated_at": "2026-07-22T17:10:40.479235+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.102,
-        "all": 97.589
+        "90d": 74.091,
+        "all": 97.587
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated error rates for Sonnet 5",
           "impact": "minor",
           "started_at": "2026-07-22T15:24:05.443Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-22T16:12:32.364Z",
+          "status": "resolved"
         },
         {
           "id": "f7w8qkd8z57f",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.191,
-        "all": 99.437
+        "90d": 97.156,
+        "all": 99.435
       },
       "incidents": [
         {
@@ -196,8 +196,8 @@
           "name": "Elevated error rates for Sonnet 5",
           "impact": "minor",
           "started_at": "2026-07-22T15:24:05.443Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-22T16:12:32.364Z",
+          "status": "resolved"
         },
         {
           "id": "f7w8qkd8z57f",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.921,
-        "all": 97.679
+        "90d": 74.91,
+        "all": 97.677
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated error rates for Sonnet 5",
           "impact": "minor",
           "started_at": "2026-07-22T15:24:05.443Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-22T16:12:32.364Z",
+          "status": "resolved"
         },
         {
           "id": "f7w8qkd8z57f",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.82,
-        "all": 97.749
+        "90d": 72.809,
+        "all": 97.746
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated error rates for Sonnet 5",
           "impact": "minor",
           "started_at": "2026-07-22T15:24:05.443Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-22T16:12:32.364Z",
+          "status": "resolved"
         },
         {
           "id": "f7w8qkd8z57f",
@@ -889,7 +889,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.82
+    "90d": 72.809
   },
   "daily_overall": [
     "critical",
