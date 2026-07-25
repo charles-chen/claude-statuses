@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T23:06:05.222546+00:00",
+  "generated_at": "2026-07-25T02:06:36.786732+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -92,7 +92,6 @@
       ],
       "daily": [
         "good",
-        "good",
         "major",
         "minor",
         "critical",
@@ -180,7 +179,8 @@
         "critical",
         "minor",
         "minor",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -188,7 +188,7 @@
       "name": "platform.claude.com",
       "uptime": {
         "90d": 97.246,
-        "all": 99.434
+        "all": 99.435
       },
       "incidents": [
         {
@@ -274,7 +274,6 @@
       ],
       "daily": [
         "good",
-        "good",
         "major",
         "good",
         "critical",
@@ -362,7 +361,8 @@
         "major",
         "minor",
         "good",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -456,7 +456,6 @@
       ],
       "daily": [
         "good",
-        "good",
         "major",
         "minor",
         "critical",
@@ -544,7 +543,8 @@
         "critical",
         "minor",
         "good",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -638,7 +638,6 @@
       ],
       "daily": [
         "good",
-        "good",
         "major",
         "minor",
         "critical",
@@ -726,7 +725,8 @@
         "critical",
         "minor",
         "minor",
-        "minor"
+        "minor",
+        "good"
       ]
     },
     {
@@ -772,7 +772,6 @@
       ],
       "daily": [
         "good",
-        "good",
         "major",
         "good",
         "critical",
@@ -860,6 +859,7 @@
         "good",
         "good",
         "good",
+        "good",
         "good"
       ]
     }
@@ -869,7 +869,6 @@
   },
   "daily_overall": [
     "good",
-    "good",
     "major",
     "minor",
     "critical",
@@ -957,7 +956,8 @@
     "critical",
     "minor",
     "minor",
-    "minor"
+    "minor",
+    "good"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
