@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-25T21:48:20.659713+00:00",
+  "generated_at": "2026-07-25T22:47:55.480937+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.122,
-        "all": 97.585
+        "90d": 74.107,
+        "all": 97.584
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
           "impact": "major",
           "started_at": "2026-07-25T21:34:51.163Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-25T22:08:41.677Z",
+          "status": "resolved"
         },
         {
           "id": "f1q2wvw4qj4j",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.968,
-        "all": 97.677
+        "90d": 74.953,
+        "all": 97.676
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
           "impact": "major",
           "started_at": "2026-07-25T21:34:51.163Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-25T22:08:41.677Z",
+          "status": "resolved"
         },
         {
           "id": "f1q2wvw4qj4j",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.854,
-        "all": 97.745
+        "90d": 72.838,
+        "all": 97.744
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
           "impact": "major",
           "started_at": "2026-07-25T21:34:51.163Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-07-25T22:08:41.677Z",
+          "status": "resolved"
         },
         {
           "id": "f1q2wvw4qj4j",
@@ -865,7 +865,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.854
+    "90d": 72.838
   },
   "daily_overall": [
     "good",
