@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T10:39:16.479706+00:00",
+  "generated_at": "2026-07-26T11:57:58.922108+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -14,8 +14,8 @@
           "name": "Elevated errors for Opus 5",
           "impact": "major",
           "started_at": "2026-07-26T09:17:12.688Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-26T10:44:14.944Z",
+          "status": "resolved"
         },
         {
           "id": "j6gv862066n7",
@@ -196,8 +196,8 @@
           "name": "Elevated errors for Opus 5",
           "impact": "major",
           "started_at": "2026-07-26T09:17:12.688Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-26T10:44:14.944Z",
+          "status": "resolved"
         },
         {
           "id": "0lbk5m7mbqk5",
@@ -378,8 +378,8 @@
           "name": "Elevated errors for Opus 5",
           "impact": "major",
           "started_at": "2026-07-26T09:17:12.688Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-26T10:44:14.944Z",
+          "status": "resolved"
         },
         {
           "id": "j6gv862066n7",
@@ -560,8 +560,8 @@
           "name": "Elevated errors for Opus 5",
           "impact": "major",
           "started_at": "2026-07-26T09:17:12.688Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-07-26T10:44:14.944Z",
+          "status": "resolved"
         },
         {
           "id": "j6gv862066n7",
