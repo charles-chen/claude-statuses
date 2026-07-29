@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-29T21:54:52.397522+00:00",
+  "generated_at": "2026-07-29T22:55:45.737870+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 73.977,
-        "all": 97.571
+        "90d": 73.958,
+        "all": 97.57
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors across all models",
           "impact": "critical",
           "started_at": "2026-07-29T19:49:45.378Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-07-29T22:36:20.701Z",
+          "status": "resolved"
         },
         {
           "id": "rkk5x44tndw9",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.802,
-        "all": 97.663
+        "90d": 74.782,
+        "all": 97.661
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors across all models",
           "impact": "critical",
           "started_at": "2026-07-29T19:49:45.378Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-07-29T22:36:20.701Z",
+          "status": "resolved"
         },
         {
           "id": "rkk5x44tndw9",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.658,
-        "all": 97.731
+        "90d": 72.638,
+        "all": 97.729
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors across all models",
           "impact": "critical",
           "started_at": "2026-07-29T19:49:45.378Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-07-29T22:36:20.701Z",
+          "status": "resolved"
         },
         {
           "id": "rkk5x44tndw9",
@@ -849,7 +849,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.658
+    "90d": 72.638
   },
   "daily_overall": [
     "good",
