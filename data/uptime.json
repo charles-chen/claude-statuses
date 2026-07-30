@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-07-30T11:01:54.923173+00:00",
+  "generated_at": "2026-07-30T13:45:27.119096+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 73.768,
+        "90d": 73.766,
         "all": 97.557
       },
       "incidents": [
+        {
+          "id": "kqjy03gs895j",
+          "name": "Degraded performance on Claude Opus 4.8",
+          "impact": "minor",
+          "started_at": "2026-07-30T13:43:19.838Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "fsh2zzzl2c4l",
           "name": "Elevated errors across many models",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-07-24T09:09:56.933Z",
           "resolved_at": "2026-07-24T10:22:06.541Z",
-          "status": "resolved"
-        },
-        {
-          "id": "db1mh1r2zrn5",
-          "name": "Elevated errors on Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-22T23:52:59.568Z",
-          "resolved_at": "2026-07-23T00:10:17.291Z",
           "status": "resolved"
         }
       ],
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.593,
+        "90d": 74.591,
         "all": 97.648
       },
       "incidents": [
+        {
+          "id": "kqjy03gs895j",
+          "name": "Degraded performance on Claude Opus 4.8",
+          "impact": "minor",
+          "started_at": "2026-07-30T13:43:19.838Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "fsh2zzzl2c4l",
           "name": "Elevated errors across many models",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-07-24T09:09:56.933Z",
           "resolved_at": "2026-07-24T10:22:06.541Z",
-          "status": "resolved"
-        },
-        {
-          "id": "6h7589wl6l45",
-          "name": "Elevated error rates for Sonnet 5",
-          "impact": "minor",
-          "started_at": "2026-07-22T15:24:05.443Z",
-          "resolved_at": "2026-07-22T16:12:32.364Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.448,
+        "90d": 72.447,
         "all": 97.716
       },
       "incidents": [
+        {
+          "id": "kqjy03gs895j",
+          "name": "Degraded performance on Claude Opus 4.8",
+          "impact": "minor",
+          "started_at": "2026-07-30T13:43:19.838Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "fsh2zzzl2c4l",
           "name": "Elevated errors across many models",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-07-24T09:09:56.933Z",
           "resolved_at": "2026-07-24T10:22:06.541Z",
-          "status": "resolved"
-        },
-        {
-          "id": "db1mh1r2zrn5",
-          "name": "Elevated errors on Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-22T23:52:59.568Z",
-          "resolved_at": "2026-07-23T00:10:17.291Z",
           "status": "resolved"
         }
       ],
@@ -849,7 +849,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.448
+    "90d": 72.447
   },
   "daily_overall": [
     "good",
