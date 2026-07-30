@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T23:57:03.409141+00:00",
+  "generated_at": "2026-07-30T02:14:37.289551+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -93,7 +93,6 @@
       "daily": [
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "major",
@@ -180,7 +179,8 @@
         "major",
         "minor",
         "good",
-        "critical"
+        "critical",
+        "good"
       ]
     },
     {
@@ -275,7 +275,6 @@
       "daily": [
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "major",
@@ -360,6 +359,7 @@
         "minor",
         "good",
         "major",
+        "good",
         "good",
         "good",
         "good"
@@ -457,7 +457,6 @@
       "daily": [
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "major",
@@ -544,7 +543,8 @@
         "major",
         "minor",
         "good",
-        "critical"
+        "critical",
+        "good"
       ]
     },
     {
@@ -552,7 +552,7 @@
       "name": "Claude Code",
       "uptime": {
         "90d": 72.638,
-        "all": 97.729
+        "all": 97.73
       },
       "incidents": [
         {
@@ -639,7 +639,6 @@
       "daily": [
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "major",
@@ -726,7 +725,8 @@
         "major",
         "minor",
         "good",
-        "critical"
+        "critical",
+        "good"
       ]
     },
     {
@@ -761,7 +761,6 @@
         "good",
         "good",
         "good",
-        "good",
         "major",
         "good",
         "good",
@@ -816,6 +815,7 @@
         "good",
         "good",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -854,7 +854,6 @@
   "daily_overall": [
     "good",
     "good",
-    "good",
     "minor",
     "good",
     "major",
@@ -941,7 +940,8 @@
     "major",
     "minor",
     "good",
-    "critical"
+    "critical",
+    "good"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
