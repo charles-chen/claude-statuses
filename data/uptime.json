@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-30T08:13:24.271861+00:00",
+  "generated_at": "2026-07-30T11:01:54.923173+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 73.853,
-        "all": 97.563
+        "90d": 73.768,
+        "all": 97.557
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors across many models",
           "impact": "major",
           "started_at": "2026-07-30T05:57:43.516Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-07-30T10:48:56.631Z",
+          "status": "resolved"
         },
         {
           "id": "q2kg8n613kr3",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.678,
-        "all": 97.654
+        "90d": 74.593,
+        "all": 97.648
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors across many models",
           "impact": "major",
           "started_at": "2026-07-30T05:57:43.516Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-07-30T10:48:56.631Z",
+          "status": "resolved"
         },
         {
           "id": "q2kg8n613kr3",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.533,
-        "all": 97.722
+        "90d": 72.448,
+        "all": 97.716
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors across many models",
           "impact": "major",
           "started_at": "2026-07-30T05:57:43.516Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-07-30T10:48:56.631Z",
+          "status": "resolved"
         },
         {
           "id": "q2kg8n613kr3",
@@ -849,7 +849,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.533
+    "90d": 72.448
   },
   "daily_overall": [
     "good",
