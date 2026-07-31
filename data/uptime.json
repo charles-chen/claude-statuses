@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-07-31T04:18:04.345603+00:00",
+  "generated_at": "2026-07-31T07:46:36.944314+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 73.736,
-        "all": 97.556
+        "90d": 73.7,
+        "all": 97.554
       },
       "incidents": [
+        {
+          "id": "jq4x54h69z76",
+          "name": "Degraded performance on Claude Sonnet 5",
+          "impact": "minor",
+          "started_at": "2026-07-31T06:18:08.059Z",
+          "resolved_at": "2026-07-31T07:04:49.691Z",
+          "status": "resolved"
+        },
         {
           "id": "kqjy03gs895j",
           "name": "Degraded performance on Claude Opus 4.8",
@@ -79,14 +87,6 @@
           "impact": "major",
           "started_at": "2026-07-25T18:40:31.858Z",
           "resolved_at": "2026-07-25T19:44:32.851Z",
-          "status": "resolved"
-        },
-        {
-          "id": "0lbk5m7mbqk5",
-          "name": "Elevated error rate on Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-07-24T09:09:56.933Z",
-          "resolved_at": "2026-07-24T10:22:06.541Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "good",
         "critical",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.561,
-        "all": 97.647
+        "90d": 74.525,
+        "all": 97.645
       },
       "incidents": [
+        {
+          "id": "jq4x54h69z76",
+          "name": "Degraded performance on Claude Sonnet 5",
+          "impact": "minor",
+          "started_at": "2026-07-31T06:18:08.059Z",
+          "resolved_at": "2026-07-31T07:04:49.691Z",
+          "status": "resolved"
+        },
         {
           "id": "kqjy03gs895j",
           "name": "Degraded performance on Claude Opus 4.8",
@@ -443,14 +451,6 @@
           "impact": "major",
           "started_at": "2026-07-25T18:40:31.858Z",
           "resolved_at": "2026-07-25T19:44:32.851Z",
-          "status": "resolved"
-        },
-        {
-          "id": "0lbk5m7mbqk5",
-          "name": "Elevated error rate on Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-07-24T09:09:56.933Z",
-          "resolved_at": "2026-07-24T10:22:06.541Z",
           "status": "resolved"
         }
       ],
@@ -544,17 +544,25 @@
         "good",
         "critical",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.417,
-        "all": 97.715
+        "90d": 72.381,
+        "all": 97.713
       },
       "incidents": [
+        {
+          "id": "jq4x54h69z76",
+          "name": "Degraded performance on Claude Sonnet 5",
+          "impact": "minor",
+          "started_at": "2026-07-31T06:18:08.059Z",
+          "resolved_at": "2026-07-31T07:04:49.691Z",
+          "status": "resolved"
+        },
         {
           "id": "kqjy03gs895j",
           "name": "Degraded performance on Claude Opus 4.8",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-07-25T18:40:31.858Z",
           "resolved_at": "2026-07-25T19:44:32.851Z",
-          "status": "resolved"
-        },
-        {
-          "id": "0lbk5m7mbqk5",
-          "name": "Elevated error rate on Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-07-24T09:09:56.933Z",
-          "resolved_at": "2026-07-24T10:22:06.541Z",
           "status": "resolved"
         }
       ],
@@ -726,7 +726,7 @@
         "good",
         "critical",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
@@ -849,7 +849,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.417
+    "90d": 72.381
   },
   "daily_overall": [
     "good",
@@ -941,7 +941,7 @@
     "good",
     "critical",
     "major",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
