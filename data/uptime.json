@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-08-03T10:36:24.363829+00:00",
+  "generated_at": "2026-08-03T13:35:21.850490+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 73.783,
-        "all": 97.56
+        "90d": 73.754,
+        "all": 97.558
       },
       "incidents": [
+        {
+          "id": "ch7k4vh9fr1y",
+          "name": "Error rates across multiple models",
+          "impact": "minor",
+          "started_at": "2026-08-03T12:52:52.841Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "jq4x54h69z76",
           "name": "Degraded performance on Claude Sonnet 5",
@@ -79,14 +87,6 @@
           "impact": "major",
           "started_at": "2026-07-25T21:34:51.163Z",
           "resolved_at": "2026-07-25T22:08:41.677Z",
-          "status": "resolved"
-        },
-        {
-          "id": "f1q2wvw4qj4j",
-          "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-          "impact": "major",
-          "started_at": "2026-07-25T18:40:31.858Z",
-          "resolved_at": "2026-07-25T19:44:32.851Z",
           "status": "resolved"
         }
       ],
@@ -180,17 +180,25 @@
         "minor",
         "good",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.23,
-        "all": 99.434
+        "90d": 97.201,
+        "all": 99.432
       },
       "incidents": [
+        {
+          "id": "ch7k4vh9fr1y",
+          "name": "Error rates across multiple models",
+          "impact": "minor",
+          "started_at": "2026-08-03T12:52:52.841Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "zftg3gqkmv18",
           "name": "Elevated errors for Opus 5",
@@ -262,14 +270,6 @@
           "started_at": "2026-07-20T13:20:48.478Z",
           "resolved_at": "2026-07-20T15:41:03.604Z",
           "status": "resolved"
-        },
-        {
-          "id": "hlt0yqp4lkww",
-          "name": "Elevated error rates for Opus 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-20T07:03:46.105Z",
-          "resolved_at": "2026-07-20T12:48:06.788Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -362,17 +362,25 @@
         "good",
         "good",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.608,
-        "all": 97.651
+        "90d": 74.579,
+        "all": 97.649
       },
       "incidents": [
+        {
+          "id": "ch7k4vh9fr1y",
+          "name": "Error rates across multiple models",
+          "impact": "minor",
+          "started_at": "2026-08-03T12:52:52.841Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "jq4x54h69z76",
           "name": "Degraded performance on Claude Sonnet 5",
@@ -443,14 +451,6 @@
           "impact": "major",
           "started_at": "2026-07-25T21:34:51.163Z",
           "resolved_at": "2026-07-25T22:08:41.677Z",
-          "status": "resolved"
-        },
-        {
-          "id": "f1q2wvw4qj4j",
-          "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-          "impact": "major",
-          "started_at": "2026-07-25T18:40:31.858Z",
-          "resolved_at": "2026-07-25T19:44:32.851Z",
           "status": "resolved"
         }
       ],
@@ -544,17 +544,25 @@
         "minor",
         "good",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.464,
-        "all": 97.719
+        "90d": 72.435,
+        "all": 97.717
       },
       "incidents": [
+        {
+          "id": "ch7k4vh9fr1y",
+          "name": "Error rates across multiple models",
+          "impact": "minor",
+          "started_at": "2026-08-03T12:52:52.841Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "jq4x54h69z76",
           "name": "Degraded performance on Claude Sonnet 5",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-07-25T21:34:51.163Z",
           "resolved_at": "2026-07-25T22:08:41.677Z",
-          "status": "resolved"
-        },
-        {
-          "id": "f1q2wvw4qj4j",
-          "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-          "impact": "major",
-          "started_at": "2026-07-25T18:40:31.858Z",
-          "resolved_at": "2026-07-25T19:44:32.851Z",
           "status": "resolved"
         }
       ],
@@ -726,7 +726,7 @@
         "minor",
         "good",
         "good",
-        "good"
+        "minor"
       ]
     },
     {
@@ -849,7 +849,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.464
+    "90d": 72.435
   },
   "daily_overall": [
     "major",
@@ -941,7 +941,7 @@
     "minor",
     "good",
     "good",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
