@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-04T22:56:46.519593+00:00",
+  "generated_at": "2026-08-04T23:59:57.455132+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 73.781,
+        "90d": 73.829,
         "all": 97.558
       },
       "incidents": [
@@ -551,7 +551,7 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.461,
+        "90d": 72.51,
         "all": 97.717
       },
       "incidents": [
@@ -849,7 +849,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.461
+    "90d": 72.51
   },
   "daily_overall": [
     "major",
