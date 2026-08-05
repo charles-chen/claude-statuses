@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-08-05T06:22:20.695601+00:00",
+  "generated_at": "2026-08-05T09:31:17.213499+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.124,
-        "all": 97.558
+        "90d": 74.158,
+        "all": 97.55
       },
       "incidents": [
+        {
+          "id": "f6gkkq6txl7z",
+          "name": "Degraded performance of multiple models",
+          "impact": "minor",
+          "started_at": "2026-08-05T07:05:54.000Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "bdr3fq2rkchr",
           "name": "Elevated errors across many models",
@@ -79,14 +87,6 @@
           "impact": "critical",
           "started_at": "2026-07-29T19:49:45.378Z",
           "resolved_at": "2026-07-29T22:36:20.701Z",
-          "status": "resolved"
-        },
-        {
-          "id": "rkk5x44tndw9",
-          "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-27T13:39:52.254Z",
-          "resolved_at": "2026-07-27T14:36:43.730Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "good",
         "minor",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.587,
-        "all": 97.649
+        "90d": 74.475,
+        "all": 97.641
       },
       "incidents": [
+        {
+          "id": "f6gkkq6txl7z",
+          "name": "Degraded performance of multiple models",
+          "impact": "minor",
+          "started_at": "2026-08-05T07:05:54.000Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "bdr3fq2rkchr",
           "name": "Elevated errors across many models",
@@ -443,14 +451,6 @@
           "impact": "critical",
           "started_at": "2026-07-29T19:49:45.378Z",
           "resolved_at": "2026-07-29T22:36:20.701Z",
-          "status": "resolved"
-        },
-        {
-          "id": "rkk5x44tndw9",
-          "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-27T13:39:52.254Z",
-          "resolved_at": "2026-07-27T14:36:43.730Z",
           "status": "resolved"
         }
       ],
@@ -544,17 +544,25 @@
         "good",
         "minor",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.805,
-        "all": 97.717
+        "90d": 72.839,
+        "all": 97.709
       },
       "incidents": [
+        {
+          "id": "f6gkkq6txl7z",
+          "name": "Degraded performance of multiple models",
+          "impact": "minor",
+          "started_at": "2026-08-05T07:05:54.000Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "bdr3fq2rkchr",
           "name": "Elevated errors across many models",
@@ -625,14 +633,6 @@
           "impact": "critical",
           "started_at": "2026-07-29T19:49:45.378Z",
           "resolved_at": "2026-07-29T22:36:20.701Z",
-          "status": "resolved"
-        },
-        {
-          "id": "rkk5x44tndw9",
-          "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-27T13:39:52.254Z",
-          "resolved_at": "2026-07-27T14:36:43.730Z",
           "status": "resolved"
         }
       ],
@@ -726,7 +726,7 @@
         "good",
         "minor",
         "major",
-        "good"
+        "minor"
       ]
     },
     {
@@ -849,7 +849,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.805
+    "90d": 72.839
   },
   "daily_overall": [
     "major",
@@ -941,7 +941,7 @@
     "good",
     "minor",
     "major",
-    "good"
+    "minor"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
