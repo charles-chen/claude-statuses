@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-06T08:24:08.211324+00:00",
+  "generated_at": "2026-08-06T11:15:20.310848+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.224,
+        "90d": 74.291,
         "all": 97.538
       },
       "incidents": [
@@ -187,7 +187,7 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 97.241,
+        "90d": 97.308,
         "all": 99.433
       },
       "incidents": [
@@ -369,7 +369,7 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.282,
+        "90d": 74.348,
         "all": 97.629
       },
       "incidents": [
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.905,
-        "all": 97.696
+        "90d": 72.971,
+        "all": 97.697
       },
       "incidents": [
         {
@@ -733,7 +733,7 @@
       "id": "0scnb50nvy53",
       "name": "Claude for Government",
       "uptime": {
-        "90d": 99.96,
+        "90d": 99.989,
         "all": 99.974
       },
       "incidents": [
@@ -743,14 +743,6 @@
           "impact": "minor",
           "started_at": "2026-06-30T14:31:04.499Z",
           "resolved_at": "2026-06-30T15:28:26.509Z",
-          "status": "resolved"
-        },
-        {
-          "id": "378dqscjgghp",
-          "name": "Elevated errors across Claude Models",
-          "impact": "major",
-          "started_at": "2026-05-08T09:49:14.035Z",
-          "resolved_at": "2026-05-08T11:40:41.886Z",
           "status": "resolved"
         }
       ],
@@ -849,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.905
+    "90d": 72.971
   },
   "daily_overall": [
     "major",
