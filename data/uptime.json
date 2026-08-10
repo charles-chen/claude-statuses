@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-10T17:45:38.933894+00:00",
+  "generated_at": "2026-08-10T18:47:43.947130+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 74.336,
-        "all": 97.546
+        "all": 97.547
       },
       "incidents": [
         {
