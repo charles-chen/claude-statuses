@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T23:24:17.929442+00:00",
+  "generated_at": "2026-08-10T01:15:41.317041+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -92,7 +92,6 @@
       ],
       "daily": [
         "major",
-        "major",
         "minor",
         "good",
         "major",
@@ -177,6 +176,7 @@
         "minor",
         "major",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -273,7 +273,6 @@
         }
       ],
       "daily": [
-        "major",
         "good",
         "good",
         "good",
@@ -358,6 +357,7 @@
         "good",
         "minor",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -455,7 +455,6 @@
         }
       ],
       "daily": [
-        "major",
         "good",
         "minor",
         "major",
@@ -541,6 +540,7 @@
         "minor",
         "major",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -638,7 +638,6 @@
       ],
       "daily": [
         "major",
-        "major",
         "minor",
         "major",
         "major",
@@ -723,6 +722,7 @@
         "minor",
         "major",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -795,8 +795,8 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -845,7 +845,6 @@
   },
   "daily_overall": [
     "major",
-    "major",
     "minor",
     "major",
     "major",
@@ -930,6 +929,7 @@
     "minor",
     "major",
     "minor",
+    "good",
     "good",
     "good",
     "good",
