@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-12T15:54:03.621883+00:00",
+  "generated_at": "2026-08-12T16:51:26.203262+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.413,
-        "all": 97.543
+        "90d": 74.369,
+        "all": 97.54
       },
       "incidents": [
         {
@@ -15,7 +15,7 @@
           "impact": "minor",
           "started_at": "2026-08-12T13:50:28.450Z",
           "resolved_at": null,
-          "status": "investigating"
+          "status": "identified"
         },
         {
           "id": "mgp99sn4ynd4",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.342,
-        "all": 97.634
+        "90d": 74.297,
+        "all": 97.631
       },
       "incidents": [
         {
@@ -379,7 +379,7 @@
           "impact": "minor",
           "started_at": "2026-08-12T13:50:28.450Z",
           "resolved_at": null,
-          "status": "investigating"
+          "status": "identified"
         },
         {
           "id": "mgp99sn4ynd4",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 73.195,
-        "all": 97.701
+        "90d": 73.151,
+        "all": 97.698
       },
       "incidents": [
         {
@@ -561,7 +561,7 @@
           "impact": "minor",
           "started_at": "2026-08-12T13:50:28.450Z",
           "resolved_at": null,
-          "status": "investigating"
+          "status": "identified"
         },
         {
           "id": "mgp99sn4ynd4",
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 73.195
+    "90d": 73.151
   },
   "daily_overall": [
     "major",
