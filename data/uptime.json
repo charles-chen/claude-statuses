@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-08-13T14:19:37.360116+00:00",
+  "generated_at": "2026-08-13T15:53:17.097023+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.337,
-        "all": 97.538
+        "90d": 74.275,
+        "all": 97.533
       },
       "incidents": [
+        {
+          "id": "j160kkjmm2n1",
+          "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+          "impact": "major",
+          "started_at": "2026-08-13T14:33:45.150Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "rk6gkg2gwfny",
           "name": "Degraded performance for multiple models",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-07-31T06:18:08.059Z",
           "resolved_at": "2026-07-31T07:04:49.691Z",
-          "status": "resolved"
-        },
-        {
-          "id": "kqjy03gs895j",
-          "name": "Degraded performance on Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-07-30T13:43:19.838Z",
-          "resolved_at": "2026-07-30T14:24:12.155Z",
           "status": "resolved"
         }
       ],
@@ -180,7 +180,7 @@
         "good",
         "good",
         "minor",
-        "good"
+        "major"
       ]
     },
     {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.334,
-        "all": 97.628
+        "90d": 74.272,
+        "all": 97.624
       },
       "incidents": [
+        {
+          "id": "j160kkjmm2n1",
+          "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+          "impact": "major",
+          "started_at": "2026-08-13T14:33:45.150Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "rk6gkg2gwfny",
           "name": "Degraded performance for multiple models",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-07-31T06:18:08.059Z",
           "resolved_at": "2026-07-31T07:04:49.691Z",
-          "status": "resolved"
-        },
-        {
-          "id": "kqjy03gs895j",
-          "name": "Degraded performance on Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-07-30T13:43:19.838Z",
-          "resolved_at": "2026-07-30T14:24:12.155Z",
           "status": "resolved"
         }
       ],
@@ -544,17 +544,25 @@
         "good",
         "good",
         "minor",
-        "good"
+        "major"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 73.187,
-        "all": 97.695
+        "90d": 73.125,
+        "all": 97.691
       },
       "incidents": [
+        {
+          "id": "j160kkjmm2n1",
+          "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+          "impact": "major",
+          "started_at": "2026-08-13T14:33:45.150Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "rk6gkg2gwfny",
           "name": "Degraded performance for multiple models",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-07-31T06:18:08.059Z",
           "resolved_at": "2026-07-31T07:04:49.691Z",
-          "status": "resolved"
-        },
-        {
-          "id": "kqjy03gs895j",
-          "name": "Degraded performance on Claude Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-07-30T13:43:19.838Z",
-          "resolved_at": "2026-07-30T14:24:12.155Z",
           "status": "resolved"
         }
       ],
@@ -726,7 +726,7 @@
         "good",
         "good",
         "minor",
-        "good"
+        "major"
       ]
     },
     {
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 73.187
+    "90d": 73.125
   },
   "daily_overall": [
     "major",
@@ -933,7 +933,7 @@
     "good",
     "good",
     "minor",
-    "good"
+    "major"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
