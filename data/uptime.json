@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T20:24:36.473395+00:00",
+  "generated_at": "2026-08-14T21:19:00.194363+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 74.273,
-        "all": 97.625
+        "90d": 74.235,
+        "all": 97.623
       },
       "incidents": [
+        {
+          "id": "005ym4vzrq2w",
+          "name": "Service disruption on Claude services",
+          "impact": "major",
+          "started_at": "2026-08-14T20:30:36.280Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "j160kkjmm2n1",
           "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-08-03T12:52:52.841Z",
           "resolved_at": "2026-08-03T14:17:14.797Z",
-          "status": "resolved"
-        },
-        {
-          "id": "jq4x54h69z76",
-          "name": "Degraded performance on Claude Sonnet 5",
-          "impact": "minor",
-          "started_at": "2026-07-31T06:18:08.059Z",
-          "resolved_at": "2026-07-31T07:04:49.691Z",
           "status": "resolved"
         }
       ],
@@ -544,17 +544,25 @@
         "good",
         "minor",
         "major",
-        "good"
+        "major"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 73.126,
-        "all": 97.693
+        "90d": 73.089,
+        "all": 97.69
       },
       "incidents": [
+        {
+          "id": "005ym4vzrq2w",
+          "name": "Service disruption on Claude services",
+          "impact": "major",
+          "started_at": "2026-08-14T20:30:36.280Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "j160kkjmm2n1",
           "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-08-03T12:52:52.841Z",
           "resolved_at": "2026-08-03T14:17:14.797Z",
-          "status": "resolved"
-        },
-        {
-          "id": "jq4x54h69z76",
-          "name": "Degraded performance on Claude Sonnet 5",
-          "impact": "minor",
-          "started_at": "2026-07-31T06:18:08.059Z",
-          "resolved_at": "2026-07-31T07:04:49.691Z",
           "status": "resolved"
         }
       ],
@@ -726,7 +726,7 @@
         "good",
         "minor",
         "major",
-        "good"
+        "major"
       ]
     },
     {
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 73.126
+    "90d": 73.089
   },
   "daily_overall": [
     "good",
@@ -933,7 +933,7 @@
     "good",
     "minor",
     "major",
-    "minor"
+    "major"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
