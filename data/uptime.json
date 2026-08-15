@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-08-14T23:15:35.116476+00:00",
+  "generated_at": "2026-08-15T00:53:44.920052+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 74.276,
-        "all": 97.535
+        "90d": 74.257,
+        "all": 97.534
       },
       "incidents": [
+        {
+          "id": "hdynq1pc0fn8",
+          "name": "Elevated errors for Claude Fable 5",
+          "impact": "major",
+          "started_at": "2026-08-14T23:57:16.560Z",
+          "resolved_at": "2026-08-15T00:27:36.893Z",
+          "status": "resolved"
+        },
         {
           "id": "j160kkjmm2n1",
           "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
@@ -80,18 +88,9 @@
           "started_at": "2026-08-03T12:52:52.841Z",
           "resolved_at": "2026-08-03T14:17:14.797Z",
           "status": "resolved"
-        },
-        {
-          "id": "jq4x54h69z76",
-          "name": "Degraded performance on Claude Sonnet 5",
-          "impact": "minor",
-          "started_at": "2026-07-31T06:18:08.059Z",
-          "resolved_at": "2026-07-31T07:04:49.691Z",
-          "status": "resolved"
         }
       ],
       "daily": [
-        "good",
         "major",
         "major",
         "minor",
@@ -180,7 +179,8 @@
         "good",
         "minor",
         "major",
-        "good"
+        "major",
+        "major"
       ]
     },
     {
@@ -273,7 +273,6 @@
         }
       ],
       "daily": [
-        "good",
         "major",
         "major",
         "minor",
@@ -353,6 +352,7 @@
         "good",
         "minor",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -455,7 +455,6 @@
         }
       ],
       "daily": [
-        "good",
         "major",
         "major",
         "minor",
@@ -544,7 +543,8 @@
         "good",
         "minor",
         "major",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
@@ -637,7 +637,6 @@
         }
       ],
       "daily": [
-        "good",
         "major",
         "major",
         "minor",
@@ -726,7 +725,8 @@
         "good",
         "minor",
         "major",
-        "major"
+        "major",
+        "good"
       ]
     },
     {
@@ -790,8 +790,8 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -844,7 +844,6 @@
     "90d": 73.058
   },
   "daily_overall": [
-    "good",
     "major",
     "major",
     "minor",
@@ -932,6 +931,7 @@
     "good",
     "good",
     "minor",
+    "major",
     "major",
     "major"
   ],
