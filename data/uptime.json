@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T09:21:07.644972+00:00",
+  "generated_at": "2026-08-16T10:16:26.254542+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
@@ -552,7 +552,7 @@
       "name": "Claude Code",
       "uptime": {
         "90d": 73.117,
-        "all": 97.69
+        "all": 97.691
       },
       "incidents": [
         {
