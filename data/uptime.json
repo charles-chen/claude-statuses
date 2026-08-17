@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-17T15:19:54.944911+00:00",
+  "generated_at": "2026-08-17T16:19:58.100149+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 73.693,
-        "all": 97.481
+        "90d": 73.648,
+        "all": 97.478
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
           "impact": "minor",
           "started_at": "2026-08-17T13:56:41.046Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-08-17T15:29:25.545Z",
+          "status": "resolved"
         },
         {
           "id": "qzfvhfg85r6t",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 96.827,
-        "all": 99.38
+        "90d": 96.78,
+        "all": 99.377
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 73.639,
-        "all": 97.568
+        "90d": 73.593,
+        "all": 97.565
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
           "impact": "minor",
           "started_at": "2026-08-17T13:56:41.046Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-08-17T15:29:25.545Z",
+          "status": "resolved"
         },
         {
           "id": "qzfvhfg85r6t",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.494,
-        "all": 97.635
+        "90d": 72.447,
+        "all": 97.632
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
           "impact": "minor",
           "started_at": "2026-08-17T13:56:41.046Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-08-17T15:29:25.545Z",
+          "status": "resolved"
         },
         {
           "id": "qzfvhfg85r6t",
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.494
+    "90d": 72.447
   },
   "daily_overall": [
     "minor",
