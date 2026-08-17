@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-08-17T13:34:53.287683+00:00",
+  "generated_at": "2026-08-17T14:20:37.415837+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 73.715,
-        "all": 97.487
+        "90d": 73.693,
+        "all": 97.484
       },
       "incidents": [
+        {
+          "id": "zhk4v3yv1lsf",
+          "name": "Degraded performance for Claude Opus 5",
+          "impact": "minor",
+          "started_at": "2026-08-17T13:56:41.046Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "qzfvhfg85r6t",
           "name": "Service disruption on Claude services",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-08-04T11:27:20.681Z",
           "resolved_at": "2026-08-04T11:52:10.820Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8k9mjhq7wmv3",
-          "name": "Elevated errors on Claude Sonnet 5",
-          "impact": "minor",
-          "started_at": "2026-08-04T06:16:33.835Z",
-          "resolved_at": "2026-08-04T06:55:43.194Z",
           "status": "resolved"
         }
       ],
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 96.849,
-        "all": 99.386
+        "90d": 96.827,
+        "all": 99.383
       },
       "incidents": [
         {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 73.661,
-        "all": 97.574
+        "90d": 73.64,
+        "all": 97.571
       },
       "incidents": [
+        {
+          "id": "zhk4v3yv1lsf",
+          "name": "Degraded performance for Claude Opus 5",
+          "impact": "minor",
+          "started_at": "2026-08-17T13:56:41.046Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "qzfvhfg85r6t",
           "name": "Service disruption on Claude services",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-08-04T11:27:20.681Z",
           "resolved_at": "2026-08-04T11:52:10.820Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8k9mjhq7wmv3",
-          "name": "Elevated errors on Claude Sonnet 5",
-          "impact": "minor",
-          "started_at": "2026-08-04T06:16:33.835Z",
-          "resolved_at": "2026-08-04T06:55:43.194Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 72.516,
-        "all": 97.641
+        "90d": 72.494,
+        "all": 97.638
       },
       "incidents": [
+        {
+          "id": "zhk4v3yv1lsf",
+          "name": "Degraded performance for Claude Opus 5",
+          "impact": "minor",
+          "started_at": "2026-08-17T13:56:41.046Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "qzfvhfg85r6t",
           "name": "Service disruption on Claude services",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-08-04T11:27:20.681Z",
           "resolved_at": "2026-08-04T11:52:10.820Z",
-          "status": "resolved"
-        },
-        {
-          "id": "8k9mjhq7wmv3",
-          "name": "Elevated errors on Claude Sonnet 5",
-          "impact": "minor",
-          "started_at": "2026-08-04T06:16:33.835Z",
-          "resolved_at": "2026-08-04T06:55:43.194Z",
           "status": "resolved"
         }
       ],
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 72.516
+    "90d": 72.494
   },
   "daily_overall": [
     "minor",
