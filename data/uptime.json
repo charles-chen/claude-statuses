@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T18:28:47.727139+00:00",
+  "generated_at": "2026-08-18T19:22:16.534526+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 72.527,
-        "all": 97.393
+        "90d": 72.486,
+        "all": 97.39
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Degraded performance for multiple models",
           "impact": "minor",
           "started_at": "2026-08-18T16:20:22.231Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-08-18T19:01:45.447Z",
+          "status": "resolved"
         },
         {
           "id": "zhk4v3yv1lsf",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 95.597,
-        "all": 99.29
+        "90d": 95.556,
+        "all": 99.287
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 72.472,
-        "all": 97.48
+        "90d": 72.431,
+        "all": 97.477
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Degraded performance for multiple models",
           "impact": "minor",
           "started_at": "2026-08-18T16:20:22.231Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-08-18T19:01:45.447Z",
+          "status": "resolved"
         },
         {
           "id": "zhk4v3yv1lsf",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 71.327,
-        "all": 97.547
+        "90d": 71.286,
+        "all": 97.544
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Degraded performance for multiple models",
           "impact": "minor",
           "started_at": "2026-08-18T16:20:22.231Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-08-18T19:01:45.447Z",
+          "status": "resolved"
         },
         {
           "id": "zhk4v3yv1lsf",
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 71.327
+    "90d": 71.286
   },
   "daily_overall": [
     "minor",
