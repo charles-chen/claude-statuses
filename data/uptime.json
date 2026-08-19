@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-19T10:21:46.221935+00:00",
+  "generated_at": "2026-08-19T11:19:22.299399+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 71.792,
-        "all": 97.342
+        "90d": 71.747,
+        "all": 97.339
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-08-19T09:42:37.402Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-08-19T11:02:18.264Z",
+          "status": "resolved"
         },
         {
           "id": "q7txxvbsftgq",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 94.862,
-        "all": 99.238
+        "90d": 94.817,
+        "all": 99.235
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 71.737,
-        "all": 97.428
+        "90d": 71.692,
+        "all": 97.425
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-08-19T09:42:37.402Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-08-19T11:02:18.264Z",
+          "status": "resolved"
         },
         {
           "id": "q7txxvbsftgq",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 70.591,
-        "all": 97.495
+        "90d": 70.547,
+        "all": 97.492
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
           "impact": "minor",
           "started_at": "2026-08-19T09:42:37.402Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-08-19T11:02:18.264Z",
+          "status": "resolved"
         },
         {
           "id": "q7txxvbsftgq",
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 70.591
+    "90d": 70.547
   },
   "daily_overall": [
     "major",
