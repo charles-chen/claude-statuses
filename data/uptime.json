@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-08-19T09:26:38.584809+00:00",
+  "generated_at": "2026-08-19T10:21:46.221935+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 71.834,
-        "all": 97.345
+        "90d": 71.792,
+        "all": 97.342
       },
       "incidents": [
+        {
+          "id": "hkcw95k7r0f4",
+          "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-08-19T09:42:37.402Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "q7txxvbsftgq",
           "name": "Degraded performance for multiple models",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-08-05T07:05:54.000Z",
           "resolved_at": "2026-08-05T14:14:36.006Z",
-          "status": "resolved"
-        },
-        {
-          "id": "bdr3fq2rkchr",
-          "name": "Elevated errors across many models",
-          "impact": "major",
-          "started_at": "2026-08-04T20:48:20.764Z",
-          "resolved_at": "2026-08-04T21:59:29.385Z",
           "status": "resolved"
         }
       ],
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 94.904,
-        "all": 99.241
+        "90d": 94.862,
+        "all": 99.238
       },
       "incidents": [
         {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 71.779,
-        "all": 97.431
+        "90d": 71.737,
+        "all": 97.428
       },
       "incidents": [
+        {
+          "id": "hkcw95k7r0f4",
+          "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-08-19T09:42:37.402Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "q7txxvbsftgq",
           "name": "Degraded performance for multiple models",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-08-05T07:05:54.000Z",
           "resolved_at": "2026-08-05T14:14:36.006Z",
-          "status": "resolved"
-        },
-        {
-          "id": "bdr3fq2rkchr",
-          "name": "Elevated errors across many models",
-          "impact": "major",
-          "started_at": "2026-08-04T20:48:20.764Z",
-          "resolved_at": "2026-08-04T21:59:29.385Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 70.634,
-        "all": 97.498
+        "90d": 70.591,
+        "all": 97.495
       },
       "incidents": [
+        {
+          "id": "hkcw95k7r0f4",
+          "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+          "impact": "minor",
+          "started_at": "2026-08-19T09:42:37.402Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "q7txxvbsftgq",
           "name": "Degraded performance for multiple models",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-08-05T07:05:54.000Z",
           "resolved_at": "2026-08-05T14:14:36.006Z",
-          "status": "resolved"
-        },
-        {
-          "id": "bdr3fq2rkchr",
-          "name": "Elevated errors across many models",
-          "impact": "major",
-          "started_at": "2026-08-04T20:48:20.764Z",
-          "resolved_at": "2026-08-04T21:59:29.385Z",
           "status": "resolved"
         }
       ],
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 70.634
+    "90d": 70.591
   },
   "daily_overall": [
     "major",
