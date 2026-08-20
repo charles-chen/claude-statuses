@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-20T19:25:39.843704+00:00",
+  "generated_at": "2026-08-20T20:21:03.334842+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 70.479,
-        "all": 97.235
+        "90d": 70.436,
+        "all": 97.232
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors on requests to multiple models",
           "impact": "major",
           "started_at": "2026-08-20T19:16:24.923Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-08-20T19:42:38.692Z",
+          "status": "resolved"
         },
         {
           "id": "6xskhw7rn4tf",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 93.534,
-        "all": 99.129
+        "90d": 93.491,
+        "all": 99.126
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 70.409,
-        "all": 97.321
+        "90d": 70.367,
+        "all": 97.318
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors on requests to multiple models",
           "impact": "major",
           "started_at": "2026-08-20T19:16:24.923Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-08-20T19:42:38.692Z",
+          "status": "resolved"
         },
         {
           "id": "6xskhw7rn4tf",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 69.264,
-        "all": 97.388
+        "90d": 69.221,
+        "all": 97.385
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors on requests to multiple models",
           "impact": "major",
           "started_at": "2026-08-20T19:16:24.923Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-08-20T19:42:38.692Z",
+          "status": "resolved"
         },
         {
           "id": "6xskhw7rn4tf",
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 69.264
+    "90d": 69.221
   },
   "daily_overall": [
     "good",
