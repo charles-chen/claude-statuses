@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-08-24T15:32:47.813243+00:00",
+  "generated_at": "2026-08-24T17:25:06.286342+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 66.214,
-        "all": 96.938
+        "90d": 66.127,
+        "all": 96.932
       },
       "incidents": [
+        {
+          "id": "w43j3xmngxgj",
+          "name": "Errors logging into Claude.ai",
+          "impact": "minor",
+          "started_at": "2026-08-24T17:12:42.191Z",
+          "resolved_at": "2026-08-24T17:16:02.904Z",
+          "status": "resolved"
+        },
         {
           "id": "vgz5psbjmt1h",
           "name": "Elevated errors for multiple models",
@@ -79,14 +87,6 @@
           "impact": "major",
           "started_at": "2026-08-14T23:57:16.560Z",
           "resolved_at": "2026-08-15T00:27:36.893Z",
-          "status": "resolved"
-        },
-        {
-          "id": "j160kkjmm2n1",
-          "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
-          "impact": "major",
-          "started_at": "2026-08-13T14:33:45.150Z",
-          "resolved_at": "2026-08-13T16:08:35.730Z",
           "status": "resolved"
         }
       ],
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 89.269,
-        "all": 98.826
+        "90d": 89.183,
+        "all": 98.82
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 66.145,
-        "all": 97.024
+        "90d": 66.058,
+        "all": 97.018
       },
       "incidents": [
         {
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 65.156,
-        "all": 97.091
+        "90d": 65.069,
+        "all": 97.085
       },
       "incidents": [
         {
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 65.156
+    "90d": 65.069
   },
   "daily_overall": [
     "major",
