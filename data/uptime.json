@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-24T20:22:02.170094+00:00",
+  "generated_at": "2026-08-24T21:22:06.853112+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 65.991,
-        "all": 96.922
+        "90d": 65.944,
+        "all": 96.919
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Issues logging into Claude.ai",
           "impact": "minor",
           "started_at": "2026-08-24T20:11:23.924Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-08-24T20:26:21.577Z",
+          "status": "resolved"
         },
         {
           "id": "w43j3xmngxgj",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 89.046,
-        "all": 98.81
+        "90d": 89.0,
+        "all": 98.807
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 65.921,
-        "all": 97.009
+        "90d": 65.875,
+        "all": 97.006
       },
       "incidents": [
         {
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 64.933,
-        "all": 97.075
+        "90d": 64.886,
+        "all": 97.072
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Issues logging into Claude.ai",
           "impact": "minor",
           "started_at": "2026-08-24T20:11:23.924Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-08-24T20:26:21.577Z",
+          "status": "resolved"
         },
         {
           "id": "vgz5psbjmt1h",
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 64.933
+    "90d": 64.886
   },
   "daily_overall": [
     "major",
