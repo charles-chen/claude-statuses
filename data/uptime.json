@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-08-24T04:37:57.013736+00:00",
+  "generated_at": "2026-08-24T05:32:24.675365+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 66.719,
-        "all": 96.973
+        "90d": 66.677,
+        "all": 96.97
       },
       "incidents": [
+        {
+          "id": "vgz5psbjmt1h",
+          "name": "Elevated errors for multiple models",
+          "impact": "major",
+          "started_at": "2026-08-24T05:06:39.483Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "c0ncxxm2wd9r",
           "name": "Elevated errors on requests to multiple models",
@@ -79,14 +87,6 @@
           "impact": "major",
           "started_at": "2026-08-13T14:33:45.150Z",
           "resolved_at": "2026-08-13T16:08:35.730Z",
-          "status": "resolved"
-        },
-        {
-          "id": "rk6gkg2gwfny",
-          "name": "Degraded performance for multiple models",
-          "impact": "minor",
-          "started_at": "2026-08-12T13:50:28.450Z",
-          "resolved_at": "2026-08-12T18:07:11.547Z",
           "status": "resolved"
         }
       ],
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 89.775,
-        "all": 98.862
+        "90d": 89.733,
+        "all": 98.859
       },
       "incidents": [
         {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 66.65,
-        "all": 97.059
+        "90d": 66.608,
+        "all": 97.056
       },
       "incidents": [
+        {
+          "id": "vgz5psbjmt1h",
+          "name": "Elevated errors for multiple models",
+          "impact": "major",
+          "started_at": "2026-08-24T05:06:39.483Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "c0ncxxm2wd9r",
           "name": "Elevated errors on requests to multiple models",
@@ -443,14 +451,6 @@
           "impact": "major",
           "started_at": "2026-08-13T14:33:45.150Z",
           "resolved_at": "2026-08-13T16:08:35.730Z",
-          "status": "resolved"
-        },
-        {
-          "id": "rk6gkg2gwfny",
-          "name": "Degraded performance for multiple models",
-          "impact": "minor",
-          "started_at": "2026-08-12T13:50:28.450Z",
-          "resolved_at": "2026-08-12T18:07:11.547Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 65.629,
-        "all": 97.126
+        "90d": 65.619,
+        "all": 97.123
       },
       "incidents": [
+        {
+          "id": "vgz5psbjmt1h",
+          "name": "Elevated errors for multiple models",
+          "impact": "major",
+          "started_at": "2026-08-24T05:06:39.483Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "c0ncxxm2wd9r",
           "name": "Elevated errors on requests to multiple models",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-08-13T14:33:45.150Z",
           "resolved_at": "2026-08-13T16:08:35.730Z",
-          "status": "resolved"
-        },
-        {
-          "id": "rk6gkg2gwfny",
-          "name": "Degraded performance for multiple models",
-          "impact": "minor",
-          "started_at": "2026-08-12T13:50:28.450Z",
-          "resolved_at": "2026-08-12T18:07:11.547Z",
           "status": "resolved"
         }
       ],
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 65.629
+    "90d": 65.619
   },
   "daily_overall": [
     "major",
