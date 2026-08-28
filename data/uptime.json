@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-28T08:33:20.552748+00:00",
+  "generated_at": "2026-08-28T20:36:03.715332+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 62.222,
-        "all": 96.653
+        "90d": 61.665,
+        "all": 96.614
       },
       "incidents": [
         {
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 85.181,
-        "all": 98.535
+        "90d": 84.624,
+        "all": 98.496
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 62.143,
-        "all": 96.739
+        "90d": 61.585,
+        "all": 96.7
       },
       "incidents": [
         {
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 61.154,
-        "all": 96.805
+        "90d": 60.596,
+        "all": 96.767
       },
       "incidents": [
+        {
+          "id": "vr9tpk8w7zr8",
+          "name": "Elevated errors on Claude Code and Claude Cowork",
+          "impact": "major",
+          "started_at": "2026-08-28T17:22:02.368Z",
+          "resolved_at": "2026-08-28T20:21:18.448Z",
+          "status": "resolved"
+        },
         {
           "id": "n0rlp126qf8g",
           "name": "Issues logging into Claude.ai",
@@ -625,14 +633,6 @@
           "impact": "critical",
           "started_at": "2026-08-16T21:58:56.939Z",
           "resolved_at": "2026-08-16T22:34:39.037Z",
-          "status": "resolved"
-        },
-        {
-          "id": "005ym4vzrq2w",
-          "name": "Service disruption on Claude services",
-          "impact": "major",
-          "started_at": "2026-08-14T20:30:36.280Z",
-          "resolved_at": "2026-08-14T21:58:12.691Z",
           "status": "resolved"
         }
       ],
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 61.154
+    "90d": 60.596
   },
   "daily_overall": [
     "minor",
