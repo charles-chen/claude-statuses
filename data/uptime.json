@@ -1,14 +1,30 @@
 {
-  "generated_at": "2026-08-31T17:20:40.493673+00:00",
+  "generated_at": "2026-08-31T22:16:59.176864+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 58.862,
-        "all": 96.396
+        "90d": 58.634,
+        "all": 96.38
       },
       "incidents": [
+        {
+          "id": "r82kdk0m7vqh",
+          "name": "Degraded performance on claude.ai and Claude Code",
+          "impact": "minor",
+          "started_at": "2026-08-31T19:21:32.131Z",
+          "resolved_at": "2026-08-31T20:36:00.297Z",
+          "status": "resolved"
+        },
+        {
+          "id": "9jrp5rtyzrf6",
+          "name": "Degraded performance on claude.ai",
+          "impact": "minor",
+          "started_at": "2026-08-31T17:23:06.231Z",
+          "resolved_at": "2026-08-31T17:52:26.026Z",
+          "status": "resolved"
+        },
         {
           "id": "n0rlp126qf8g",
           "name": "Issues logging into Claude.ai",
@@ -71,22 +87,6 @@
           "impact": "minor",
           "started_at": "2026-08-17T13:56:41.046Z",
           "resolved_at": "2026-08-17T15:29:25.545Z",
-          "status": "resolved"
-        },
-        {
-          "id": "qzfvhfg85r6t",
-          "name": "Service disruption on Claude services",
-          "impact": "major",
-          "started_at": "2026-08-16T22:07:04.155Z",
-          "resolved_at": null,
-          "status": "investigating"
-        },
-        {
-          "id": "qt14v73myyy5",
-          "name": "Service disruption on Claude services",
-          "impact": "critical",
-          "started_at": "2026-08-16T21:58:56.939Z",
-          "resolved_at": "2026-08-16T22:34:39.037Z",
           "status": "resolved"
         }
       ],
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 81.796,
-        "all": 98.273
+        "90d": 81.567,
+        "all": 98.257
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 58.722,
-        "all": 96.481
+        "90d": 58.493,
+        "all": 96.466
       },
       "incidents": [
         {
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 57.733,
-        "all": 96.548
+        "90d": 57.505,
+        "all": 96.532
       },
       "incidents": [
+        {
+          "id": "r82kdk0m7vqh",
+          "name": "Degraded performance on claude.ai and Claude Code",
+          "impact": "minor",
+          "started_at": "2026-08-31T19:21:32.131Z",
+          "resolved_at": "2026-08-31T20:36:00.297Z",
+          "status": "resolved"
+        },
         {
           "id": "vr9tpk8w7zr8",
           "name": "Elevated errors on Claude Code and Claude Cowork",
@@ -626,14 +634,6 @@
           "started_at": "2026-08-16T22:07:04.155Z",
           "resolved_at": null,
           "status": "investigating"
-        },
-        {
-          "id": "qt14v73myyy5",
-          "name": "Service disruption on Claude services",
-          "impact": "critical",
-          "started_at": "2026-08-16T21:58:56.939Z",
-          "resolved_at": "2026-08-16T22:34:39.037Z",
-          "status": "resolved"
         }
       ],
       "daily": [
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 57.733
+    "90d": 57.505
   },
   "daily_overall": [
     "major",
