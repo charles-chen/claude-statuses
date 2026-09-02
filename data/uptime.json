@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-01T22:55:56.157976+00:00",
+  "generated_at": "2026-09-02T00:47:00.583830+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 57.507,
-        "all": 96.302
+        "90d": 57.421,
+        "all": 96.296
       },
       "incidents": [
         {
@@ -91,7 +91,6 @@
         }
       ],
       "daily": [
-        "good",
         "major",
         "minor",
         "minor",
@@ -165,6 +164,7 @@
         "major",
         "major",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -187,10 +187,18 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 80.44,
-        "all": 98.177
+        "90d": 80.355,
+        "all": 98.172
       },
       "incidents": [
+        {
+          "id": "620swtqyn24k",
+          "name": "Delays in credit purchases",
+          "impact": "minor",
+          "started_at": "2026-09-01T23:26:48.984Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "3g3d55q6vk3h",
           "name": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
@@ -262,19 +270,10 @@
           "started_at": "2026-07-22T15:24:05.443Z",
           "resolved_at": "2026-07-22T16:12:32.364Z",
           "status": "resolved"
-        },
-        {
-          "id": "f7w8qkd8z57f",
-          "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
-          "impact": "minor",
-          "started_at": "2026-07-22T13:37:28.227Z",
-          "resolved_at": "2026-07-22T15:23:37.914Z",
-          "status": "resolved"
         }
       ],
       "daily": [
         "good",
-        "good",
         "minor",
         "minor",
         "minor",
@@ -347,6 +346,7 @@
         "good",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 57.367,
-        "all": 96.387
+        "90d": 57.281,
+        "all": 96.382
       },
       "incidents": [
         {
@@ -455,7 +455,6 @@
         }
       ],
       "daily": [
-        "good",
         "major",
         "minor",
         "minor",
@@ -529,6 +528,7 @@
         "major",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 56.518,
-        "all": 96.454
+        "90d": 56.432,
+        "all": 96.448
       },
       "incidents": [
         {
@@ -637,7 +637,6 @@
         }
       ],
       "daily": [
-        "good",
         "major",
         "minor",
         "minor",
@@ -711,6 +710,7 @@
         "major",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -772,8 +772,8 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -841,10 +841,9 @@
     }
   ],
   "aggregate": {
-    "90d": 56.518
+    "90d": 56.432
   },
   "daily_overall": [
-    "good",
     "major",
     "minor",
     "minor",
@@ -918,6 +917,7 @@
     "major",
     "major",
     "critical",
+    "major",
     "major",
     "major",
     "major",
