@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-02T21:30:19.582875+00:00",
+  "generated_at": "2026-09-02T23:45:57.658346+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 56.462,
-        "all": 96.23
+        "90d": 56.357,
+        "all": 96.223
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors for Claude Sonnet 5",
           "impact": "major",
           "started_at": "2026-09-02T21:17:58.696Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-09-02T21:44:28.095Z",
+          "status": "resolved"
         },
         {
           "id": "3g3d55q6vk3h",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 79.395,
-        "all": 98.105
+        "90d": 79.291,
+        "all": 98.097
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 56.322,
-        "all": 96.316
+        "90d": 56.217,
+        "all": 96.309
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Elevated errors for Claude Sonnet 5",
           "impact": "major",
           "started_at": "2026-09-02T21:17:58.696Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-09-02T21:44:28.095Z",
+          "status": "resolved"
         },
         {
           "id": "vgz5psbjmt1h",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 55.473,
-        "all": 96.382
+        "90d": 55.368,
+        "all": 96.375
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors for Claude Sonnet 5",
           "impact": "major",
           "started_at": "2026-09-02T21:17:58.696Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-09-02T21:44:28.095Z",
+          "status": "resolved"
         },
         {
           "id": "r82kdk0m7vqh",
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 55.473
+    "90d": 55.368
   },
   "daily_overall": [
     "major",
