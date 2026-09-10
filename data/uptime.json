@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-10T19:25:34.889736+00:00",
+  "generated_at": "2026-09-10T22:11:08.582696+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 48.251,
-        "all": 95.633
+        "90d": 48.123,
+        "all": 95.624
       },
       "incidents": [
         {
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 70.656,
-        "all": 97.496
+        "90d": 70.528,
+        "all": 97.487
       },
       "incidents": [
         {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 48.099,
-        "all": 95.718
+        "90d": 47.971,
+        "all": 95.709
       },
       "incidents": [
+        {
+          "id": "2pt83vlkk7x7",
+          "name": "Degraded performance on the Claude API",
+          "impact": "minor",
+          "started_at": "2026-09-10T21:43:40.209Z",
+          "resolved_at": null,
+          "status": "identified"
+        },
         {
           "id": "461yvfrzpwtt",
           "name": "Elevated errors for multiple models",
@@ -444,14 +452,6 @@
           "started_at": "2026-08-17T13:56:41.046Z",
           "resolved_at": "2026-08-17T15:29:25.545Z",
           "status": "resolved"
-        },
-        {
-          "id": "qzfvhfg85r6t",
-          "name": "Service disruption on Claude services",
-          "impact": "major",
-          "started_at": "2026-08-16T22:07:04.155Z",
-          "resolved_at": null,
-          "status": "investigating"
         }
       ],
       "daily": [
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 47.262,
-        "all": 95.784
+        "90d": 47.134,
+        "all": 95.775
       },
       "incidents": [
         {
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 47.262
+    "90d": 47.134
   },
   "daily_overall": [
     "critical",
