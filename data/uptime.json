@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-10T22:11:08.582696+00:00",
+  "generated_at": "2026-09-11T00:45:56.129111+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 48.123,
-        "all": 95.624
+        "90d": 48.004,
+        "all": 95.616
       },
       "incidents": [
         {
@@ -109,7 +109,6 @@
         "critical",
         "critical",
         "critical",
-        "critical",
         "minor",
         "minor",
         "minor",
@@ -156,6 +155,7 @@
         "major",
         "major",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 70.528,
-        "all": 97.487
+        "90d": 70.409,
+        "all": 97.479
       },
       "incidents": [
         {
@@ -274,7 +274,6 @@
       ],
       "daily": [
         "good",
-        "good",
         "minor",
         "good",
         "minor",
@@ -338,6 +337,7 @@
         "good",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -369,17 +369,17 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 47.971,
-        "all": 95.709
+        "90d": 47.852,
+        "all": 95.701
       },
       "incidents": [
         {
           "id": "2pt83vlkk7x7",
-          "name": "Degraded performance on the Claude API",
+          "name": "Elevated latency on the Claude API for some users",
           "impact": "minor",
           "started_at": "2026-09-10T21:43:40.209Z",
-          "resolved_at": null,
-          "status": "identified"
+          "resolved_at": "2026-09-10T23:24:22.978Z",
+          "status": "resolved"
         },
         {
           "id": "461yvfrzpwtt",
@@ -473,7 +473,6 @@
         "critical",
         "critical",
         "critical",
-        "critical",
         "minor",
         "minor",
         "minor",
@@ -520,6 +519,7 @@
         "major",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 47.134,
-        "all": 95.775
+        "90d": 47.015,
+        "all": 95.767
       },
       "incidents": [
         {
@@ -655,7 +655,6 @@
         "critical",
         "critical",
         "critical",
-        "critical",
         "minor",
         "minor",
         "minor",
@@ -702,6 +701,7 @@
         "major",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -763,8 +763,8 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -841,7 +841,7 @@
     }
   ],
   "aggregate": {
-    "90d": 47.134
+    "90d": 47.015
   },
   "daily_overall": [
     "critical",
@@ -862,7 +862,6 @@
     "critical",
     "critical",
     "critical",
-    "critical",
     "minor",
     "minor",
     "minor",
@@ -909,6 +908,7 @@
     "major",
     "major",
     "critical",
+    "major",
     "major",
     "major",
     "major",
