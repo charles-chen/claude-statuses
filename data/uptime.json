@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-09-15T05:40:55.492490+00:00",
+  "generated_at": "2026-09-15T10:51:09.541485+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 48.0,
-        "all": 95.302
+        "all": 95.286
       },
       "incidents": [
+        {
+          "id": "6304r9jjhj34",
+          "name": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
+          "impact": "major",
+          "started_at": "2026-09-15T09:48:23.066Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "t33dncr5ydvl",
           "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-08-24T20:11:23.924Z",
           "resolved_at": "2026-08-24T20:26:21.577Z",
-          "status": "resolved"
-        },
-        {
-          "id": "w43j3xmngxgj",
-          "name": "Errors logging into Claude.ai",
-          "impact": "minor",
-          "started_at": "2026-08-24T17:12:42.191Z",
-          "resolved_at": "2026-08-24T17:16:02.904Z",
           "status": "resolved"
         }
       ],
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 65.945,
-        "all": 97.158
+        "90d": 65.765,
+        "all": 97.142
       },
       "incidents": [
         {
@@ -370,9 +370,17 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "90d": 47.848,
-        "all": 95.387
+        "all": 95.371
       },
       "incidents": [
+        {
+          "id": "6304r9jjhj34",
+          "name": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
+          "impact": "major",
+          "started_at": "2026-09-15T09:48:23.066Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "t33dncr5ydvl",
           "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
@@ -443,14 +451,6 @@
           "impact": "minor",
           "started_at": "2026-08-19T09:42:37.402Z",
           "resolved_at": "2026-08-19T11:02:18.264Z",
-          "status": "resolved"
-        },
-        {
-          "id": "q7txxvbsftgq",
-          "name": "Degraded performance for multiple models",
-          "impact": "minor",
-          "started_at": "2026-08-18T16:20:22.231Z",
-          "resolved_at": "2026-08-18T19:01:45.447Z",
           "status": "resolved"
         }
       ],
@@ -552,9 +552,17 @@
       "name": "Claude Code",
       "uptime": {
         "90d": 47.011,
-        "all": 95.452
+        "all": 95.436
       },
       "incidents": [
+        {
+          "id": "6304r9jjhj34",
+          "name": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
+          "impact": "major",
+          "started_at": "2026-09-15T09:48:23.066Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "t33dncr5ydvl",
           "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-08-20T19:16:24.923Z",
           "resolved_at": "2026-08-20T19:42:38.692Z",
-          "status": "resolved"
-        },
-        {
-          "id": "6xskhw7rn4tf",
-          "name": "Elevated errors on Google connectors",
-          "impact": "minor",
-          "started_at": "2026-08-20T18:32:13.285Z",
-          "resolved_at": "2026-08-20T19:01:03.844Z",
           "status": "resolved"
         }
       ],
