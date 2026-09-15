@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-15T10:51:09.541485+00:00",
+  "generated_at": "2026-09-15T15:23:55.782205+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 48.0,
-        "all": 95.286
+        "all": 95.272
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
           "impact": "major",
           "started_at": "2026-09-15T09:48:23.066Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-09-15T11:14:44.380Z",
+          "status": "resolved"
         },
         {
           "id": "t33dncr5ydvl",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 65.765,
-        "all": 97.142
+        "90d": 65.555,
+        "all": 97.127
       },
       "incidents": [
         {
@@ -370,7 +370,7 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "90d": 47.848,
-        "all": 95.371
+        "all": 95.356
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
           "impact": "major",
           "started_at": "2026-09-15T09:48:23.066Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-09-15T11:14:44.380Z",
+          "status": "resolved"
         },
         {
           "id": "t33dncr5ydvl",
@@ -552,7 +552,7 @@
       "name": "Claude Code",
       "uptime": {
         "90d": 47.011,
-        "all": 95.436
+        "all": 95.422
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
           "impact": "major",
           "started_at": "2026-09-15T09:48:23.066Z",
-          "resolved_at": null,
-          "status": "monitoring"
+          "resolved_at": "2026-09-15T11:14:44.380Z",
+          "status": "resolved"
         },
         {
           "id": "t33dncr5ydvl",
