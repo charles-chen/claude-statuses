@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-22T22:37:54.963185+00:00",
+  "generated_at": "2026-09-23T01:09:09.962013+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 48.0,
-        "all": 94.731
+        "all": 94.723
       },
       "incidents": [
         {
@@ -97,7 +97,6 @@
         "critical",
         "critical",
         "critical",
-        "critical",
         "minor",
         "minor",
         "minor",
@@ -144,6 +143,7 @@
         "major",
         "major",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 57.772,
-        "all": 96.576
+        "90d": 57.655,
+        "all": 96.568
       },
       "incidents": [
         {
@@ -277,7 +277,6 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
         "good",
         "good",
@@ -362,6 +361,7 @@
         "major",
         "major",
         "major",
+        "major",
         "major"
       ]
     },
@@ -370,7 +370,7 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "90d": 47.848,
-        "all": 94.815
+        "all": 94.808
       },
       "incidents": [
         {
@@ -461,7 +461,6 @@
         "critical",
         "critical",
         "critical",
-        "critical",
         "minor",
         "minor",
         "minor",
@@ -508,6 +507,7 @@
         "major",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -552,7 +552,7 @@
       "name": "Claude Code",
       "uptime": {
         "90d": 47.011,
-        "all": 94.88
+        "all": 94.873
       },
       "incidents": [
         {
@@ -643,7 +643,6 @@
         "critical",
         "critical",
         "critical",
-        "critical",
         "minor",
         "minor",
         "minor",
@@ -690,6 +689,7 @@
         "major",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -751,8 +751,8 @@
         "good",
         "good",
         "good",
-        "good",
         "minor",
+        "good",
         "good",
         "good",
         "good",
@@ -850,7 +850,6 @@
     "critical",
     "critical",
     "critical",
-    "critical",
     "minor",
     "minor",
     "minor",
@@ -897,6 +896,7 @@
     "major",
     "major",
     "critical",
+    "major",
     "major",
     "major",
     "major",
