@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-28T06:14:20.508651+00:00",
+  "generated_at": "2026-09-28T14:51:27.592645+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
         "90d": 48.0,
-        "all": 94.341
+        "all": 94.315
       },
       "incidents": [
         {
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 51.864,
-        "all": 96.179
+        "90d": 51.476,
+        "all": 96.152
       },
       "incidents": [
         {
@@ -370,7 +370,7 @@
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
         "90d": 47.848,
-        "all": 94.425
+        "all": 94.399
       },
       "incidents": [
         {
@@ -552,7 +552,7 @@
       "name": "Claude Code",
       "uptime": {
         "90d": 47.011,
-        "all": 94.49
+        "all": 94.464
       },
       "incidents": [
         {
@@ -733,19 +733,10 @@
       "id": "0scnb50nvy53",
       "name": "Claude for Government",
       "uptime": {
-        "90d": 99.989,
+        "90d": 100.0,
         "all": 99.975
       },
-      "incidents": [
-        {
-          "id": "7ykkywg6yln4",
-          "name": "Elevated error rates on Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-06-30T14:31:04.499Z",
-          "resolved_at": "2026-06-30T15:28:26.509Z",
-          "status": "resolved"
-        }
-      ],
+      "incidents": [],
       "daily": [
         "good",
         "good",
