@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-09-29T07:46:19.790215+00:00",
+  "generated_at": "2026-09-29T19:44:08.003625+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 48.0,
-        "all": 94.264
+        "90d": 47.987,
+        "all": 94.227
       },
       "incidents": [
+        {
+          "id": "4xvtc2gnq73l",
+          "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+          "impact": "major",
+          "started_at": "2026-09-29T14:21:37.180Z",
+          "resolved_at": "2026-09-29T16:27:21.369Z",
+          "status": "resolved"
+        },
         {
           "id": "7g1qpkyz5gxh",
           "name": "Elevated errors for multiple models",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-08-31T19:21:32.131Z",
           "resolved_at": "2026-08-31T20:36:00.297Z",
-          "status": "resolved"
-        },
-        {
-          "id": "9jrp5rtyzrf6",
-          "name": "Degraded performance on claude.ai",
-          "impact": "minor",
-          "started_at": "2026-08-31T17:23:06.231Z",
-          "resolved_at": "2026-08-31T17:52:26.026Z",
           "status": "resolved"
         }
       ],
@@ -187,10 +187,18 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 50.693,
-        "all": 96.1
+        "90d": 50.14,
+        "all": 96.063
       },
       "incidents": [
+        {
+          "id": "4xvtc2gnq73l",
+          "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+          "impact": "major",
+          "started_at": "2026-09-29T14:21:37.180Z",
+          "resolved_at": "2026-09-29T16:27:21.369Z",
+          "status": "resolved"
+        },
         {
           "id": "620swtqyn24k",
           "name": "Delays in credit purchases",
@@ -261,14 +269,6 @@
           "impact": "minor",
           "started_at": "2026-07-24T09:09:56.933Z",
           "resolved_at": "2026-07-24T10:22:06.541Z",
-          "status": "resolved"
-        },
-        {
-          "id": "6h7589wl6l45",
-          "name": "Elevated error rates for Sonnet 5",
-          "impact": "minor",
-          "started_at": "2026-07-22T15:24:05.443Z",
-          "resolved_at": "2026-07-22T16:12:32.364Z",
           "status": "resolved"
         }
       ],
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 47.848,
-        "all": 94.348
+        "90d": 47.835,
+        "all": 94.311
       },
       "incidents": [
+        {
+          "id": "4xvtc2gnq73l",
+          "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+          "impact": "major",
+          "started_at": "2026-09-29T14:21:37.180Z",
+          "resolved_at": "2026-09-29T16:27:21.369Z",
+          "status": "resolved"
+        },
         {
           "id": "7g1qpkyz5gxh",
           "name": "Elevated errors for multiple models",
@@ -443,14 +451,6 @@
           "impact": "major",
           "started_at": "2026-08-20T19:16:24.923Z",
           "resolved_at": "2026-08-20T19:42:38.692Z",
-          "status": "resolved"
-        },
-        {
-          "id": "6xskhw7rn4tf",
-          "name": "Elevated errors on Google connectors",
-          "impact": "minor",
-          "started_at": "2026-08-20T18:32:13.285Z",
-          "resolved_at": "2026-08-20T19:01:03.844Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 47.011,
-        "all": 94.412
+        "90d": 46.998,
+        "all": 94.376
       },
       "incidents": [
+        {
+          "id": "4xvtc2gnq73l",
+          "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+          "impact": "major",
+          "started_at": "2026-09-29T14:21:37.180Z",
+          "resolved_at": "2026-09-29T16:27:21.369Z",
+          "status": "resolved"
+        },
         {
           "id": "7g1qpkyz5gxh",
           "name": "Elevated errors for multiple models",
@@ -625,14 +633,6 @@
           "impact": "minor",
           "started_at": "2026-08-24T20:11:23.924Z",
           "resolved_at": "2026-08-24T20:26:21.577Z",
-          "status": "resolved"
-        },
-        {
-          "id": "vgz5psbjmt1h",
-          "name": "Elevated errors for multiple models",
-          "impact": "major",
-          "started_at": "2026-08-24T05:06:39.483Z",
-          "resolved_at": "2026-08-24T08:30:47.615Z",
           "status": "resolved"
         }
       ],
@@ -832,7 +832,7 @@
     }
   ],
   "aggregate": {
-    "90d": 47.011
+    "90d": 46.998
   },
   "daily_overall": [
     "minor",
