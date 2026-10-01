@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-01T15:54:21.091761+00:00",
+  "generated_at": "2026-10-01T20:44:02.445530+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 45.973,
-        "all": 94.094
+        "90d": 45.75,
+        "all": 94.079
       },
       "incidents": [
         {
@@ -187,10 +187,18 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 48.095,
-        "all": 95.926
+        "90d": 47.871,
+        "all": 95.911
       },
       "incidents": [
+        {
+          "id": "k0h22tsvnydg",
+          "name": "Delayed credits on the Claude Platform",
+          "impact": "minor",
+          "started_at": "2026-10-01T16:20:40.767Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "4xvtc2gnq73l",
           "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
@@ -261,14 +269,6 @@
           "impact": "major",
           "started_at": "2026-07-26T09:17:12.688Z",
           "resolved_at": "2026-07-26T10:44:14.944Z",
-          "status": "resolved"
-        },
-        {
-          "id": "0lbk5m7mbqk5",
-          "name": "Elevated error rate on Opus 4.8",
-          "impact": "minor",
-          "started_at": "2026-07-24T09:09:56.933Z",
-          "resolved_at": "2026-07-24T10:22:06.541Z",
           "status": "resolved"
         }
       ],
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 45.821,
-        "all": 94.177
+        "90d": 45.598,
+        "all": 94.163
       },
       "incidents": [
+        {
+          "id": "k0h22tsvnydg",
+          "name": "Delayed credits on the Claude Platform",
+          "impact": "minor",
+          "started_at": "2026-10-01T16:20:40.767Z",
+          "resolved_at": null,
+          "status": "monitoring"
+        },
         {
           "id": "4xvtc2gnq73l",
           "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
@@ -443,14 +451,6 @@
           "impact": "major",
           "started_at": "2026-08-24T05:06:39.483Z",
           "resolved_at": "2026-08-24T08:30:47.615Z",
-          "status": "resolved"
-        },
-        {
-          "id": "c0ncxxm2wd9r",
-          "name": "Elevated errors on requests to multiple models",
-          "impact": "major",
-          "started_at": "2026-08-20T19:16:24.923Z",
-          "resolved_at": "2026-08-20T19:42:38.692Z",
           "status": "resolved"
         }
       ],
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 44.984,
-        "all": 94.242
+        "90d": 44.761,
+        "all": 94.227
       },
       "incidents": [
         {
@@ -832,7 +832,7 @@
     }
   ],
   "aggregate": {
-    "90d": 44.984
+    "90d": 44.761
   },
   "daily_overall": [
     "minor",
