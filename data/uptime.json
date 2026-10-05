@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-10-05T08:06:38.372599+00:00",
+  "generated_at": "2026-10-05T17:43:05.022981+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 42.05,
-        "all": 93.827
+        "90d": 41.605,
+        "all": 93.798
       },
       "incidents": [
+        {
+          "id": "bhphxz3vr58g",
+          "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+          "impact": "major",
+          "started_at": "2026-10-05T13:05:44.480Z",
+          "resolved_at": "2026-10-05T13:21:37.611Z",
+          "status": "resolved"
+        },
         {
           "id": "4xvtc2gnq73l",
           "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
@@ -79,14 +87,6 @@
           "impact": "minor",
           "started_at": "2026-09-01T16:02:48.673Z",
           "resolved_at": "2026-09-01T16:22:19.479Z",
-          "status": "resolved"
-        },
-        {
-          "id": "r82kdk0m7vqh",
-          "name": "Degraded performance on claude.ai and Claude Code",
-          "impact": "minor",
-          "started_at": "2026-08-31T19:21:32.131Z",
-          "resolved_at": "2026-08-31T20:36:00.297Z",
           "status": "resolved"
         }
       ],
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 44.016,
-        "all": 95.655
+        "90d": 43.571,
+        "all": 95.625
       },
       "incidents": [
         {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 41.877,
-        "all": 93.911
+        "90d": 41.432,
+        "all": 93.882
       },
       "incidents": [
+        {
+          "id": "bhphxz3vr58g",
+          "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+          "impact": "major",
+          "started_at": "2026-10-05T13:05:44.480Z",
+          "resolved_at": "2026-10-05T13:21:37.611Z",
+          "status": "resolved"
+        },
         {
           "id": "k0h22tsvnydg",
           "name": "Delayed credits on the Claude Platform",
@@ -443,14 +451,6 @@
           "impact": "major",
           "started_at": "2026-09-02T21:17:58.696Z",
           "resolved_at": "2026-09-02T21:44:28.095Z",
-          "status": "resolved"
-        },
-        {
-          "id": "vgz5psbjmt1h",
-          "name": "Elevated errors for multiple models",
-          "impact": "major",
-          "started_at": "2026-08-24T05:06:39.483Z",
-          "resolved_at": "2026-08-24T08:30:47.615Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 41.5,
-        "all": 93.975
+        "90d": 41.398,
+        "all": 93.946
       },
       "incidents": [
+        {
+          "id": "bhphxz3vr58g",
+          "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+          "impact": "major",
+          "started_at": "2026-10-05T13:05:44.480Z",
+          "resolved_at": "2026-10-05T13:21:37.611Z",
+          "status": "resolved"
+        },
         {
           "id": "4xvtc2gnq73l",
           "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-08-28T17:22:02.368Z",
           "resolved_at": "2026-08-28T20:21:18.448Z",
-          "status": "resolved"
-        },
-        {
-          "id": "n0rlp126qf8g",
-          "name": "Issues logging into Claude.ai",
-          "impact": "minor",
-          "started_at": "2026-08-24T20:11:23.924Z",
-          "resolved_at": "2026-08-24T20:26:21.577Z",
           "status": "resolved"
         }
       ],
@@ -832,7 +832,7 @@
     }
   ],
   "aggregate": {
-    "90d": 41.5
+    "90d": 41.398
   },
   "daily_overall": [
     "minor",
