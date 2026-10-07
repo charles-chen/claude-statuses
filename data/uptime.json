@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-06T22:09:28.796012+00:00",
+  "generated_at": "2026-10-07T01:58:17.558288+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 40.614,
-        "all": 93.713
+        "90d": 40.437,
+        "all": 93.702
       },
       "incidents": [
         {
@@ -91,7 +91,6 @@
         }
       ],
       "daily": [
-        "major",
         "minor",
         "good",
         "good",
@@ -130,6 +129,7 @@
         "major",
         "major",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -187,10 +187,18 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 42.255,
-        "all": 95.538
+        "90d": 42.078,
+        "all": 95.527
       },
       "incidents": [
+        {
+          "id": "wf2v8ms031sx",
+          "name": "Elevated errors loading usage data on platform.claude.com",
+          "impact": "major",
+          "started_at": "2026-10-07T01:20:26.673Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "k0h22tsvnydg",
           "name": "Delayed credits on the Claude Platform",
@@ -262,18 +270,9 @@
           "started_at": "2026-08-03T12:52:52.841Z",
           "resolved_at": "2026-08-03T14:17:14.797Z",
           "status": "resolved"
-        },
-        {
-          "id": "zftg3gqkmv18",
-          "name": "Elevated errors for Opus 5",
-          "impact": "major",
-          "started_at": "2026-07-26T09:17:12.688Z",
-          "resolved_at": "2026-07-26T10:44:14.944Z",
-          "status": "resolved"
         }
       ],
       "daily": [
-        "good",
         "minor",
         "good",
         "good",
@@ -362,6 +361,7 @@
         "major",
         "major",
         "major",
+        "major",
         "major"
       ]
     },
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 40.441,
-        "all": 93.796
+        "90d": 40.264,
+        "all": 93.785
       },
       "incidents": [
         {
@@ -455,7 +455,6 @@
         }
       ],
       "daily": [
-        "major",
         "minor",
         "good",
         "good",
@@ -494,6 +493,7 @@
         "major",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 40.407,
-        "all": 93.861
+        "90d": 40.231,
+        "all": 93.849
       },
       "incidents": [
         {
@@ -637,7 +637,6 @@
         }
       ],
       "daily": [
-        "major",
         "minor",
         "good",
         "good",
@@ -676,6 +675,7 @@
         "major",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -832,10 +832,9 @@
     }
   ],
   "aggregate": {
-    "90d": 40.407
+    "90d": 40.231
   },
   "daily_overall": [
-    "major",
     "minor",
     "good",
     "good",
@@ -874,6 +873,7 @@
     "major",
     "major",
     "critical",
+    "major",
     "major",
     "major",
     "major",
