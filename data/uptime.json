@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-08T21:43:37.330199+00:00",
+  "generated_at": "2026-10-09T01:38:47.951061+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 38.449,
-        "all": 93.57
+        "90d": 38.267,
+        "all": 93.559
       },
       "incidents": [
         {
@@ -92,7 +92,6 @@
       ],
       "daily": [
         "good",
-        "good",
         "minor",
         "major",
         "minor",
@@ -128,6 +127,7 @@
         "major",
         "major",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 40.072,
-        "all": 95.393
+        "90d": 39.891,
+        "all": 95.381
       },
       "incidents": [
         {
@@ -274,7 +274,6 @@
       ],
       "daily": [
         "good",
-        "good",
         "minor",
         "good",
         "minor",
@@ -362,6 +361,7 @@
         "major",
         "major",
         "major",
+        "major",
         "major"
       ]
     },
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 38.276,
-        "all": 93.654
+        "90d": 38.094,
+        "all": 93.642
       },
       "incidents": [
         {
@@ -456,7 +456,6 @@
       ],
       "daily": [
         "good",
-        "good",
         "minor",
         "good",
         "minor",
@@ -492,6 +491,7 @@
         "major",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 38.242,
-        "all": 93.718
+        "90d": 38.061,
+        "all": 93.706
       },
       "incidents": [
         {
@@ -638,7 +638,6 @@
       ],
       "daily": [
         "good",
-        "good",
         "minor",
         "good",
         "minor",
@@ -674,6 +673,7 @@
         "major",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -832,11 +832,10 @@
     }
   ],
   "aggregate": {
-    "90d": 38.242
+    "90d": 38.061
   },
   "daily_overall": [
     "good",
-    "good",
     "minor",
     "major",
     "minor",
@@ -872,6 +871,7 @@
     "major",
     "major",
     "critical",
+    "major",
     "major",
     "major",
     "major",
