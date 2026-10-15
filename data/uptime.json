@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-15T19:37:56.312292+00:00",
+  "generated_at": "2026-10-15T22:50:20.628697+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 31.576,
-        "all": 93.077
+        "90d": 31.432,
+        "all": 93.067
       },
       "incidents": [
         {
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 32.704,
-        "all": 94.889
+        "90d": 32.555,
+        "all": 94.88
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 31.368,
-        "all": 93.159
+        "90d": 31.224,
+        "all": 93.15
       },
       "incidents": [
         {
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 31.334,
-        "all": 93.223
+        "90d": 31.19,
+        "all": 93.214
       },
       "incidents": [
         {
@@ -832,7 +832,7 @@
     }
   ],
   "aggregate": {
-    "90d": 31.334
+    "90d": 31.19
   },
   "daily_overall": [
     "good",
