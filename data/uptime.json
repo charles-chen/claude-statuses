@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-10-21T10:59:59.255437+00:00",
+  "generated_at": "2026-10-21T19:52:32.770448+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 25.845,
-        "all": 92.677
+        "90d": 25.434,
+        "all": 92.651
       },
       "incidents": [
+        {
+          "id": "njk29r81v3wg",
+          "name": "Degraded performance for Claude Fable 5",
+          "impact": "minor",
+          "started_at": "2026-10-21T19:49:06.486Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "ch27pb90bn85",
           "name": "Elevated errors for Claude Opus 5.5",
@@ -79,14 +87,6 @@
           "impact": "major",
           "started_at": "2026-09-02T21:17:58.696Z",
           "resolved_at": "2026-09-02T21:44:28.095Z",
-          "status": "resolved"
-        },
-        {
-          "id": "3g3d55q6vk3h",
-          "name": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
-          "impact": "minor",
-          "started_at": "2026-09-01T17:05:11.451Z",
-          "resolved_at": "2026-09-01T18:07:03.372Z",
           "status": "resolved"
         }
       ],
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 27.053,
-        "all": 94.483
+        "90d": 26.642,
+        "all": 94.456
       },
       "incidents": [
         {
@@ -369,10 +369,18 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 25.798,
-        "all": 92.76
+        "90d": 25.387,
+        "all": 92.734
       },
       "incidents": [
+        {
+          "id": "njk29r81v3wg",
+          "name": "Degraded performance for Claude Fable 5",
+          "impact": "minor",
+          "started_at": "2026-10-21T19:49:06.486Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "ch27pb90bn85",
           "name": "Elevated errors for Claude Opus 5.5",
@@ -443,14 +451,6 @@
           "impact": "major",
           "started_at": "2026-09-03T13:26:04.191Z",
           "resolved_at": "2026-09-03T16:23:12.052Z",
-          "status": "resolved"
-        },
-        {
-          "id": "288w7p4hk1l1",
-          "name": "Elevated errors for Claude Sonnet 5",
-          "impact": "major",
-          "started_at": "2026-09-03T12:37:31.757Z",
-          "resolved_at": "2026-09-03T12:56:26.632Z",
           "status": "resolved"
         }
       ],
@@ -551,10 +551,18 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 25.796,
-        "all": 92.824
+        "90d": 25.385,
+        "all": 92.797
       },
       "incidents": [
+        {
+          "id": "njk29r81v3wg",
+          "name": "Degraded performance for Claude Fable 5",
+          "impact": "minor",
+          "started_at": "2026-10-21T19:49:06.486Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
         {
           "id": "ch27pb90bn85",
           "name": "Elevated errors for Claude Opus 5.5",
@@ -625,14 +633,6 @@
           "impact": "major",
           "started_at": "2026-09-02T21:17:58.696Z",
           "resolved_at": "2026-09-02T21:44:28.095Z",
-          "status": "resolved"
-        },
-        {
-          "id": "r82kdk0m7vqh",
-          "name": "Degraded performance on claude.ai and Claude Code",
-          "impact": "minor",
-          "started_at": "2026-08-31T19:21:32.131Z",
-          "resolved_at": "2026-08-31T20:36:00.297Z",
           "status": "resolved"
         }
       ],
@@ -832,7 +832,7 @@
     }
   ],
   "aggregate": {
-    "90d": 25.796
+    "90d": 25.385
   },
   "daily_overall": [
     "minor",
