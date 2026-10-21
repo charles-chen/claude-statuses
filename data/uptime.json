@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-21T19:52:32.770448+00:00",
+  "generated_at": "2026-10-21T22:58:14.001676+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 25.434,
-        "all": 92.651
+        "90d": 25.291,
+        "all": 92.642
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Degraded performance for Claude Fable 5",
           "impact": "minor",
           "started_at": "2026-10-21T19:49:06.486Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-10-21T20:29:17.844Z",
+          "status": "resolved"
         },
         {
           "id": "ch27pb90bn85",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 26.642,
-        "all": 94.456
+        "90d": 26.499,
+        "all": 94.447
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 25.387,
-        "all": 92.734
+        "90d": 25.244,
+        "all": 92.725
       },
       "incidents": [
         {
@@ -378,8 +378,8 @@
           "name": "Degraded performance for Claude Fable 5",
           "impact": "minor",
           "started_at": "2026-10-21T19:49:06.486Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-10-21T20:29:17.844Z",
+          "status": "resolved"
         },
         {
           "id": "ch27pb90bn85",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 25.385,
-        "all": 92.797
+        "90d": 25.242,
+        "all": 92.788
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Degraded performance for Claude Fable 5",
           "impact": "minor",
           "started_at": "2026-10-21T19:49:06.486Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-10-21T20:29:17.844Z",
+          "status": "resolved"
         },
         {
           "id": "ch27pb90bn85",
@@ -832,7 +832,7 @@
     }
   ],
   "aggregate": {
-    "90d": 25.385
+    "90d": 25.242
   },
   "daily_overall": [
     "minor",
