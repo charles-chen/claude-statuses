@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-22T06:58:13.328292+00:00",
+  "generated_at": "2026-10-22T12:49:46.761039+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 24.92,
-        "all": 92.619
+        "90d": 24.669,
+        "all": 92.602
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors affecting Connectors",
           "impact": "minor",
           "started_at": "2026-10-22T03:50:12.621Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-10-22T08:07:03.869Z",
+          "status": "resolved"
         },
         {
           "id": "njk29r81v3wg",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 26.129,
-        "all": 94.423
+        "90d": 25.877,
+        "all": 94.405
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 24.874,
-        "all": 92.701
+        "90d": 24.622,
+        "all": 92.684
       },
       "incidents": [
         {
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 24.871,
-        "all": 92.765
+        "90d": 24.62,
+        "all": 92.748
       },
       "incidents": [
         {
@@ -832,7 +832,7 @@
     }
   ],
   "aggregate": {
-    "90d": 24.871
+    "90d": 24.62
   },
   "daily_overall": [
     "major",
