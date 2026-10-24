@@ -1,14 +1,30 @@
 {
-  "generated_at": "2026-10-23T22:49:51.089745+00:00",
+  "generated_at": "2026-10-24T01:19:10.615832+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 23.17,
-        "all": 92.502
+        "90d": 23.055,
+        "all": 92.495
       },
       "incidents": [
+        {
+          "id": "3cqf3pmlnr96",
+          "name": "Elevated errors for Claude Opus 5.5",
+          "impact": "major",
+          "started_at": "2026-10-24T00:31:37.594Z",
+          "resolved_at": "2026-10-24T00:37:17.808Z",
+          "status": "resolved"
+        },
+        {
+          "id": "h101vcmhnfky",
+          "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+          "impact": "critical",
+          "started_at": "2026-10-23T23:37:42.659Z",
+          "resolved_at": "2026-10-24T00:11:20.874Z",
+          "status": "resolved"
+        },
         {
           "id": "wj6r4t6mxq1r",
           "name": "Elevated errors affecting Connectors",
@@ -72,26 +88,9 @@
           "started_at": "2026-09-11T14:19:51.466Z",
           "resolved_at": "2026-09-11T14:37:11.146Z",
           "status": "resolved"
-        },
-        {
-          "id": "461yvfrzpwtt",
-          "name": "Elevated errors for multiple models",
-          "impact": "major",
-          "started_at": "2026-09-03T13:26:04.191Z",
-          "resolved_at": "2026-09-03T16:23:12.052Z",
-          "status": "resolved"
-        },
-        {
-          "id": "288w7p4hk1l1",
-          "name": "Elevated errors for Claude Sonnet 5",
-          "impact": "major",
-          "started_at": "2026-09-03T12:37:31.757Z",
-          "resolved_at": "2026-09-03T12:56:26.632Z",
-          "status": "resolved"
         }
       ],
       "daily": [
-        "major",
         "minor",
         "good",
         "critical",
@@ -180,15 +179,16 @@
         "major",
         "major",
         "major",
-        "major"
+        "critical",
+        "critical"
       ]
     },
     {
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 24.303,
-        "all": 94.304
+        "90d": 24.188,
+        "all": 94.296
       },
       "incidents": [
         {
@@ -273,7 +273,6 @@
         }
       ],
       "daily": [
-        "major",
         "good",
         "good",
         "good",
@@ -295,6 +294,7 @@
         "good",
         "good",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -369,10 +369,26 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 23.123,
-        "all": 92.584
+        "90d": 23.008,
+        "all": 92.577
       },
       "incidents": [
+        {
+          "id": "3cqf3pmlnr96",
+          "name": "Elevated errors for Claude Opus 5.5",
+          "impact": "major",
+          "started_at": "2026-10-24T00:31:37.594Z",
+          "resolved_at": "2026-10-24T00:37:17.808Z",
+          "status": "resolved"
+        },
+        {
+          "id": "h101vcmhnfky",
+          "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+          "impact": "critical",
+          "started_at": "2026-10-23T23:37:42.659Z",
+          "resolved_at": "2026-10-24T00:11:20.874Z",
+          "status": "resolved"
+        },
         {
           "id": "njk29r81v3wg",
           "name": "Degraded performance for Claude Fable 5",
@@ -436,26 +452,9 @@
           "started_at": "2026-09-11T14:19:51.466Z",
           "resolved_at": "2026-09-11T14:37:11.146Z",
           "status": "resolved"
-        },
-        {
-          "id": "2pt83vlkk7x7",
-          "name": "Elevated latency on the Claude API for some users",
-          "impact": "minor",
-          "started_at": "2026-09-10T21:43:40.209Z",
-          "resolved_at": "2026-09-10T23:24:22.978Z",
-          "status": "resolved"
-        },
-        {
-          "id": "461yvfrzpwtt",
-          "name": "Elevated errors for multiple models",
-          "impact": "major",
-          "started_at": "2026-09-03T13:26:04.191Z",
-          "resolved_at": "2026-09-03T16:23:12.052Z",
-          "status": "resolved"
         }
       ],
       "daily": [
-        "major",
         "minor",
         "good",
         "critical",
@@ -544,17 +543,34 @@
         "major",
         "major",
         "major",
-        "major"
+        "critical",
+        "critical"
       ]
     },
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 23.121,
-        "all": 92.648
+        "90d": 23.006,
+        "all": 92.641
       },
       "incidents": [
+        {
+          "id": "3cqf3pmlnr96",
+          "name": "Elevated errors for Claude Opus 5.5",
+          "impact": "major",
+          "started_at": "2026-10-24T00:31:37.594Z",
+          "resolved_at": "2026-10-24T00:37:17.808Z",
+          "status": "resolved"
+        },
+        {
+          "id": "h101vcmhnfky",
+          "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+          "impact": "critical",
+          "started_at": "2026-10-23T23:37:42.659Z",
+          "resolved_at": "2026-10-24T00:11:20.874Z",
+          "status": "resolved"
+        },
         {
           "id": "njk29r81v3wg",
           "name": "Degraded performance for Claude Fable 5",
@@ -618,26 +634,9 @@
           "started_at": "2026-09-03T13:26:04.191Z",
           "resolved_at": "2026-09-03T16:23:12.052Z",
           "status": "resolved"
-        },
-        {
-          "id": "288w7p4hk1l1",
-          "name": "Elevated errors for Claude Sonnet 5",
-          "impact": "major",
-          "started_at": "2026-09-03T12:37:31.757Z",
-          "resolved_at": "2026-09-03T12:56:26.632Z",
-          "status": "resolved"
-        },
-        {
-          "id": "ls6bn1x81m0w",
-          "name": "Elevated errors for Claude Sonnet 5",
-          "impact": "major",
-          "started_at": "2026-09-02T21:17:58.696Z",
-          "resolved_at": "2026-09-02T21:44:28.095Z",
-          "status": "resolved"
         }
       ],
       "daily": [
-        "major",
         "minor",
         "good",
         "critical",
@@ -726,7 +725,8 @@
         "major",
         "major",
         "major",
-        "major"
+        "critical",
+        "critical"
       ]
     },
     {
@@ -832,10 +832,9 @@
     }
   ],
   "aggregate": {
-    "90d": 23.121
+    "90d": 23.006
   },
   "daily_overall": [
-    "major",
     "minor",
     "good",
     "critical",
@@ -924,7 +923,8 @@
     "major",
     "major",
     "major",
-    "major"
+    "critical",
+    "critical"
   ],
   "earliest_data": "2023-03-16T03:00:00+00:00"
 }
