@@ -1,14 +1,30 @@
 {
-  "generated_at": "2026-10-28T00:52:52.882401+00:00",
+  "generated_at": "2026-10-28T19:14:51.981729+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 18.936,
-        "all": 92.216
+        "90d": 18.307,
+        "all": 92.163
       },
       "incidents": [
+        {
+          "id": "phg1y2yh07n2",
+          "name": "Elevated errors affecting the Google Calendar connector",
+          "impact": "minor",
+          "started_at": "2026-10-28T16:19:09.935Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
+        {
+          "id": "9ftx658xtd5z",
+          "name": "Elevated errors affecting the Gmail connector",
+          "impact": "minor",
+          "started_at": "2026-10-28T03:59:32.227Z",
+          "resolved_at": "2026-10-28T05:48:13.126Z",
+          "status": "resolved"
+        },
         {
           "id": "lqhknfdjrcst",
           "name": "Elevated errors for Claude Sonnet 5.5",
@@ -71,22 +87,6 @@
           "impact": "minor",
           "started_at": "2026-10-22T03:50:12.621Z",
           "resolved_at": "2026-10-22T08:07:03.869Z",
-          "status": "resolved"
-        },
-        {
-          "id": "njk29r81v3wg",
-          "name": "Degraded performance for Claude Fable 5",
-          "impact": "minor",
-          "started_at": "2026-10-21T19:49:06.486Z",
-          "resolved_at": "2026-10-21T20:29:17.844Z",
-          "status": "resolved"
-        },
-        {
-          "id": "ch27pb90bn85",
-          "name": "Elevated errors for Claude Opus 5.5",
-          "impact": "major",
-          "started_at": "2026-10-06T12:24:32.621Z",
-          "resolved_at": "2026-10-06T12:43:02.988Z",
           "status": "resolved"
         }
       ],
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 19.823,
-        "all": 94.012
+        "90d": 18.972,
+        "all": 93.958
       },
       "incidents": [
         {
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 18.889,
-        "all": 92.298
+        "90d": 18.26,
+        "all": 92.245
       },
       "incidents": [
         {
@@ -551,10 +551,26 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 18.887,
-        "all": 92.362
+        "90d": 18.258,
+        "all": 92.308
       },
       "incidents": [
+        {
+          "id": "phg1y2yh07n2",
+          "name": "Elevated errors affecting the Google Calendar connector",
+          "impact": "minor",
+          "started_at": "2026-10-28T16:19:09.935Z",
+          "resolved_at": null,
+          "status": "investigating"
+        },
+        {
+          "id": "9ftx658xtd5z",
+          "name": "Elevated errors affecting the Gmail connector",
+          "impact": "minor",
+          "started_at": "2026-10-28T03:59:32.227Z",
+          "resolved_at": "2026-10-28T05:48:13.126Z",
+          "status": "resolved"
+        },
         {
           "id": "lqhknfdjrcst",
           "name": "Elevated errors for Claude Sonnet 5.5",
@@ -617,22 +633,6 @@
           "impact": "minor",
           "started_at": "2026-10-21T19:49:06.486Z",
           "resolved_at": "2026-10-21T20:29:17.844Z",
-          "status": "resolved"
-        },
-        {
-          "id": "ch27pb90bn85",
-          "name": "Elevated errors for Claude Opus 5.5",
-          "impact": "major",
-          "started_at": "2026-10-06T12:24:32.621Z",
-          "resolved_at": "2026-10-06T12:43:02.988Z",
-          "status": "resolved"
-        },
-        {
-          "id": "bhphxz3vr58g",
-          "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
-          "impact": "major",
-          "started_at": "2026-10-05T13:05:44.480Z",
-          "resolved_at": "2026-10-05T13:21:37.611Z",
           "status": "resolved"
         }
       ],
@@ -832,7 +832,7 @@
     }
   ],
   "aggregate": {
-    "90d": 18.887
+    "90d": 18.258
   },
   "daily_overall": [
     "minor",
