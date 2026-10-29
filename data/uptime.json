@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-28T19:14:51.981729+00:00",
+  "generated_at": "2026-10-29T03:55:58.138872+00:00",
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
       "uptime": {
-        "90d": 18.307,
-        "all": 92.163
+        "90d": 17.905,
+        "all": 92.138
       },
       "incidents": [
         {
@@ -14,8 +14,8 @@
           "name": "Elevated errors affecting the Google Calendar connector",
           "impact": "minor",
           "started_at": "2026-10-28T16:19:09.935Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-10-28T20:05:18.208Z",
+          "status": "resolved"
         },
         {
           "id": "9ftx658xtd5z",
@@ -91,7 +91,6 @@
         }
       ],
       "daily": [
-        "minor",
         "good",
         "good",
         "minor",
@@ -177,6 +176,7 @@
         "major",
         "critical",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -187,8 +187,8 @@
       "id": "0qbwn08sd68x",
       "name": "platform.claude.com",
       "uptime": {
-        "90d": 18.972,
-        "all": 93.958
+        "90d": 18.57,
+        "all": 93.932
       },
       "incidents": [
         {
@@ -275,7 +275,6 @@
       "daily": [
         "good",
         "good",
-        "good",
         "minor",
         "minor",
         "good",
@@ -362,6 +361,7 @@
         "major",
         "major",
         "major",
+        "major",
         "major"
       ]
     },
@@ -369,8 +369,8 @@
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "uptime": {
-        "90d": 18.26,
-        "all": 92.245
+        "90d": 17.858,
+        "all": 92.22
       },
       "incidents": [
         {
@@ -455,7 +455,6 @@
         }
       ],
       "daily": [
-        "minor",
         "good",
         "good",
         "minor",
@@ -541,6 +540,7 @@
         "major",
         "critical",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -551,8 +551,8 @@
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
       "uptime": {
-        "90d": 18.258,
-        "all": 92.308
+        "90d": 17.856,
+        "all": 92.283
       },
       "incidents": [
         {
@@ -560,8 +560,8 @@
           "name": "Elevated errors affecting the Google Calendar connector",
           "impact": "minor",
           "started_at": "2026-10-28T16:19:09.935Z",
-          "resolved_at": null,
-          "status": "investigating"
+          "resolved_at": "2026-10-28T20:05:18.208Z",
+          "status": "resolved"
         },
         {
           "id": "9ftx658xtd5z",
@@ -637,7 +637,6 @@
         }
       ],
       "daily": [
-        "minor",
         "good",
         "good",
         "minor",
@@ -723,6 +722,7 @@
         "major",
         "critical",
         "critical",
+        "major",
         "major",
         "major",
         "major",
@@ -832,10 +832,9 @@
     }
   ],
   "aggregate": {
-    "90d": 18.258
+    "90d": 17.856
   },
   "daily_overall": [
-    "minor",
     "good",
     "good",
     "minor",
@@ -921,6 +920,7 @@
     "major",
     "critical",
     "critical",
+    "major",
     "major",
     "major",
     "major",
